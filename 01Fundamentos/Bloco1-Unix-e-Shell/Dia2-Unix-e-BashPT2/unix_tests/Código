@@ -1,0 +1,420 @@
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2$ mkdir unix_tests
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2$ cd unix_tests
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2/unix_tests$ touch skills2.txt
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2/unix_tests$ cat skills2.txt
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2/unix_tests$ cat > skills2.txt
+Internet
+Unix
+Bash
+SQL
+Python
+CSS
+C++
+C#
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2/unix_tests$ echo skills2.txt
+skills2.txt
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2/unix_tests$ cat skills2.txt
+Internet
+Unix
+Bash
+SQL
+Python
+CSS
+C++
+C#
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2/unix_tests$ wc -l skills2.txt
+8 skills2.txt
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2/unix_tests$ skills2.txt | head -3 | cat > top_skills.txt
+skills2.txt: comando não encontrado
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2/unix_tests$ head -3 skills2.txt | cat > top_skills.txtt
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2/unix_tests$ head -3 skills2.txt | cat > top_skills.txt
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2/unix_tests$ touch phrases2.txt
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2/unix_tests$ cat > phrases2.txt
+Eu gosto de morango
+Eu gosto de LoL
+Amo assistir animes
+Adoro ficar com meus amigos
+Gosto de comer lasanha
+Fico maravilhado comendo pizza
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2/unix_tests$ grep -iv br phrases2.txt | wc -l
+6
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2/unix_tests$ grep -iv br phrases2.txt
+Eu gosto de morango
+Eu gosto de LoL
+Amo assistir animes
+Adoro ficar com meus amigos
+Gosto de comer lasanha
+Fico maravilhado comendo pizza
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2/unix_tests$ grep -i br phrases2.txt | wc -l
+0
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2/unix_tests$ grep -iv br phrases2.txt
+Eu gosto de morango
+Eu gosto de LoL
+Amo assistir animes
+Adoro ficar com meus amigos
+Gosto de comer lasanha
+Fico maravilhado comendo pizza
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2/unix_tests$ grep -i br phrases2.txt | wc -l
+0
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2/unix_tests$ grep -iv br phrases2.txt | wc -l
+6
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2/unix_tests$ cat >> phrases2.txt
+Brasil
+Estados Unidos da América
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2/unix_tests$ cat phrases2.txt /home/gjmkauer/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia1-Unix-e-BashPT1/unix_tests/countries.txt > bunch_of_things.txt
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2/unix_tests$ sort bunch_of_things.txt
+Adoro ficar com meus amigos
+Afghanistan
+Albania
+Algeria
+Amo assistir animes
+Andorra
+Angola
+Antigua & Deps
+Argentina
+Armenia
+Australia
+Austria
+Azerbaijan
+Bahamas
+Bahrain
+Bangladesh
+Barbados
+Belarus
+Belgium
+Belize
+Benin
+Bhutan
+Bolivia
+Bosnia Herzegovina
+Botswana
+Brasil
+Brazil
+Brunei
+Bulgaria
+Burkina
+Burundi
+Cambodia
+Cameroon
+Canada
+Cape Verde
+Central African Rep
+Chad
+Chile
+China
+Colombia
+Comoros
+Congo
+Congo {Democratic Rep}
+Costa Rica
+Croatia
+Cuba
+Cyprus
+Czech Republic
+Denmark
+Djibouti
+Dominica
+Dominican Republic
+East Timor
+Ecuador
+Egypt
+El Salvador
+Equatorial Guinea
+Eritrea
+Estados Unidos da América
+Estonia
+Ethiopia
+Eu gosto de LoL
+Eu gosto de morango
+Fico maravilhado comendo pizza
+Fiji
+Finland
+France
+Gabon
+Gambia
+Georgia
+Germany
+Ghana
+Gosto de comer lasanha
+Greece
+Grenada
+Guatemala
+Guinea
+Guinea-Bissau
+Guyana
+Haiti
+Honduras
+Hungary
+Iceland
+India
+Indonesia
+Iran
+Iraq
+Ireland {Republic}
+Israel
+Italy
+Ivory Coast
+Jamaica
+Japan
+Jordan
+Kazakhstan
+Kenya
+Kiribati
+Korea North
+Korea South
+Kosovo
+Kuwait
+Kyrgyzstan
+Laos
+Latvia
+Lebanon
+Lesotho
+Liberia
+Libya
+Liechtenstein
+Lithuania
+Luxembourg
+Macedonia
+Madagascar
+Malawi
+Malaysia
+Maldives
+Mali
+Malta
+Marshall Islands
+Mauritania
+Mauritius
+Mexico
+Micronesia
+Moldova
+Monaco
+Mongolia
+Montenegro
+Morocco
+Mozambique
+Myanmar, {Burma}
+Namibia
+Nauru
+Nepal
+Netherlands
+New Zealand
+Nicaragua
+Niger
+Nigeria
+Norway
+Oman
+Pakistan
+Palau
+Panama
+Papua New Guinea
+Paraguay
+Peru
+Philippines
+Poland
+Portugal
+Qatar
+Romania
+Russian Federation
+Rwanda
+Saint Vincent & the Grenadines
+Samoa
+San Marino
+Sao Tome & Principe
+Saudi Arabia
+Senegal
+Serbia
+Seychelles
+Sierra Leone
+Singapore
+Slovakia
+Slovenia
+Solomon Islands
+Somalia
+South Africa
+South Sudan
+Spain
+Sri Lanka
+St Kitts & Nevis
+St Lucia
+Sudan
+Suriname
+Swaziland
+Sweden
+Switzerland
+Syria
+Taiwan
+Tajikistan
+Tanzania
+Thailand
+Togo
+Tonga
+Trinidad & Tobago
+Tunisia
+Turkey
+Turkmenistan
+Tuvalu
+Uganda
+Ukraine
+United Arab Emirates
+United Kingdom
+United States
+Uruguay
+Uzbekistan
+Vanuatu
+Vatican City
+Venezuela
+Vietnam
+Yemen
+Zambia
+Zimbabwe
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2/unix_tests$ sort bunch_of_things.txt > bunch_of_things_sorted.txt
+
+
+
+
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2/unix_tests$ ls -l
+total 32
+-rw-rw-r-- 1 gjmkauer gjmkauer 7751 jan 20 19:10 bunch_of_things_sorted.txt
+-rw-rw-r-- 1 gjmkauer gjmkauer 2014 jan 20 19:08 bunch_of_things.txt
+-rw-rw-r-- 1 gjmkauer gjmkauer 5741 jan 20 19:10 Código
+-rw-rw-r-- 1 gjmkauer gjmkauer  172 jan 20 18:59 phrases2.txt
+-rw-rw-r-- 1 gjmkauer gjmkauer   41 jan 20 18:53 skills2.txt
+-rw-rw-r-- 1 gjmkauer gjmkauer   19 jan 20 18:55 top_skills.txt
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2/unix_tests$ chmod +rw bunch_of_things.txt
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2/unix_tests$ ls -l
+total 32
+-rw-rw-r-- 1 gjmkauer gjmkauer 7751 jan 20 19:10 bunch_of_things_sorted.txt
+-rw-rw-r-- 1 gjmkauer gjmkauer 2014 jan 20 19:08 bunch_of_things.txt
+-rw-rw-r-- 1 gjmkauer gjmkauer 5741 jan 20 19:10 Código
+-rw-rw-r-- 1 gjmkauer gjmkauer  172 jan 20 18:59 phrases2.txt
+-rw-rw-r-- 1 gjmkauer gjmkauer   41 jan 20 18:53 skills2.txt
+-rw-rw-r-- 1 gjmkauer gjmkauer   19 jan 20 18:55 top_skills.txt
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2/unix_tests$ chmod a+rw bunch_of_things.txt
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2/unix_tests$ ls -l
+total 32
+-rw-rw-r-- 1 gjmkauer gjmkauer 7751 jan 20 19:10 bunch_of_things_sorted.txt
+-rw-rw-rw- 1 gjmkauer gjmkauer 2014 jan 20 19:08 bunch_of_things.txt
+-rw-rw-r-- 1 gjmkauer gjmkauer 5741 jan 20 19:10 Código
+-rw-rw-r-- 1 gjmkauer gjmkauer  172 jan 20 18:59 phrases2.txt
+-rw-rw-r-- 1 gjmkauer gjmkauer   41 jan 20 18:53 skills2.txt
+-rw-rw-r-- 1 gjmkauer gjmkauer   19 jan 20 18:55 top_skills.txt
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2/unix_tests$ chmod a-w bunch_of_things.txt
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2/unix_tests$ ls -l
+total 32
+-rw-rw-r-- 1 gjmkauer gjmkauer 7751 jan 20 19:10 bunch_of_things_sorted.txt
+-r--r--r-- 1 gjmkauer gjmkauer 2014 jan 20 19:08 bunch_of_things.txt
+-rw-rw-r-- 1 gjmkauer gjmkauer 5741 jan 20 19:10 Código
+-rw-rw-r-- 1 gjmkauer gjmkauer  172 jan 20 18:59 phrases2.txt
+-rw-rw-r-- 1 gjmkauer gjmkauer   41 jan 20 18:53 skills2.txt
+-rw-rw-r-- 1 gjmkauer gjmkauer   19 jan 20 18:55 top_skills.txt
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2/unix_tests$ chmod a+644 bunch_of_things.txt
+chmod: modo inválido: “a+644”
+Tente "chmod --help" para mais informações.
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2/unix_tests$ chmod 644 bunch_of_things.txt
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2/unix_tests$ ls -l
+total 32
+-rw-rw-r-- 1 gjmkauer gjmkauer 7751 jan 20 19:10 bunch_of_things_sorted.txt
+-rw-r--r-- 1 gjmkauer gjmkauer 2014 jan 20 19:08 bunch_of_things.txt
+-rw-rw-r-- 1 gjmkauer gjmkauer 5741 jan 20 19:10 Código
+-rw-rw-r-- 1 gjmkauer gjmkauer  172 jan 20 18:59 phrases2.txt
+-rw-rw-r-- 1 gjmkauer gjmkauer   41 jan 20 18:53 skills2.txt
+-rw-rw-r-- 1 gjmkauer gjmkauer   19 jan 20 18:55 top_skills.txt
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2/unix_tests$ 
+
+
+
+
+
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2/unix_tests$ ps
+    PID TTY          TIME CMD
+   6530 pts/1    00:00:00 bash
+  21321 pts/1    00:00:00 sleep
+  31944 pts/1    00:00:00 ps
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2/unix_tests$ sleep 30 &
+[3] 31956
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2/unix_tests$ ps
+    PID TTY          TIME CMD
+   6530 pts/1    00:00:00 bash
+  21321 pts/1    00:00:00 sleep
+  31956 pts/1    00:00:00 sleep
+  31964 pts/1    00:00:00 ps
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2/unix_tests$ kill 31956
+[3]-  Terminado               sleep 30
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2/unix_tests$ sleep 30
+^Z
+[3]+  Parado                  sleep 30
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2/unix_tests$ bg
+[3]+ sleep 30 &
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2/unix_tests$ sleep 300 &
+[4] 32017
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2/unix_tests$ sleep 200 &
+[5] 32024
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2/unix_tests$ sleep 100 &
+[6] 32030
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2/unix_tests$ kill 32024
+[3]   Concluído              sleep 30
+[5]   Terminado               sleep 200
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2/unix_tests$ kill 32030
+[6]-  Terminado               sleep 100
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2/unix_tests$ sleep 200 
+^Z
+[5]+  Parado                  sleep 200
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2/unix_tests$ sleep 100 
+^Z
+[6]+  Parado                  sleep 100
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2/unix_tests$ jobs
+[2]   Parado                  sleep 100  (wd: ~)
+[4]   Executando              sleep 300 &
+[5]-  Parado                  sleep 200
+[6]+  Parado                  sleep 100
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2/unix_tests$ fg %4
+sleep 300
+^Z
+[4]+  Parado                  sleep 300
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2/unix_tests$ bg sleep 100
+bash: bg: sleep: especificação de trabalho ambígua
+bash: bg: 100: trabalho não existe
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2/unix_tests$ bg %6
+[6]- sleep 100 &
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2/unix_tests$ kill %2 %4 %5 %6
+[2]   Terminado               sleep 100  (wd: ~)
+(wd agora: ~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2/unix_tests)
+[4]   Terminado               sleep 300
+[5]-  Terminado               sleep 200
+[6]+  Terminado               sleep 100
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2/unix_tests$ jobs
+
+
+
+
+
+gjmkauer@PC-Gabriel-Linux:~$ sudo apt-get install cmatrix
+gjmkauer@PC-Gabriel-Linux:~$ cmatrix
+gjmkauer@PC-Gabriel-Linux:~$ sudo apt-get install fortune
+gjmkauer@PC-Gabriel-Linux:~$ fortune > fortune.txt
+gjmkauer@PC-Gabriel-Linux:~$ wc -w fortune.txt
+14 fortune.txt
+gjmkauer@PC-Gabriel-Linux:~$ sudo apt-get install sl
+gjmkauer@PC-Gabriel-Linux:~$ sl
+gjmkauer@PC-Gabriel-Linux:~$ sl -F
+gjmkauer@PC-Gabriel-Linux:~$ sudo apt-get install cowsay
+gjmkauer@PC-Gabriel-Linux:~$ cowsay Eu adoro League of Legends
+ ____________________________
+< Eu adoro League of Legends >
+ ----------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+gjmkauer@PC-Gabriel-Linux:~$ cat fortune.txt | cowsay
+ _________________________________________
+/ You have a strong desire for a home and \
+\ your family interests come first.       /
+ -----------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+

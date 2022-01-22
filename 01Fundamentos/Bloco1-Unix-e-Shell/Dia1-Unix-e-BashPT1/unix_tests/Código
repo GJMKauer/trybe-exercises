@@ -1,0 +1,276 @@
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia1-Unix-e-BashPT1$ mkdir unix_tests
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia1-Unix-e-BashPT1$ cd unix_tests
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia1-Unix-e-BashPT1/unix_tests$ touch trybe.txt
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia1-Unix-e-BashPT1/unix_tests$ cp trybe.txt trybe_backup.txt
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia1-Unix-e-BashPT1/unix_tests$ mv trybe.txt trybe_backup.txt
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia1-Unix-e-BashPT1/unix_tests$ rm trybe_backup.txt
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia1-Unix-e-BashPT1/unix_tests$ touch trybe.txt
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia1-Unix-e-BashPT1/unix_tests$ cp trybe.txt trybe_backup.txt
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia1-Unix-e-BashPT1/unix_tests$ mv trybe.txt trybeRenomeado.txt
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia1-Unix-e-BashPT1/unix_tests$ mkdir backup
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia1-Unix-e-BashPT1/unix_tests$ mv trybe_backup.txt backup
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia1-Unix-e-BashPT1/unix_tests$ mkdir backup2
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia1-Unix-e-BashPT1/unix_tests$ rm -rf backup
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia1-Unix-e-BashPT1/unix_tests$ mv backup2 backup
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia1-Unix-e-BashPT1/unix_tests$ pwd
+/home/gjmkauer/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia1-Unix-e-BashPT1/unix_tests
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia1-Unix-e-BashPT1/unix_tests$ rmdir backup
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia1-Unix-e-BashPT1/unix_tests$ clear
+
+
+
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia1-Unix-e-BashPT1/unix_tests$ head -5 skills.txt
+Internet
+Unix
+Bash
+HTML
+CSS
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia1-Unix-e-BashPT1/unix_tests$ tail -4 skills.txt
+JavaScript
+React
+SQL
+
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia1-Unix-e-BashPT1/unix_tests$ rm *.txt
+
+
+
+
+gjmkauer@PC-Gabriel-Linux:~$ curl -o countries.txt "https://gist.githubusercontent.com/kalinchernev/486393efcca01623b18d/raw/daa24c9fea66afb7d68f8d69f0c4b8eeb9406e83/countries"
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  1842  100  1842    0     0   2523      0 --:--:-- --:--:-- --:--:--  2519
+gjmkauer@PC-Gabriel-Linux:~$ cat countries.txt
+cat: countries.txt: Arquivo ou diretório inexistente
+gjmkauer@PC-Gabriel-Linux:~$ cd /home/gjmkauer/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia1-Unix-e-BashPT1/unix_tests
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia1-Unix-e-BashPT1/unix_tests$ cat countries.txt
+Afghanistan
+Albania
+Algeria
+Andorra
+Angola
+Antigua & Deps
+Argentina
+Armenia
+Australia
+Austria
+Azerbaijan
+Bahamas
+Bahrain
+Bangladesh
+Barbados
+Belarus
+Belgium
+Belize
+Benin
+Bhutan
+Bolivia
+Bosnia Herzegovina
+Botswana
+Brazil
+Brunei
+Bulgaria
+Burkina
+Burundi
+Cambodia
+Cameroon
+Canada
+Cape Verde
+Central African Rep
+Chad
+Chile
+China
+Colombia
+Comoros
+Congo
+Congo {Democratic Rep}
+Costa Rica
+Croatia
+Cuba
+Cyprus
+Czech Republic
+Denmark
+Djibouti
+Dominica
+Dominican Republic
+East Timor
+Ecuador
+Egypt
+El Salvador
+Equatorial Guinea
+Eritrea
+Estonia
+Ethiopia
+Fiji
+Finland
+France
+Gabon
+Gambia
+Georgia
+Germany
+Ghana
+Greece
+Grenada
+Guatemala
+Guinea
+Guinea-Bissau
+Guyana
+Haiti
+Honduras
+Hungary
+Iceland
+India
+Indonesia
+Iran
+Iraq
+Ireland {Republic}
+Israel
+Italy
+Ivory Coast
+Jamaica
+Japan
+Jordan
+Kazakhstan
+Kenya
+Kiribati
+Korea North
+Korea South
+Kosovo
+Kuwait
+Kyrgyzstan
+Laos
+Latvia
+Lebanon
+Lesotho
+Liberia
+Libya
+Liechtenstein
+Lithuania
+Luxembourg
+Macedonia
+Madagascar
+Malawi
+Malaysia
+Maldives
+Mali
+Malta
+Marshall Islands
+Mauritania
+Mauritius
+Mexico
+Micronesia
+Moldova
+Monaco
+Mongolia
+Montenegro
+Morocco
+Mozambique
+Myanmar, {Burma}
+Namibia
+Nauru
+Nepal
+Netherlands
+New Zealand
+Nicaragua
+Niger
+Nigeria
+Norway
+Oman
+Pakistan
+Palau
+Panama
+Papua New Guinea
+Paraguay
+Peru
+Philippines
+Poland
+Portugal
+Qatar
+Romania
+Russian Federation
+Rwanda
+St Kitts & Nevis
+St Lucia
+Saint Vincent & the Grenadines
+Samoa
+San Marino
+Sao Tome & Principe
+Saudi Arabia
+Senegal
+Serbia
+Seychelles
+Sierra Leone
+Singapore
+Slovakia
+Slovenia
+Solomon Islands
+Somalia
+South Africa
+South Sudan
+Spain
+Sri Lanka
+Sudan
+Suriname
+Swaziland
+Sweden
+Switzerland
+Syria
+Taiwan
+Tajikistan
+Tanzania
+Thailand
+Togo
+Tonga
+Trinidad & Tobago
+Tunisia
+Turkey
+Turkmenistan
+Tuvalu
+Uganda
+Ukraine
+United Arab Emirates
+United Kingdom
+United States
+Uruguay
+Uzbekistan
+Vanuatu
+Vatican City
+Venezuela
+Vietnam
+Yemen
+Zambia
+Zimbabwegjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia1-Unix-e-BashPT1/unix_tests$ less countries.txt
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia1-Unix-e-BashPT1/unix_tests$ less countries.txt
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia1-Unix-e-BashPT1/unix_tests$ less countries.txt
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia1-Unix-e-BashPT1/unix_tests$ less countries.txt
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia1-Unix-e-BashPT1/unix_tests$ grep Brazil countries.txt
+Brazil
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia1-Unix-e-BashPT1/unix_tests$ grep -i brazil countries.txt
+Brazil
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia1-Unix-e-BashPT1/unix_tests$ touch phrases.txt
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia1-Unix-e-BashPT1/unix_tests$ grep -iv fox phrases.txt
+Odeio o filme Fuga das Galinhas.
+Amo o filme Fuga das Galinhas.
+Você gosta de pipoca?
+Você disse pipoca?
+Sim, quente e na manteiga.
+Você disse quente e na manteiga?
+
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia1-Unix-e-BashPT1/unix_tests$ wc -w phrases.txt
+30 phrases.txt
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia1-Unix-e-BashPT1/unix_tests$ wc -l phrases.txt
+7 phrases.txt
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia1-Unix-e-BashPT1/unix_tests$ wc -l phrases.txt
+6 phrases.txt
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia1-Unix-e-BashPT1/unix_tests$ touch empty.tbf
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia1-Unix-e-BashPT1/unix_tests$ touch empty.pdf
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia1-Unix-e-BashPT1/unix_tests$ ls
+Código  countries.txt  empty.pdf  empty.tbf  phrases.txt
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia1-Unix-e-BashPT1/unix_tests$ ls -a
+.  ..  Código  countries.txt  empty.pdf  empty.tbf  phrases.txt
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia1-Unix-e-BashPT1/unix_tests$ ls -a *.txt
+countries.txt  phrases.txt
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia1-Unix-e-BashPT1/unix_tests$ ls -a *.t*t
+countries.txt  phrases.txt
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia1-Unix-e-BashPT1/unix_tests$ ls -a *.t*t
+countries.txt  empty.tbt  phrases.txt
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia1-Unix-e-BashPT1/unix_tests$ man ls

@@ -1,0 +1,474 @@
+Adoro ficar com meus amigos
+Afghanistan
+Albania
+Algeria
+Amo assistir animes
+Andorra
+Angola
+Antigua & Deps
+Argentina
+Armenia
+Australia
+Austria
+Azerbaijan
+Bahamas
+Bahrain
+Bangladesh
+Barbados
+Belarus
+Belgium
+Belize
+Benin
+Bhutan
+Bolivia
+Bosnia Herzegovina
+Botswana
+Brasil
+Brazil
+Brunei
+Bulgaria
+Burkina
+Burundi
+Cambodia
+Cameroon
+Canada
+Cape Verde
+Central African Rep
+Chad
+Chile
+China
+Colombia
+Comoros
+Congo
+Congo {Democratic Rep}
+Costa Rica
+Croatia
+Cuba
+Cyprus
+Czech Republic
+Denmark
+Djibouti
+Dominica
+Dominican Republic
+East Timor
+Ecuador
+Egypt
+El Salvador
+Equatorial Guinea
+Eritrea
+Estados Unidos da América
+Estonia
+Ethiopia
+Eu gosto de LoL
+Eu gosto de morango
+Fico maravilhado comendo pizza
+Fiji
+Finland
+France
+Gabon
+Gambia
+Georgia
+Germany
+Ghana
+Gosto de comer lasanha
+Greece
+Grenada
+Guatemala
+Guinea
+Guinea-Bissau
+Guyana
+Haiti
+Honduras
+Hungary
+Iceland
+India
+Indonesia
+Iran
+Iraq
+Ireland {Republic}
+Israel
+Italy
+Ivory Coast
+Jamaica
+Japan
+Jordan
+Kazakhstan
+Kenya
+Kiribati
+Korea North
+Korea South
+Kosovo
+Kuwait
+Kyrgyzstan
+Laos
+Latvia
+Lebanon
+Lesotho
+Liberia
+Libya
+Liechtenstein
+Lithuania
+Luxembourg
+Macedonia
+Madagascar
+Malawi
+Malaysia
+Maldives
+Mali
+Malta
+Marshall Islands
+Mauritania
+Mauritius
+Mexico
+Micronesia
+Moldova
+Monaco
+Mongolia
+Montenegro
+Morocco
+Mozambique
+Myanmar, {Burma}
+Namibia
+Nauru
+Nepal
+Netherlands
+New Zealand
+Nicaragua
+Niger
+Nigeria
+Norway
+Oman
+Pakistan
+Palau
+Panama
+Papua New Guinea
+Paraguay
+Peru
+Philippines
+Poland
+Portugal
+Qatar
+Romania
+Russian Federation
+Rwanda
+Saint Vincent & the Grenadines
+Samoa
+San Marino
+Sao Tome & Principe
+Saudi Arabia
+Senegal
+Serbia
+Seychelles
+Sierra Leone
+Singapore
+Slovakia
+Slovenia
+Solomon Islands
+Somalia
+South Africa
+South Sudan
+Spain
+Sri Lanka
+St Kitts & Nevis
+St Lucia
+Sudan
+Suriname
+Swaziland
+Sweden
+Switzerland
+Syria
+Taiwan
+Tajikistan
+Tanzania
+Thailand
+Togo
+Tonga
+Trinidad & Tobago
+Tunisia
+Turkey
+Turkmenistan
+Tuvalu
+Uganda
+Ukraine
+United Arab Emirates
+United Kingdom
+United States
+Uruguay
+Uzbekistan
+Vanuatu
+Vatican City
+Venezuela
+Vietnam
+Yemen
+Zambia
+Zimbabwegjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2$ mkdir unix_tests
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2$ cd unix_tests
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2/unix_tests$ touch skills2.txt
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2/unix_tests$ cat skills2.txt
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2/unix_tests$ cat > skills2.txt
+Internet
+Unix
+Bash
+SQL
+Python
+CSS
+C++
+C#
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2/unix_tests$ echo skills2.txt
+skills2.txt
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2/unix_tests$ cat skills2.txt
+Internet
+Unix
+Bash
+SQL
+Python
+CSS
+C++
+C#
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2/unix_tests$ wc -l skills2.txt
+8 skills2.txt
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2/unix_tests$ skills2.txt | head -3 | cat > top_skills.txt
+skills2.txt: comando não encontrado
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2/unix_tests$ head -3 skills2.txt | cat > top_skills.txtt
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2/unix_tests$ head -3 skills2.txt | cat > top_skills.txt
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2/unix_tests$ touch phrases2.txt
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2/unix_tests$ cat > phrases2.txt
+Eu gosto de morango
+Eu gosto de LoL
+Amo assistir animes
+Adoro ficar com meus amigos
+Gosto de comer lasanha
+Fico maravilhado comendo pizza
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2/unix_tests$ grep -iv br phrases2.txt | wc -l
+6
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2/unix_tests$ grep -iv br phrases2.txt
+Eu gosto de morango
+Eu gosto de LoL
+Amo assistir animes
+Adoro ficar com meus amigos
+Gosto de comer lasanha
+Fico maravilhado comendo pizza
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2/unix_tests$ grep -i br phrases2.txt | wc -l
+0
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2/unix_tests$ grep -iv br phrases2.txt
+Eu gosto de morango
+Eu gosto de LoL
+Amo assistir animes
+Adoro ficar com meus amigos
+Gosto de comer lasanha
+Fico maravilhado comendo pizza
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2/unix_tests$ grep -i br phrases2.txt | wc -l
+0
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2/unix_tests$ grep -iv br phrases2.txt | wc -l
+6
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2/unix_tests$ cat >> phrases2.txt
+Brasil
+Estados Unidos da América
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2/unix_tests$ cat phrases2.txt /home/gjmkauer/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia1-Unix-e-BashPT1/unix_tests/countries.txt > bunch_of_things.txt
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2/unix_tests$ sort bunch_of_things.txt
+Adoro ficar com meus amigos
+Afghanistan
+Albania
+Algeria
+Amo assistir animes
+Andorra
+Angola
+Antigua & Deps
+Argentina
+Armenia
+Australia
+Austria
+Azerbaijan
+Bahamas
+Bahrain
+Bangladesh
+Barbados
+Belarus
+Belgium
+Belize
+Benin
+Bhutan
+Bolivia
+Bosnia Herzegovina
+Botswana
+Brasil
+Brazil
+Brunei
+Bulgaria
+Burkina
+Burundi
+Cambodia
+Cameroon
+Canada
+Cape Verde
+Central African Rep
+Chad
+Chile
+China
+Colombia
+Comoros
+Congo
+Congo {Democratic Rep}
+Costa Rica
+Croatia
+Cuba
+Cyprus
+Czech Republic
+Denmark
+Djibouti
+Dominica
+Dominican Republic
+East Timor
+Ecuador
+Egypt
+El Salvador
+Equatorial Guinea
+Eritrea
+Estados Unidos da América
+Estonia
+Ethiopia
+Eu gosto de LoL
+Eu gosto de morango
+Fico maravilhado comendo pizza
+Fiji
+Finland
+France
+Gabon
+Gambia
+Georgia
+Germany
+Ghana
+Gosto de comer lasanha
+Greece
+Grenada
+Guatemala
+Guinea
+Guinea-Bissau
+Guyana
+Haiti
+Honduras
+Hungary
+Iceland
+India
+Indonesia
+Iran
+Iraq
+Ireland {Republic}
+Israel
+Italy
+Ivory Coast
+Jamaica
+Japan
+Jordan
+Kazakhstan
+Kenya
+Kiribati
+Korea North
+Korea South
+Kosovo
+Kuwait
+Kyrgyzstan
+Laos
+Latvia
+Lebanon
+Lesotho
+Liberia
+Libya
+Liechtenstein
+Lithuania
+Luxembourg
+Macedonia
+Madagascar
+Malawi
+Malaysia
+Maldives
+Mali
+Malta
+Marshall Islands
+Mauritania
+Mauritius
+Mexico
+Micronesia
+Moldova
+Monaco
+Mongolia
+Montenegro
+Morocco
+Mozambique
+Myanmar, {Burma}
+Namibia
+Nauru
+Nepal
+Netherlands
+New Zealand
+Nicaragua
+Niger
+Nigeria
+Norway
+Oman
+Pakistan
+Palau
+Panama
+Papua New Guinea
+Paraguay
+Peru
+Philippines
+Poland
+Portugal
+Qatar
+Romania
+Russian Federation
+Rwanda
+Saint Vincent & the Grenadines
+Samoa
+San Marino
+Sao Tome & Principe
+Saudi Arabia
+Senegal
+Serbia
+Seychelles
+Sierra Leone
+Singapore
+Slovakia
+Slovenia
+Solomon Islands
+Somalia
+South Africa
+South Sudan
+Spain
+Sri Lanka
+St Kitts & Nevis
+St Lucia
+Sudan
+Suriname
+Swaziland
+Sweden
+Switzerland
+Syria
+Taiwan
+Tajikistan
+Tanzania
+Thailand
+Togo
+Tonga
+Trinidad & Tobago
+Tunisia
+Turkey
+Turkmenistan
+Tuvalu
+Uganda
+Ukraine
+United Arab Emirates
+United Kingdom
+United States
+Uruguay
+Uzbekistan
+Vanuatu
+Vatican City
+Venezuela
+Vietnam
+Yemen
+Zambia
+Zimbabwe
+gjmkauer@PC-Gabriel-Linux:~/Documentos/01Fundamentos/Bloco1-Unix-e-Shell/Dia2-Unix-e-BashPT2/unix_tests$ sort bunch_of_things.txt > bunch_of_things_sorted.txt
+
