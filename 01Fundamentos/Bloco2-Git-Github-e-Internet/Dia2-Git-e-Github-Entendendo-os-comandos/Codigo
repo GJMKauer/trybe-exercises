@@ -1,0 +1,128 @@
+gjmkauer@GabrielLinux:~/Documentos/Trybe-Exercicios$ git status
+No ramo master
+Your branch is up to date with 'Trybe-Exercicios/master'.
+
+nothing to commit, working tree clean
+gjmkauer@GabrielLinux:~/Documentos/Trybe-Exercicios$ git branch trybe-skills-changes
+gjmkauer@GabrielLinux:~/Documentos/Trybe-Exercicios$ git checkout trybe-skills-changes 
+Switched to branch 'trybe-skills-changes'
+gjmkauer@GabrielLinux:~/Documentos/Trybe-Exercicios$ ls
+01Fundamentos  02FrontEnd  03BackEnd  04CienciaDaComputacao  readme.md
+gjmkauer@GabrielLinux:~/Documentos/Trybe-Exercicios$ cd 01Fundamentos/
+gjmkauer@GabrielLinux:~/Documentos/Trybe-Exercicios/01Fundamentos$ ls
+Bloco1-Unix-e-Shell  Bloco2-Git-Github-e-Internet  Bloco3-Introducao-a-HTML-e-CSS
+gjmkauer@GabrielLinux:~/Documentos/Trybe-Exercicios/01Fundamentos$ cd Bloco2-Git-Github-e-Internet/
+gjmkauer@GabrielLinux:~/Documentos/Trybe-Exercicios/01Fundamentos/Bloco2-Git-Github-e-Internet$ ls
+Dia1-Git-e-Github-O-que-é-e-para-que-serve  Dia2-Git-e-Github-Entendendo-os-comandos  Dia3-Internet-Entendendo-como-ela-funciona
+gjmkauer@GabrielLinux:~/Documentos/Trybe-Exercicios/01Fundamentos/Bloco2-Git-Github-e-Internet$ cd Dia2-Git-e-Github-Entendendo-os-comandos/
+gjmkauer@GabrielLinux:~/Documentos/Trybe-Exercicios/01Fundamentos/Bloco2-Git-Github-e-Internet/Dia2-Git-e-Github-Entendendo-os-comandos$ ls
+problema_git.txt
+gjmkauer@GabrielLinux:~/Documentos/Trybe-Exercicios/01Fundamentos/Bloco2-Git-Github-e-Internet/Dia2-Git-e-Github-Entendendo-os-comandos$ cat >> problema_git.txt
+Vou aprender na Trybe:
+
+- Unix
+- Bash
+gjmkauer@GabrielLinux:~/Documentos/Trybe-Exercicios/01Fundamentos/Bloco2-Git-Github-e-Internet/Dia2-Git-e-Github-Entendendo-os-comandos$ cd ..
+gjmkauer@GabrielLinux:~/Documentos/Trybe-Exercicios/01Fundamentos/Bloco2-Git-Github-e-Internet$ cd ..
+gjmkauer@GabrielLinux:~/Documentos/Trybe-Exercicios/01Fundamentos$ cd ..
+gjmkauer@GabrielLinux:~/Documentos/Trybe-Exercicios$ git add .
+gjmkauer@GabrielLinux:~/Documentos/Trybe-Exercicios$ git commit -m "Adicionei duas skills"
+[trybe-skills-changes 4575da5] Adicionei duas skills
+ 1 file changed, 4 insertions(+)
+gjmkauer@GabrielLinux:~/Documentos/Trybe-Exercicios$ git push -u Trybe-Exercicios trybe-skills-changes 
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 525 bytes | 525.00 KiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+remote: 
+remote: Create a pull request for 'trybe-skills-changes' on GitHub by visiting:
+remote:      https://github.com/GJMKauer/Exercicios-da-Trybe/pull/new/trybe-skills-changes
+remote: 
+To github.com:GJMKauer/Exercicios-da-Trybe.git
+ * [new branch]      trybe-skills-changes -> trybe-skills-changes
+Branch 'trybe-skills-changes' set up to track remote branch 'trybe-skills-changes' from 'Trybe-Exercicios'.
+gjmkauer@GabrielLinux:~/Documentos/Trybe-Exercicios$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'Trybe-Exercicios/master'.
+gjmkauer@GabrielLinux:~/Documentos/Trybe-Exercicios$ git branch
+* master
+  trybe-skills-changes
+gjmkauer@GabrielLinux:~/Documentos/Trybe-Exercicios$ git branch trybe-skills-updates
+gjmkauer@GabrielLinux:~/Documentos/Trybe-Exercicios$ git checkout trybe-skills-updates 
+Switched to branch 'trybe-skills-updates'
+gjmkauer@GabrielLinux:~/Documentos/Trybe-Exercicios$ ls
+01Fundamentos  02FrontEnd  03BackEnd  04CienciaDaComputacao  readme.md
+gjmkauer@GabrielLinux:~/Documentos/Trybe-Exercicios$ git 01Fundamentos/
+git: '01Fundamentos/' não é um comando git. Veja 'git --help'.
+gjmkauer@GabrielLinux:~/Documentos/Trybe-Exercicios$ cd 01Fundamentos/
+gjmkauer@GabrielLinux:~/Documentos/Trybe-Exercicios/01Fundamentos$ ls
+Bloco1-Unix-e-Shell  Bloco2-Git-Github-e-Internet  Bloco3-Introducao-a-HTML-e-CSS
+gjmkauer@GabrielLinux:~/Documentos/Trybe-Exercicios/01Fundamentos$ cd Bloco2-Git-Github-e-Internet/
+gjmkauer@GabrielLinux:~/Documentos/Trybe-Exercicios/01Fundamentos/Bloco2-Git-Github-e-Internet$ ls
+Dia1-Git-e-Github-O-que-é-e-para-que-serve  Dia2-Git-e-Github-Entendendo-os-comandos  Dia3-Internet-Entendendo-como-ela-funciona
+gjmkauer@GabrielLinux:~/Documentos/Trybe-Exercicios/01Fundamentos/Bloco2-Git-Github-e-Internet$ cd Dia2-Git-e-Github-Entendendo-os-comandos/
+gjmkauer@GabrielLinux:~/Documentos/Trybe-Exercicios/01Fundamentos/Bloco2-Git-Github-e-Internet/Dia2-Git-e-Github-Entendendo-os-comandos$ ls
+problema_git.txt
+gjmkauer@GabrielLinux:~/Documentos/Trybe-Exercicios/01Fundamentos/Bloco2-Git-Github-e-Internet/Dia2-Git-e-Github-Entendendo-os-comandos$ cat >> problema_git.txt
+- CSS
+gjmkauer@GabrielLinux:~/Documentos/Trybe-Exercicios/01Fundamentos/Bloco2-Git-Github-e-Internet/Dia2-Git-e-Github-Entendendo-os-comandos$ git add problema_git.txt 
+gjmkauer@GabrielLinux:~/Documentos/Trybe-Exercicios/01Fundamentos/Bloco2-Git-Github-e-Internet/Dia2-Git-e-Github-Entendendo-os-comandos$ git commit -m "Adicionei uma skill"
+[trybe-skills-updates 56014e1] Adicionei uma skill
+ 1 file changed, 1 insertion(+)
+gjmkauer@GabrielLinux:~/Documentos/Trybe-Exercicios/01Fundamentos/Bloco2-Git-Github-e-Internet/Dia2-Git-e-Github-Entendendo-os-comandos$ cd ..
+gjmkauer@GabrielLinux:~/Documentos/Trybe-Exercicios/01Fundamentos/Bloco2-Git-Github-e-Internet$ cd ..
+gjmkauer@GabrielLinux:~/Documentos/Trybe-Exercicios/01Fundamentos$ cd ..
+gjmkauer@GabrielLinux:~/Documentos/Trybe-Exercicios$ git push -u Trybe-Exercicios trybe-skills-updates 
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 493 bytes | 493.00 KiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+remote: 
+remote: Create a pull request for 'trybe-skills-updates' on GitHub by visiting:
+remote:      https://github.com/GJMKauer/Exercicios-da-Trybe/pull/new/trybe-skills-updates
+remote: 
+To github.com:GJMKauer/Exercicios-da-Trybe.git
+ * [new branch]      trybe-skills-updates -> trybe-skills-updates
+Branch 'trybe-skills-updates' set up to track remote branch 'trybe-skills-updates' from 'Trybe-Exercicios'.
+gjmkauer@GabrielLinux:~/Documentos/Trybe-Exercicios$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'Trybe-Exercicios/master'.
+gjmkauer@GabrielLinux:~/Documentos/Trybe-Exercicios$ git branch -d trybe-skills-changes 
+warning: excluindo ramificação 'trybe-skills-changes' que foi mesclada a
+         'refs/remotes/Trybe-Exercicios/trybe-skills-changes', mas ainda não mesclada para HEAD.
+Deleted branch trybe-skills-changes (was 4575da5).
+gjmkauer@GabrielLinux:~/Documentos/Trybe-Exercicios$ git branch -d trybe-skills-updates 
+warning: excluindo ramificação 'trybe-skills-updates' que foi mesclada a
+         'refs/remotes/Trybe-Exercicios/trybe-skills-updates', mas ainda não mesclada para HEAD.
+Deleted branch trybe-skills-updates (was 56014e1).
+gjmkauer@GabrielLinux:~/Documentos/Trybe-Exercicios$ git branch
+* master
+gjmkauer@GabrielLinux:~/Documentos/Trybe-Exercicios$ git status
+No ramo master
+Your branch is up to date with 'Trybe-Exercicios/master'.
+
+nothing to commit, working tree clean
+gjmkauer@GabrielLinux:~/Documentos/Trybe-Exercicios$ git pull
+remote: Enumerating objects: 23, done.
+remote: Counting objects: 100% (23/23), done.
+remote: Compressing objects: 100% (7/7), done.
+Unpacking objects: 100% (8/8), 2.13 KiB | 728.00 KiB/s, done.
+remote: Total 8 (delta 3), reused 0 (delta 0), pack-reused 0
+From github.com:GJMKauer/Exercicios-da-Trybe
+   b549620..144945a  master               -> Trybe-Exercicios/master
+   56014e1..c3a9095  trybe-skills-updates -> Trybe-Exercicios/trybe-skills-updates
+Updating b549620..144945a
+Fast-forward
+ 01Fundamentos/Bloco2-Git-Github-e-Internet/Dia2-Git-e-Github-Entendendo-os-comandos/problema_git.txt | 6 ++++++
+ 1 file changed, 6 insertions(+)
+gjmkauer@GabrielLinux:~/Documentos/Trybe-Exercicios$ git status
+No ramo master
+Your branch is up to date with 'Trybe-Exercicios/master'.
+
+nothing to commit, working tree clean
