@@ -3,7 +3,6 @@ div:hover {
 }
 div:first-of-type {
     border-color: red;
-    font-style: italic;
     font-family: monospace;
 }
 div:nth-of-type(2) {
@@ -13,7 +12,6 @@ div:nth-of-type(2) {
 div:nth-of-type(3) {
     border-color: aquamarine;
     font-size: 20px;
-    font-style: italic;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 div:nth-of-type(4) {
@@ -22,6 +20,8 @@ div:nth-of-type(4) {
 }
 div:last-of-type {
     border-color: lightblue;
-    font-style: italic;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+div:nth-of-type(2n+1) {
+    font-style: italic;
 }
