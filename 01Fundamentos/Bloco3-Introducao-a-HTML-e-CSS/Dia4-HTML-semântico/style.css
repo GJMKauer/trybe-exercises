@@ -1,7 +1,11 @@
 body {
     background-image: url(https://img.wallpapic-br.com/i0130-119-63/thumb/abstratos-azuis-aqua-turquesa-imagem-de-fundo.jpg);
-    width: 700px;
-    border: 2px solid green;
+    background-color: rgba(255,255,255,0.65);
+    background-blend-mode: lighten;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 800px;
+    padding: 10px;
 }
 nav ul li {
     display: inline-block;
