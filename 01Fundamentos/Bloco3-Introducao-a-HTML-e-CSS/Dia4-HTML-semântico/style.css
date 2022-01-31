@@ -1,4 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap");
+
 body {
+    font-family: 'Didact Gothic';
     background-image: url(https://img.wallpapic-br.com/i0130-119-63/thumb/abstratos-azuis-aqua-turquesa-imagem-de-fundo.jpg);
     background-color: rgba(255,255,255,0.65);
     background-blend-mode: lighten;
@@ -6,6 +9,34 @@ body {
     background-size: cover;
     width: 800px;
     padding: 10px;
+    border: 2px solid green;
+}
+a {
+    text-decoration: none;
+}
+#stomatopoda {
+    margin-left: 95px;
+}
+table {
+    background-color: #eddea4;
+    border-radius: 10px;
+    margin-left: 100px;
+}
+td, th {
+    border: 1px solid black;
+    padding: 5px;
+}
+.red {
+    color: red;
+}
+.green {
+    color: green;
+}
+.blue {
+    color: blue;
+}
+header h2 {
+    padding: 30px 0px 0px 0px;
 }
 header h1 {
     border: 2px solid green;
@@ -13,6 +44,7 @@ header h1 {
     padding: 10px;
     border-radius: 20px;
     background-color: #eddea4;
+    font-size: 35px;
 
 }
 nav ul li {
@@ -24,4 +56,13 @@ nav ul li {
 }
 p {
     text-align: justify;
+}
+footer p:nth-of-type(1) {
+    padding: 30px 0px 0px 0px;
+}
+footer, footer p:nth-of-type(2) {
+    text-align: center;
+}
+section footer h4 {
+    padding: 30px 0px 0px 0px;
 }
