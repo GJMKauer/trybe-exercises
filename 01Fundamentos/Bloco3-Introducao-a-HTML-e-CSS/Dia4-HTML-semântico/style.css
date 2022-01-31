@@ -7,10 +7,21 @@ body {
     width: 800px;
     padding: 10px;
 }
+header h1 {
+    border: 2px solid green;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #eddea4;
+
+}
 nav ul li {
     display: inline-block;
 }
-nav {
+#menu {
     text-align: center;
     word-spacing: 80px;
+}
+p {
+    text-align: justify;
 }
