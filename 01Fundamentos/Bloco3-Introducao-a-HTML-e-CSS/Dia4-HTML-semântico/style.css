@@ -9,7 +9,6 @@ body {
   background-size: cover;
   width: 800px;
   padding: 10px;
-  border: 2px solid green;
 }
 a {
   text-decoration: none;
@@ -77,9 +76,8 @@ h4 {
   padding: 30px 0px 0px 0px;
 }
 #youtube {
-    background-color: #eddea4;
-    padding: 10px;
-    border-radius: 20px;
-    text-align: center;
-
+  background-color: #eddea4;
+  padding: 10px;
+  border-radius: 20px;
+  text-align: center;
 }
