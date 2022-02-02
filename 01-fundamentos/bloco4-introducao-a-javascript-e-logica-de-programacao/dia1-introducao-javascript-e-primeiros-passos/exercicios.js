@@ -1,49 +1,74 @@
-const a = 2;
-const b = 3;
-const c = 1;
+// const a = 2;
+// const b = 3;
+// const c = 1;
 
-console.log('Soma: ' + (a + b));
-console.log('Subtração: ' + (a - b));
-console.log('Multiplicação: ' + (a * b));
-console.log('Divisão: ' + (a / b));
-console.log('Módulo: ' + (a % b));
+// console.log('Soma: ' + (a + b));
+// console.log('Subtração: ' + (a - b));
+// console.log('Multiplicação: ' + (a * b));
+// console.log('Divisão: ' + (a / b));
+// console.log('Módulo: ' + (a % b));
 
-if (a > b) {
-    console.log("'a' é maior que 'b'");
-} else {
-    console.log("'a' é menor que 'b'");
-}
+// if (a > b) {
+//     console.log("'a' é maior que 'b'");
+// } else {
+//     console.log("'a' é menor que 'b'");
+// }
 
-if (a > b && a > c) {
-    console.log("'a' é o maior número");
-} else if (b > a && b > c) {
-    console.log("'b' é o maior número");
-} else {
-    console.log("'c' é o maior número");
-}
+// if (a > b && a > c) {
+//     console.log("'a' é o maior número");
+// } else if (b > a && b > c) {
+//     console.log("'b' é o maior número");
+// } else {
+//     console.log("'c' é o maior número");
+// }
 
-if (a > 0) {
-    console.log('positive');
-} else if (a < 0) {
-    console.log('negative');
-} else {
-    console.log('zero');
-}
+// if (a > 0) {
+//     console.log('positive');
+// } else if (a < 0) {
+//     console.log('negative');
+// } else {
+//     console.log('zero');
+// }
 
-let trianguloA = 100;
-let trianguloB = 30;
-let trianguloC = 50;
+// let trianguloA = 100;
+// let trianguloB = 30;
+// let trianguloC = 50;
 
-let trianguloTotal = trianguloA + trianguloB + trianguloC;
+// let trianguloTotal = trianguloA + trianguloB + trianguloC;
 
-let trianguloValido = trianguloA > 0 && trianguloB > 0 && trianguloC > 0;
+// let trianguloValido = trianguloA > 0 && trianguloB > 0 && trianguloC > 0;
 
-if (trianguloValido) {
-    if (trianguloTotal === 180) {
-        console.log(true);
-    } else {
-        console.log(false);
-    };
-} else {
-    console.log('Erro: não é um triângulo');
+// if (trianguloValido) {
+//     if (trianguloTotal === 180) {
+//         console.log(true);
+//     } else {
+//         console.log(false);
+//     };
+// } else {
+//     console.log('Erro: não é um triângulo');
+// }
+
+const peca = 'Peão';
+
+switch (peca.toLowerCase()) {
+    case 'rei':
+        console.log('Rei: Move uma casa em todas as direções.');
+        break;
+    case 'rainha':
+        console.log('Rainha: Move quantas casas quiser, em todas as direções.');
+        break;
+    case 'torre':
+        console.log('Torre: Move quantas casas quiser, apenas para frente e para os lados.');
+        break;
+    case 'cavalo':
+        console.log('Cavalo: Move três peças para frente e uma para o lado, em L. Em qualquer direção.');
+        break;
+    case 'bispo':
+        console.log('Bispo: Move quantas casas quiser, apenas nas diagonais.');
+        break;
+    case "peão":
+        console.log('Peão: Move uma casa para frente. Mata na diagonal. Na primeira mexida, cada peão pode andar duas casas.');
+        break;
+    default:
+        console.log('Erro: não é uma peça de xadrez.');
 }
