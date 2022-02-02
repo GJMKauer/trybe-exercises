@@ -29,3 +29,21 @@ if (a > 0) {
 } else {
     console.log('zero');
 }
+
+let trianguloA = 100;
+let trianguloB = 30;
+let trianguloC = 50;
+
+let trianguloTotal = trianguloA + trianguloB + trianguloC;
+
+let trianguloValido = trianguloA > 0 && trianguloB > 0 && trianguloC > 0;
+
+if (trianguloValido) {
+    if (trianguloTotal === 180) {
+        console.log(true);
+    } else {
+        console.log(false);
+    };
+} else {
+    console.log('Erro: não é um triângulo');
+}
