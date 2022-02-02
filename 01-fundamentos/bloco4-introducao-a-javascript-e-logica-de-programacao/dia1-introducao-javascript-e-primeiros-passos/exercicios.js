@@ -48,27 +48,45 @@
 //     console.log('Erro: não é um triângulo');
 // }
 
-const peca = 'Peão';
+// const peca = 'Peão';
 
-switch (peca.toLowerCase()) {
-    case 'rei':
-        console.log('Rei: Move uma casa em todas as direções.');
-        break;
-    case 'rainha':
-        console.log('Rainha: Move quantas casas quiser, em todas as direções.');
-        break;
-    case 'torre':
-        console.log('Torre: Move quantas casas quiser, apenas para frente e para os lados.');
-        break;
-    case 'cavalo':
-        console.log('Cavalo: Move três peças para frente e uma para o lado, em L. Em qualquer direção.');
-        break;
-    case 'bispo':
-        console.log('Bispo: Move quantas casas quiser, apenas nas diagonais.');
-        break;
-    case "peão":
-        console.log('Peão: Move uma casa para frente. Mata na diagonal. Na primeira mexida, cada peão pode andar duas casas.');
-        break;
-    default:
-        console.log('Erro: não é uma peça de xadrez.');
+// switch (peca.toLowerCase()) {
+//     case 'rei':
+//         console.log('Rei: Move uma casa em todas as direções.');
+//         break;
+//     case 'rainha':
+//         console.log('Rainha: Move quantas casas quiser, em todas as direções.');
+//         break;
+//     case 'torre':
+//         console.log('Torre: Move quantas casas quiser, apenas para frente e para os lados.');
+//         break;
+//     case 'cavalo':
+//         console.log('Cavalo: Move três peças para frente e uma para o lado, em L. Em qualquer direção.');
+//         break;
+//     case 'bispo':
+//         console.log('Bispo: Move quantas casas quiser, apenas nas diagonais.');
+//         break;
+//     case "peão":
+//         console.log('Peão: Move uma casa para frente. Mata na diagonal. Na primeira mexida, cada peão pode andar duas casas.');
+//         break;
+//     default:
+//         console.log('Erro: não é uma peça de xadrez.');
+// }
+
+let nota = 99;
+
+if (nota >= 90 && nota <= 100) {
+    console.log('A');
+} else if (nota >= 80  && nota <= 100) {
+    console.log('B');
+} else if (nota >= 70  && nota <= 100) {
+    console.log('C');
+} else if (nota >= 60  && nota <= 100) {
+    console.log('D');
+} else if (nota >= 50  && nota <= 100) {
+    console.log('E');
+} else if (nota >= 0 && nota < 50) {
+    console.log('F');
+} else {
+    console.log('Erro: Nota inválida.');
 }
