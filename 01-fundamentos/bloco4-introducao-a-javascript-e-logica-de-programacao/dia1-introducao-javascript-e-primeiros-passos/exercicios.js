@@ -91,13 +91,24 @@
 //     console.log('Erro: Nota inválida.');
 // }
 
+// const numeroA = 2;
+// const numeroB = 4;
+// const numeroC = 8;
+
+// let isImpar = false;
+
+// if (numeroA % 2 === 0 && numeroB % 2 === 0 && numeroC % 2 ===0) {
+//     isImpar = true;
+// }
+// console.log(isImpar);
+
 const numeroA = 2;
 const numeroB = 4;
-const numeroC = 8;
+const numeroC = 5;
 
 let isImpar = false;
 
-if (numeroA % 2 === 0 && numeroB % 2 === 0 && numeroC % 2 ===0) {
+if (numeroA % 2 !== 0 || numeroB % 2 !== 0 || numeroC % 2 !== 0) {
     isImpar = true;
 }
 console.log(isImpar);
