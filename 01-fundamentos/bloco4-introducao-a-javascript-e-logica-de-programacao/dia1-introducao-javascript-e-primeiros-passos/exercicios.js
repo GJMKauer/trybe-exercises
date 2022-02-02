@@ -102,13 +102,29 @@
 // }
 // console.log(isImpar);
 
-const numeroA = 2;
-const numeroB = 4;
-const numeroC = 5;
+// const numeroA = 2;
+// const numeroB = 4;
+// const numeroC = 5;
 
-let isImpar = false;
+// let isImpar = false;
 
-if (numeroA % 2 !== 0 || numeroB % 2 !== 0 || numeroC % 2 !== 0) {
-    isImpar = true;
-}
-console.log(isImpar);
+// if (numeroA % 2 !== 0 || numeroB % 2 !== 0 || numeroC % 2 !== 0) {
+//     isImpar = true;
+// }
+// console.log(isImpar);
+
+// const custo = -100;
+// const valorVenda = 1200;
+// const impostoSobreOCusto = custo * 0.2;
+
+// const valorCustoTotal = custo + impostoSobreOCusto;
+// const lucro = valorVenda - valorCustoTotal;
+// const lucroMil = lucro * 1000;
+
+// if (custo >= 0 && valorVenda >= 0) {
+//     console.log('Lucro ao vender 1000 unidades: ' + lucroMil);
+// } else {
+//     console.log('Erro: Não é possível calcular. Um dos valores é inferior a 0.');
+// }
+
+
