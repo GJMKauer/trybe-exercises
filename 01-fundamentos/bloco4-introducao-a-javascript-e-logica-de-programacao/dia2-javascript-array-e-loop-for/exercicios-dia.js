@@ -136,3 +136,38 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 // -----
 // Exercício bônus - 3
 
+let numbersMultiplicados = [];
+
+// for (let index = 1; index < numbers.length; index += 1) {
+//     for (let secondIndex = 0; secondIndex < index; secondIndex += 1) {
+//       if (index < secondIndex) {
+//         numbersMultiplicados.push = numbers[secondIndex] * numbers[Index];
+//       } else if (index < numbers.length) {
+//         numbersMultiplicados.push = numbers[secondIndex] * 2;
+//       }
+//     }
+//   }
+
+//   numbersMultiplicados[0] = numbers[0] * numbers[1];
+//   numbersMultiplicados[1] = numbers[1] * numbers[2];
+//   numbersMultiplicados[2] = numbers[2] * numbers[3];
+//   numbersMultiplicados[3] = numbers[3] * numbers[4];
+//   numbersMultiplicados[4] = numbers[4] * numbers[5];
+//   numbersMultiplicados[5] = numbers[5] * numbers[6];
+//   numbersMultiplicados[6] = numbers[6] * numbers[7];
+//   numbersMultiplicados[7] = numbers[7] * numbers[8];
+//   numbersMultiplicados[8] = numbers[8] * numbers[9];
+//   numbersMultiplicados[9] = numbers[9] * 2
+
+let secondIndex = 1;
+
+for (let index = 0; index < numbers.length; index += 1) {
+  if (secondIndex < numbers.length) {
+    numbersMultiplicados.push(numbers[index] * numbers[secondIndex]);
+    secondIndex = secondIndex + 1;
+  } else {
+    numbersMultiplicados.push(numbers[index] * 2);
+  }
+}
+
+console.log(numbersMultiplicados);
