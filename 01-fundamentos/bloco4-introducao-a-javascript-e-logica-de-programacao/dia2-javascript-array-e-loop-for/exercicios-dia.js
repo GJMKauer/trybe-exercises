@@ -89,7 +89,22 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 // -----
 // Exercício 8
 
+// let numeroInicial = 1;
+// let numeroFinal = 25;
+// let array = [];
 
+// for (let index = numeroInicial; index <= numeroFinal; index += 1) {
+//         array.push(index);
+// }
+// console.log(array);
 
 // -----
 // Exercício 9
+
+// for (let index = 0; index < array.length; index += 1) {
+//     console.log(array[index] / 2);
+// }
+
+// -----
+// Exercício bônus
+
