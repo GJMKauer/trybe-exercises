@@ -66,7 +66,7 @@
 //     case 'bispo':
 //         console.log('Bispo: Move quantas casas quiser, apenas nas diagonais.');
 //         break;
-//     case "peão":
+//     case 'peão':
 //         console.log('Peão: Move uma casa para frente. Mata na diagonal. Na primeira mexida, cada peão pode andar duas casas.');
 //         break;
 //     default:
@@ -127,4 +127,39 @@
 //     console.log('Erro: Não é possível calcular. Um dos valores é inferior a 0.');
 // }
 
+// let salario = 3000;
+// let inssOito = salario - salario * 0.08;
+// let inssNove = salario - salario * 0.09;
+// let inssOnze = salario - salario * 0.11;
+// let inssMax = salario - 570.88;
 
+// if (salario <= 1556.94) {
+//   salario = inssOito;
+// } else if (salario <= 2594.92) {
+//   salario = inssNove;
+// } else if (salario <= 5189.82) {
+//   salario = inssOnze;
+// } else {
+//   salario = inssMax;
+// }
+
+// if (salario <= 1903.98) {
+//   salario = salario;
+//   console.log("Valor líquido a ser recebido: R$ " + salario);
+// } else if (salario <= 2826.65) {
+//   let irDois = salario * 0.075 - 142.8;
+//   salario = salario - irDois;
+//   console.log("Valor líquido a ser recebido: R$ " + salario);
+// } else if (salario <= 3751.05) {
+//   let irTres = salario * 0.15 - 354.8;
+//   salario = salario - irTres;
+//   console.log("Valor líquido a ser recebido: R$ " + salario);
+// } else if ((salario <= 4664, 68)) {
+//   let irQuatro = salario * 0.225 - 636.13;
+//   salario = salario - irQuatro;
+//   console.log("Valor líquido a ser recebido: R$ " + salario);
+// } else {
+//   let irCinco = salario * 0.275 - 869.36;
+//   salario = salario - irCinco;
+//   console.log("Valor líquido a ser recebido: R$ " + salario);
+// }
