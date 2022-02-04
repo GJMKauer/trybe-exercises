@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+
+body {
+  font-family: Didact Gothic, Arial, sans-serif;
+  background-color: rgb(253, 251, 251);
+  padding: 10px;
+  width: 800px;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0px;
+  color: rgb(15, 3, 38);
+  z-index: 1;
+}
+
+nav {
+  margin-top: 70px;
+  margin-bottom: 10px;
+  padding: 10px 0px;
+  border-radius: 20px;
+  background-color: rgb(205, 193, 255);
+  word-spacing: 50px;
+  letter-spacing: -0.5px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+}
+
+#minha_foto {
+  padding: 10px;
+  border-radius: 20px;
+  background-color: rgb(237, 222, 164);
+  float: left;
+}
+
+#article {
+  text-align: justify;
+}
+
+#barra_lateral {
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 15px;
+}
+
+#rodape {
+  padding: 0px 10px;
+  border-radius: 20px;
+  background-color: rgb(205, 193, 255);
+  text-align: center;
+}
+
+#texto_principal {
+  background-color: rgb(245, 247, 220);
+  padding: 5px;
+  border-radius: 20px;
+  height: 330px;
+}
+
+#licoes_aprendidas {
+  display: inline-block;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+#licoes_a_aprender {
+  display: inline-block;
+  margin-left: 200px;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+#lessons_learned {
+  margin-bottom: 0px;
+  font-size: 18px;
+  text-align: center;
+}
+
+#lessons_to_learn {
+  margin-left: 260px;
+  margin-bottom: 0px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.lessons {
+  display: inline-block;
+}
+
+.lado-esquerdo {
+  display: inline-block;
+  width: 430px;
+  margin-left: 10px;
+}
+
+.lado-direito {
+  display: inline-block;
+  width: 100px;
+  background-color: rgb(13, 27, 42);
+  color: white;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+table , th , td {
+  border: 1px solid black;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 120px;
+}
+
+th , td {
+  padding: 0px 5px;
+}
