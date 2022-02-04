@@ -1,0 +1,156 @@
+// Algoritmo: como se vestir para uma festa.
+
+1. Receba o convite da festa.
+2. Verifique os detalhes da festa.
+3. Levantar-se da cama.
+4. Caminhar até o roupeiro.
+5. Abrir a porta do roupeiro.
+6. Escolher a roupa da festa.
+7. Pegar a roupa da festa.
+8. Pegar uma toalha de banho.
+9. Fechar a porta do roupeiro.
+10. Levar a toalha de banho e a roupa da festa para o banheiro.
+11. Entrar no chuveiro.
+12. Abrir o chuveiro.
+13. Tomar banho.
+14. Fechar o chuveiro.
+15. Secar o corpo com a toalha de banho.
+16. Vestir a roupa da festa.
+17. Caminhar até o varal.
+18. Estender a toalha de banho no varal.
+19. Caminhar até o quarto.
+20. Abrir a porta do roupeiro.
+21. Pegar o perfume e desodorante.
+22. Usar o perfume e desodorante.
+23. Fechar a porta do roupeiro.
+24. Descer as escadas da casa.
+25. Caminhar até a garagem.
+26. Entrar no carro.
+27. Abrir o portão da garagem.
+28. Ligar o carro.
+29. Dirigir o carro para fora da garagem.
+30. Fechar o portão da garagem.
+31. Abrir o portão da rua da casa.
+32. Dirigir o carro para fora do portão da rua.
+33. Fechar o portão da rua.
+34. Dirigir até o local da festa.
+
+
+- Eu resolvi o problema?
+    Acredito que sim. Recebi o convite da festa, tomei banho, me arrumei e fui à festa.
+
+- Havia outras maneiras de resolver o problema?
+    Com certeza, diversas outras maneiras. Poderia não tomar banho, poderia ter mais passos de "higienização" (banho, perfume etc), poderia ir de ônibus,
+    poderia ir de carona, poderia ir de bicicleta, poderia ir à pé...
+
+- A maneira que eu escolhi foi a mais eficiente possível, ou havia como fazer a mesma coisa com menos passos?
+    Provavelmente havia uma forma de fazer a mesma coisa com menos passos. Porém, o resultado poderia ser um pouco diferente (por exemplo, não tomar banho).
+
+- Seria possível inverter ou retirar algum passo?
+    Sim, com certeza. Poderia pegar a toalha de banho antes da roupa da festa, por exemplo. Poderia abrir o portão da garagem antes de entrar no carro, ou 
+    depois de ligar o carro. E muitas outras mudanças.
+
+- Se eu fosse um computador, conseguiria entender todas as instruções?
+    Acredito que sim (obviamente que não utilizei os códigos corretos) mas provavelmente algum(ns) bug(s) aconteceria(m), então seria necessário testar o
+    código para verificar se o computador compreendeu tudo, e realizar as devidas alterações que forem necessárias.
+
+------------------------------------
+
+1. Nesse primeiro exercício, percorra o array imprimindo todos os valores nele contidos com a função console.log();
+    1. Criar um loop for.
+    2. Esse loop for tem que aumentar de 1 em 1.
+    3. Criar um console.log(index).
+
+
+2. Para o segundo exercício, some todos os valores contidos no array e imprima o resultado;
+    1. Criar um loop for.
+    2. Esse loop for tem que aumentar de 1 em 1.
+    3. Criar uma variável para armazenar a soma.
+    4. Colocar a soma dentro do loop.
+    5. Fazer com que essa variável da soma atualize o seu valor com o valor antigo + valor novo.
+    6. Criar um console.log.
+
+3. Para o terceiro exercício, calcule e imprima a média aritmética dos valores contidos no array;
+    1. Criar um loop for.
+    2. Esse loop for tem que aumentar de 1 em 1.
+    3. Criar uma variável para armazenar a soma.
+    4. Colocar a soma dentro do loop.
+    5. Fazer com que essa variável da soma atualize o seu valor com o valor antigo + valor novo.
+    6. Criar um console.log(variavelSoma / numbers.length).
+
+4. Com o mesmo código do exercício anterior, caso o valor final seja maior que 20, imprima a mensagem: "valor maior que 20". Caso não seja, imprima a
+mensagem: "valor menor ou igual a 20";
+    1. Criar um loop for.
+    2. Esse loop for tem que aumentar de 1 em 1.
+    3. Criar uma variável para armazenar a soma.
+    4. Colocar a soma dentro do loop.
+    5. Fazer com que essa variável da soma atualize o seu valor com o valor antigo + valor novo.
+    6. Criar uma variável que receba o valor de "variavelSoma / numbers.length".
+    6. Criar um if/else em que, if variavelMediaAritmetica > 20, console.log 'valor maior que 20'; else, console.log 'valor menor ou igual a 20'.
+
+5. Utilizando for, descubra qual o maior valor contido no array e imprima-o;
+    1. Criar um loop for.
+    2. Esse loop for tem que aumentar de 1 em 1.
+    3. Criar uma variável para guardar o maior valor.
+    4. Criar um if/else em que, se o valor na posição index for maior que o valor que está na variávelMaiorValor, substitua o valor de variávelMaiorValor
+    pelo valor na posição index; se não, não faça nada.
+    5. Criar um console.log(variávelMaiorValor).
+
+6. Descubra quantos valores ímpares existem no array e imprima o resultado. Caso não exista nenhum, imprima a mensagem: "nenhum valor ímpar encontrado";
+    1. Criar um loop for.
+    2. Esse loop for tem que aumentar de 1 em 1.
+    3. Criar uma array para guardar os valores ímpares.
+    4. Criar um if/else em que, se o valor na posição index módulo 2 for diferente de 0, dê um array.push(impares) o valor na posição index; se não, não
+    faça nada.
+    5. Criar um console.log(impares.length).
+
+7. Utilizando for, descubra qual o menor valor contido no array e imprima-o;
+    1. Criar um loop for.
+    2. Esse loop for tem que aumentar de 1 em 1.
+    3. Criar uma variável para guardar o menor valor.
+    4. Criar um if/else em que, se o valor na posição index for menor que o valor que está na variávelMenorValor, substitua o valor de variávelMenorValor
+    pelo valor na posição index; se não, não faça nada.
+    5. Criar um console.log(variávelMenorValor).
+
+8. Utilizando for, crie um array que vá de 1 até 25 e imprima o resultado;
+    1. Criar um loop for.
+    2. Esse loop for tem que aumentar de 1 em 1. Vai começar no 0 e terminar no < 26.
+    3. Criar uma array para guardar esses números.
+    4. Executar um array.push(numeros) toda vez na repetição, para guardar todos os números entre 1 e 25.
+    5. Criar um console.log(numeros).
+
+9. Utilizando o array criado no exercício anterior imprima o resultado da divisão de cada um dos elementos por 2.
+    1. Criar um loop for.
+    2. Esse loop for tem que aumentar de 1 em 1. Vai começar no 0 e terminar no < 26.
+    3. Criar um console.log(numeros[index] / 2);
+
+Bônus 1. Ordene o array numbers em ordem crescente e imprima seus valores;
+    1. Criar um loop for.
+    2. Esse loop for tem que aumentar de 1 em 1. Vai começar no 0 e terminar no < 26.
+    3. Criar outro loop for dentro do primeiro, que irá começar com o index um número abaixo do primeiro index, e vai aumentar de 1 em 1 também.
+    4. Criar uma variável de posição, para guardar o valor do array na posição index caso ele tenha que trocar de lugar.
+    5. Criar um if em que se o valor do array na posição index é menor que o valor do array na posição index2, esse valor do array na posição index vai
+    receber o valor do array na posição index2, e o valor do array na posição index2 vai receber o valor da variável de posição, efetivamente alternando a
+    posição entre os dois elementos.
+    6. Criar um console.log(array);
+
+Bônus 2. Ordene o array numbers em ordem decrescente e imprima seus valores;
+    1. Criar um loop for.
+    2. Esse loop for tem que aumentar de 1 em 1. Vai começar no 0 e terminar no < 26.
+    3. Criar outro loop for dentro do primeiro, que irá começar com o index um número abaixo do primeiro index, e vai aumentar de 1 em 1 também.
+    4. Criar uma variável de posição, para guardar o valor do array na posição index.
+    5. Criar um if em que se o valor do array na posição index é maior que o valor do array na posição index2, esse valor do array na posição index vai
+    receber o valor do array na posição index2, e o valor do array na posição index2 vai receber o valor da variável de posição, efetivamente alternando a
+    posição entre os dois elementos.
+    6. Criar um console.log(array);
+
+Bônus 3. Agora crie um novo array a partir do array numbers, sem perdê-lo. Cada valor do novo array deverá ser igual ao valor correspondente no array numbers
+multiplicado pelo próximo. Caso não haja próximo valor, a multiplicação deverá ser feita por 2.
+    1. Criar uma array vazia para receber os valores do loop for.
+    2. Criar uma variável index2 que receba o valor inicial 1.
+    3. Criar um loop for.
+    4. Esse loop for tem que aumentar de 1 em 1.
+    5. Criar um if/else em que, se o valor do index2 é menor que o tamanho da array, vai ser pushado com o array.push o valor na posição index vezes o valor
+    na posição index2, e depois vai aumentar em um o tamanho do index2; se não, ou seja, se não tiver nenhum número depois do valor na posição index2,
+    significa que chegamos ao final do array; aí, o valor na posição index será multiplicado por 2.
+    6. Criar um console.log(array).
