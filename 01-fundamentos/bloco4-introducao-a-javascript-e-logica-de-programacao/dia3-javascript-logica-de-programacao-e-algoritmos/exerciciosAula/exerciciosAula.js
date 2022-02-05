@@ -24,43 +24,37 @@
 // 6. A cada loop, o valor atual do index será adicionado na variável da palavra invertida.
 // 7. No final, crie um console.log que retorne o valor da variável.
 
-let word = 'tryber';
+let word = "tryber";
 
-let palavraInvertida = '';
+let palavraInvertida = "";
 
 for (let index = word.length; index >= 0; index -= 1) {
-    palavraInvertida += word[index];
+  palavraInvertida += word[index];
 }
 console.log(palavraInvertida);
 
 // FALTA TERMINAR ESSE EXERCÍCIO AQUI!!!
 
-
-
-
-
-
-
-
-
 // 3. Escreve um algoritmo que retorne a maior palavra de um array, e outro que retorne a menor. A array é:
-let array = ['java', 'javascript', 'python', 'html', 'css'];
+// let array = ["java", "javascript", "python", "html", "css"];
 
-// 1. Criar uma variável que receba o array[n].length para cada elemento do array.
-// 2. Criar um if em que, se uma variável for maior que todas as outras, será impressa.
-// 3. Criar um else if em que, se uma variável for menor que todas as outras, será impressa.
+// 1. Criar uma variável com o valor do array na posição 0 para que receba o valor alterado conforme o loop for (maior elemento).
+// 2. Criar uma variável com o valor do array na posição 0 para que receba o valor alterado conforme o loop for (menor elemento).
+// 3. Criar um loop for. Esse loop for vai aumentar de 1 em 1, e terminará no tamanho do array.
+// 4. Criar um if/else em que se o tamanho do array na posição index for maior que o tamanho da variável palavraMaior, esse elemento do array será atribuído
+// ao valor da variável palavaMaior; e caso seja menor que o tamanho da variável palavraMenor, esse elemento será atribuído ao valor da variável palavraMenor.
+// 5. Criar um console.log para a palavraMaior.
+// 6. Criar um console.log para a palavraMenor.
 
-let palavraMaior;
-let palavraMenor;
+// let palavraMaior = array[0];
+// let palavraMenor = array[0];
 
-for (index = 0; index < array.length; index += 1) {
-    for (let secondIndex = 0; secondIndex < array.length; secondIndex += 1) {
-        if (array[index].length > array[secondIndex].length) {
-            palavraMaior = array[index];
-        } else if (array[index].length < array[secondIndex].length) {
-            palavraMenor = array[index];
-        }
-    }
-}
-console.log('A maior palavra é: ' + palavraMaior);
-console.log('A menor palavra é: ' + palavraMenor);
+// for (index = 0; index < array.length; index += 1) {
+//   if (array[index].length >= palavraMaior.length) {
+//     palavraMaior = array[index];
+//   } else if (array[index].length <= palavraMenor.length) {
+//     palavraMenor = array[index];
+//   }
+// }
+// console.log("A maior palavra é: " + palavraMaior);
+// console.log("A menor palavra é: " + palavraMenor);
