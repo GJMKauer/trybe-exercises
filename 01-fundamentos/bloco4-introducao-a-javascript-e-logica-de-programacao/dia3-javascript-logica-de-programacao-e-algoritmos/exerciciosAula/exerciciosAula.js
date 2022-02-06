@@ -24,14 +24,14 @@
 // 6. A cada loop, o valor atual do index será adicionado na variável da palavra invertida.
 // 7. No final, crie um console.log que retorne o valor da variável.
 
-let word = "tryber";
+// let word = "tryber";
 
-let palavraInvertida = '';
+// let palavraInvertida = '';
 
-for (let index = word.length - 1; index >= 0; index -= 1) {
-  palavraInvertida += word[index];
-}
-console.log(palavraInvertida);
+// for (let index = word.length - 1; index >= 0; index -= 1) {
+//   palavraInvertida += word[index];
+// }
+// console.log(palavraInvertida);
 
 // FALTA TERMINAR ESSE EXERCÍCIO AQUI!!!
 
@@ -58,3 +58,29 @@ console.log(palavraInvertida);
 // }
 // console.log("A maior palavra é: " + palavraMaior);
 // console.log("A menor palavra é: " + palavraMenor);
+
+// Retorne o maior número primo entre 0 e 50. (Números primos são aqueles divisíveis somente por 1 e por eles mesmos).
+
+// 1. Descobrir como calcular se um número é primo utilizando os comandos do JavaScript.
+//      O módulo dele por todos os números menores que ele tem que ser diferente de 0.
+// 2. Criar uma variável para receber o valor do maior número primo.
+// 3. Criar um loop for que iniciará em 0 e será igual ou menor que 50, e irá crescer de um em um.
+// 4. Criar uma variável ePrimo e atribuir o valor dela de true.
+// 5. Criar outro loop for que iniciará em 2, e irá parar quando chegar no tamanho do index, e irá crescer de um em um.
+// 6. Colocar um if/else em que, se o index dividido por todos os divisores do segundo loop for for igual a 0, atribua o valor de ePrimo como false; se não, atribua o valor de maiorNumeroPrimo como index.
+// 7. Criar um console.log para o maiorNumeroPrimo.
+
+// let maiorNumeroPrimo = 0;
+
+// for (let index = 0; index <= 50; index += 1) {
+//   let ePrimo = true;
+//   for (let index2 = 2; index2 < index; index2 += 1) {
+//     if (index % index2 === 0) {
+//       ePrimo = false;
+//     }
+//   }
+//   if (ePrimo) {
+//     maiorNumeroPrimo = index;
+//   }
+// }
+// console.log(maiorNumeroPrimo);
