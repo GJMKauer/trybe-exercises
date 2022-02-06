@@ -84,3 +84,36 @@
 //   }
 // }
 // console.log(maiorNumeroPrimo);
+
+// Exercicio bonus 1
+// Faça um programa que, dado um valor n qualquer, seja n > 1 , imprima na tela um quadrado feito de
+// asteriscos de lado de tamanho n.
+
+// Exercicio bonus 2
+// Faça o mesmo que antes, mas que imprima um triângulo retângulo com 5 asteriscos de base.
+
+// Exercicio bonus 3
+// Agora inverta o lado do triângulo. 
+
+// Exercicio bonus 4
+// Por fim, faça uma pirâmide com n asteriscos de base.
+
+// Exercicio bonus 5
+// Faça uma pirâmide com n asteriscos de base, que seja vazia no meio:
+
+// Exercicio bonus 6
+// Faça um programa que diz se um número definido numa variável é primo ou não.
+
+// let divisores = 1;
+// let numero = 7;
+
+// for (let index = 2; index <= numero; index += 1) {
+//   if (numero % index === 0) {
+//     divisores += 1;
+//   }
+// }
+// if (divisores === 2) {
+//   console.log(numero + " e primo");
+// } else {
+//   console.log(numero + " nao e primo");
+// }
