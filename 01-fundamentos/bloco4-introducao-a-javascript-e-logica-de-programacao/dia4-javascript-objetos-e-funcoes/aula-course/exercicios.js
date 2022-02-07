@@ -57,37 +57,37 @@
 // function soma(a, b) {
 //     let somaF = a + b;
 
-//     return somaF;
+//     return 'Soma: ' + somaF;
 // }
-// console.log('Soma: ' + soma(2, 3));
+// console.log(soma(2, 3));
 
 // function subtracao(a, b) {
 //     let subtracaoF = a - b;
 
-//     return subtracaoF;
+//     return 'Subtração: ' + subtracaoF;
 // }
-// console.log('Subtração: ' + subtracao(2, 3));
+// console.log(subtracao(2, 3));
 
 // function multiplicacao(a, b) {
 //     let multiplicacaoF = a * b;
 
-//     return multiplicacaoF;
+//     return 'Multiplicação: ' + multiplicacaoF;
 // }
-// console.log('Multiplicação: ' + multiplicacao(2, 3));
+// console.log(multiplicacao(2, 3));
 
 // function divisao(a, b) {
 //     let divisaoF = a / b;
 
-//     return divisaoF;
+//     return 'Divisão: ' + divisaoF;
 // }
-// console.log('Divisão: ' + divisao(2, 3));
+// console.log(divisao(2, 3));
 
 // function modulo(a, b) {
 //     let moduloF = a % b;
 
-//     return moduloF;
+//     return 'Módulo: ' + moduloF;
 // }
-// console.log('Módulo: ' + modulo(2, 3));
+// console.log(modulo(2, 3));
 
 // // ----- Funções - Exercício 2
 
