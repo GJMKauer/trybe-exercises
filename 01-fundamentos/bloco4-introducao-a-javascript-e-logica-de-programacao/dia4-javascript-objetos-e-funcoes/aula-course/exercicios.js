@@ -10,16 +10,13 @@
 //     },
 // };
 
-
 // ----- Objetos - Para Fixar 2
 
 // console.log('A jogadora ' + player.name + ' ' + player.lastName + ' tem ' + player.age + ' anos de idade.');
 
-
 // ----- Objetos - Para Fixar 3
 
 // player['bestInTheWorld'] = [2006, 2007, 2008, 2009, 2010, 2018];
-
 
 // ----- Objetos - Para Fixar 4
 
@@ -30,7 +27,6 @@
 
 // console.log(player.medals);
 // console.log('A jogadora possui ' + player.medals.golden + ' medalhas de ouro e ' + player.medals.silver + ' medalhas de prata.');
-
 
 // ------------------------------
 // ----- For/in e for/of - Para Fixar 1
@@ -44,7 +40,6 @@
 //     console.log('Olá ' + names[key]);
 // }
 
-
 // ----- For/in e for/of - Para Fixar 2
 
 // let car = {
@@ -55,7 +50,6 @@
 // for (let key in car) {
 //     console.log(key, car[key]);
 // }
-
 
 // ------------------------------
 // ----- Funções - Exercício 1
@@ -95,7 +89,6 @@
 // }
 // console.log('Módulo: ' + modulo(2, 3));
 
-
 // // ----- Funções - Exercício 2
 
 // function maiorDeDois(a, b) {
@@ -106,7 +99,6 @@
 //     }
 // }
 // maiorDeDois(7,50);
-
 
 // // ----- Funções - Exercício 3
 
@@ -121,21 +113,18 @@
 // }
 // maiorDeTres(10, 20, 5);
 
-
 // // ----- Funções - Exercício 4
 
-// const a = 2;
-// const b = 3;
-// const c = 1;
-
-// if (a > 0) {
-//     console.log('positive');
-// } else if (a < 0) {
-//     console.log('negative');
-// } else {
-//     console.log('zero');
+// function ePositivo(a) {
+//   if (a > 0) {
+//     console.log("positive");
+//   } else if (a < 0) {
+//     console.log("negative");
+//   } else {
+//     console.log("zero");
+//   }
 // }
-
+// ePositivo(5);
 
 // // ----- Funções - Exercício 5
 
