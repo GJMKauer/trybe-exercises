@@ -54,40 +54,22 @@
 // ------------------------------
 // ----- Funções - Exercício 1
 
-// function soma(a, b) {
-//     let somaF = a + b;
-
-//     return 'Soma: ' + somaF;
+// function calculadora(a, b, operador) {
+//     if (operador === '+') {
+//         return 'Soma: ' + (a + b);
+//     } else if (operador === '-') {
+//         return 'Subtração: ' + (a - b);
+//     } else if (operador === '*') {
+//         return 'Multiplicação: ' + (a * b);
+//     } else if (operador === '/') {
+//         return 'Divisão: ' + (a / b);
+//     } else if (operador === '%') {
+//         return 'Módulo: ' + (a % b);
+//     } else {
+//         return 'Operador matemático incorreto.'
+//     }
 // }
-// console.log(soma(2, 3));
-
-// function subtracao(a, b) {
-//     let subtracaoF = a - b;
-
-//     return 'Subtração: ' + subtracaoF;
-// }
-// console.log(subtracao(2, 3));
-
-// function multiplicacao(a, b) {
-//     let multiplicacaoF = a * b;
-
-//     return 'Multiplicação: ' + multiplicacaoF;
-// }
-// console.log(multiplicacao(2, 3));
-
-// function divisao(a, b) {
-//     let divisaoF = a / b;
-
-//     return 'Divisão: ' + divisaoF;
-// }
-// console.log(divisao(2, 3));
-
-// function modulo(a, b) {
-//     let moduloF = a % b;
-
-//     return 'Módulo: ' + moduloF;
-// }
-// console.log(modulo(2, 3));
+// console.log(calculadora(2, 3, '+'));
 
 // // ----- Funções - Exercício 2
 
