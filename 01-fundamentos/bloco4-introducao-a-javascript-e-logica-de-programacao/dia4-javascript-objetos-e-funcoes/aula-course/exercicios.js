@@ -128,20 +128,18 @@
 
 // // ----- Funções - Exercício 5
 
-// let trianguloA = 100;
-// let trianguloB = 30;
-// let trianguloC = 50;
+// function eTriangulo (a, b, c) {
+//     let trianguloTotal = a + b + c;
+//     let trianguloValido = a > 0 && b > 0 && c > 0;
 
-// let trianguloTotal = trianguloA + trianguloB + trianguloC;
-
-// let trianguloValido = trianguloA > 0 && trianguloB > 0 && trianguloC > 0;
-
-// if (trianguloValido) {
-//     if (trianguloTotal === 180) {
-//         console.log(true);
+//     if (trianguloValido) {
+//         if (trianguloTotal === 180) {
+//             return true;
+//         } else {
+//             return false;
+//         };
 //     } else {
-//         console.log(false);
-//     };
-// } else {
-//     console.log('Erro: não é um triângulo');
+//         return 'Erro: não é uma figura espacial geométrica.';
+//     }
 // }
+// console.log(eTriangulo(100, 50, 30));
