@@ -14,6 +14,8 @@
 // }
 // console.log(fatorialDez);
 
+// -----
+
 // 2. Criar um algoritmo que inverta uma palavra. Por exemplo, a palavra "banana" deveria virar "ananab".
 
 // 1. Descobrir como inverter uma string no JavaScript.
@@ -32,6 +34,8 @@
 //   palavraInvertida += word[index];
 // }
 // console.log(palavraInvertida);
+
+// -----
 
 // 3. Escreva um algoritmo que retorne a maior palavra de um array, e outro que retorne a menor. A array é:
 // let array = ["java", "javascript", "python", "html", "css"];
@@ -56,6 +60,8 @@
 // }
 // console.log("A maior palavra é: " + palavraMaior);
 // console.log("A menor palavra é: " + palavraMenor);
+
+// -----
 
 // 4. Retorne o maior número primo entre 0 e 50. (Números primos são aqueles divisíveis somente por 1 e por eles mesmos).
 
@@ -83,6 +89,8 @@
 // }
 // console.log(maiorNumeroPrimo);
 
+// -----------------------------------
+
 // Exercicio Bônus 1
 // Faça um programa que, dado um valor n qualquer, seja n > 1 , imprima na tela um quadrado feito de
 // asteriscos de lado de tamanho n.
@@ -109,17 +117,27 @@
 //   asterisco = '';
 // }
 
+// -----
+
 // Exercicio Bônus 2
 // Faça o mesmo que antes, mas que imprima um triângulo retângulo com 5 asteriscos de base.
+
+// -----
 
 // Exercicio Bônus 3
 // Agora inverta o lado do triângulo.
 
+// -----
+
 // Exercicio Bônus 4
 // Por fim, faça uma pirâmide com n asteriscos de base.
 
+// -----
+
 // Exercicio Bônus 5
 // Faça uma pirâmide com n asteriscos de base, que seja vazia no meio:
+
+// -----
 
 // Exercicio Bônus 6
 
