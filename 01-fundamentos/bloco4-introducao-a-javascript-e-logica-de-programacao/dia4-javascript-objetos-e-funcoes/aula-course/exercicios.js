@@ -104,14 +104,14 @@
 
 // function maiorDeTres(a, b, c) {
 //     if (a > b && a > c) {
-//         console.log('O primeiro número é o maior.');
+//         return 'O primeiro número é o maior.';
 //     } else if (b > a && b > c) {
-//         console.log('O segundo número é o maior.');
+//         return 'O segundo número é o maior.';
 //     } else {
-//         console.log('O terceiro número é o maior.');
+//         return 'O terceiro número é o maior.';
 //     }
 // }
-// maiorDeTres(10, 20, 5);
+// console.log(maiorDeTres(10, 20, 5));
 
 // // ----- Funções - Exercício 4
 
