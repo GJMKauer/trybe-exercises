@@ -135,15 +135,32 @@
 // Exercicio Bônus 3
 // Agora inverta o lado do triângulo.
 
+// let n = 5;
+// let asterisco = '';
+// let posicao = n;
+
+// for (let index = 0; index < n; index += 1) {
+//   for (let index2 = 0; index2 <= n; index2 += 1) {
+//     if (index2 < posicao) {
+//       asterisco += ' ';
+//     } else {
+//       asterisco += '*';
+//     }
+//   }
+//   console.log(asterisco);
+//   asterisco = '';
+//   posicao -= 1;
+// }
+
 // -----
 
 // Exercicio Bônus 4
-// Por fim, faça uma pirâmide com n asteriscos de base.
+// Faça uma pirâmide com n asteriscos de base.
 
 // -----
 
 // Exercicio Bônus 5
-// Faça uma pirâmide com n asteriscos de base, que seja vazia no meio:
+// Faça uma pirâmide com n asteriscos de base, que seja vazia no meio.
 
 // -----
 
