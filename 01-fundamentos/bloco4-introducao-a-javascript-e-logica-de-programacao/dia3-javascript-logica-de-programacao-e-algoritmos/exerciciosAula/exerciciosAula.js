@@ -183,6 +183,31 @@
 // Exercicio Bônus 5
 // Faça uma pirâmide com n asteriscos de base, que seja vazia no meio.
 
+// let n = 7;
+// let asterisco = '';
+
+// let meioDaMatriz = (n + 1) / 2;
+// let controleEsquerdo = meioDaMatriz;
+// let controleDireito = meioDaMatriz;
+
+// for (let index = 1; index <= meioDaMatriz; index += 1) {
+//   for (let index2 = 1; index2 <= n; index2 += 1) {
+//     if (
+//       index2 === controleEsquerdo ||
+//       index2 === controleDireito ||
+//       index === meioDaMatriz
+//     ) {
+//       asterisco += '*';
+//     } else {
+//       asterisco += ' ';
+//     }
+//   }
+//   console.log(asterisco);
+//   asterisco = '';
+//   controleEsquerdo -= 1;
+//   controleDireito += 1;
+// }
+
 // -----
 
 // Exercicio Bônus 6
