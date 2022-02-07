@@ -39,14 +39,12 @@ info['recorrente'] = 'Sim';
 //     recorrente: 'Sim',
 //   };
 
-//   if (info.recorrente === 'Sim' && info2.recorrente === 'Sim') {
 //   for (let key in info) {
 //       if (info[key] === 'Sim' && info2[key]) {
 //           console.log('Ambos recorrentes');
 //       } else 
 //     console.log (info[key], 'e', info2[key]);
 //   }
-// }
 
 // Exercício 6
 
