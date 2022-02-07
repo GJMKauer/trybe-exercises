@@ -33,9 +33,7 @@
 // }
 // console.log(palavraInvertida);
 
-// FALTA TERMINAR ESSE EXERCÍCIO AQUI!!!
-
-// 3. Escreve um algoritmo que retorne a maior palavra de um array, e outro que retorne a menor. A array é:
+// 3. Escreva um algoritmo que retorne a maior palavra de um array, e outro que retorne a menor. A array é:
 // let array = ["java", "javascript", "python", "html", "css"];
 
 // 1. Criar uma variável com o valor do array na posição 0 para que receba o valor alterado conforme o loop for (maior elemento).
@@ -59,7 +57,7 @@
 // console.log("A maior palavra é: " + palavraMaior);
 // console.log("A menor palavra é: " + palavraMenor);
 
-// Retorne o maior número primo entre 0 e 50. (Números primos são aqueles divisíveis somente por 1 e por eles mesmos).
+// 4. Retorne o maior número primo entre 0 e 50. (Números primos são aqueles divisíveis somente por 1 e por eles mesmos).
 
 // 1. Descobrir como calcular se um número é primo utilizando os comandos do JavaScript.
 //      O módulo dele por todos os números menores que ele tem que ser diferente de 0.
@@ -85,24 +83,56 @@
 // }
 // console.log(maiorNumeroPrimo);
 
-// Exercicio bonus 1
+// Exercicio Bônus 1
 // Faça um programa que, dado um valor n qualquer, seja n > 1 , imprima na tela um quadrado feito de
 // asteriscos de lado de tamanho n.
 
-// Exercicio bonus 2
+// 1. Declarar uma variável para guardar a quantidade de asteriscos como uma string vazia.
+// 2. Declarar uma variável n com um número qualquer, apenas para fins de código.
+// 3. Abrir um for que inicia em 0, termina quando chegar no tamanho do número e aumenta de um em um.
+// 4. Abrir um for dentro do for que inicia em 0, termina quando chegar no tamanho do número e aumenta
+// de um em um.
+// 5. Dentro desse segundo for, atribuir que a variável asterisco receberá a string asterisco a cada
+// loop.
+// 6. Dentro do primeiro for, abrir um console.log que irá mostrar a variável asterisco, e então
+// atribuir o valor da variável asterisco como uma string vazia novamente para que ela "resete"
+// para o próximo loop.
+
+// let asterisco = '';
+// let n = 5;
+
+// for (let index = 0; index < n; index += 1) {
+//   for (let index2 = 0; index2 < n; index2 += 1) {
+//     asterisco += '*';
+//   }
+//   console.log(asterisco);
+//   asterisco = '';
+// }
+
+// Exercicio Bônus 2
 // Faça o mesmo que antes, mas que imprima um triângulo retângulo com 5 asteriscos de base.
 
-// Exercicio bonus 3
-// Agora inverta o lado do triângulo. 
+// Exercicio Bônus 3
+// Agora inverta o lado do triângulo.
 
-// Exercicio bonus 4
+// Exercicio Bônus 4
 // Por fim, faça uma pirâmide com n asteriscos de base.
 
-// Exercicio bonus 5
+// Exercicio Bônus 5
 // Faça uma pirâmide com n asteriscos de base, que seja vazia no meio:
 
-// Exercicio bonus 6
+// Exercicio Bônus 6
+
 // Faça um programa que diz se um número definido numa variável é primo ou não.
+// 1. Declarar uma variável divisores igual a 1 (para se tornar 2 no futuro, e se um número tem apenas
+// dois divisores, ele é primo).
+// 2. Declarar uma variável numero, que recebe um número qualquer apenas para fins de código.
+// 3. Abrir um for que iniciará em 2 (pois 0 e 1 não faz diferença), irá crescer até o tamanho do
+// número, e irá crescer de um em um.
+// 4. Abrir um if/else dentro do for em que, se o módulo do número pelo index for igual a 0, aumentar
+// a variável divisores em um.
+// 5. Fora do for abrir um if/else em que, se o número de divisores for igual a 2, imprima "número é
+// primo"; se não, imprima "número não é primo".
 
 // let divisores = 1;
 // let numero = 7;
@@ -113,7 +143,7 @@
 //   }
 // }
 // if (divisores === 2) {
-//   console.log(numero + " e primo");
+//   console.log(numero + " é primo");
 // } else {
-//   console.log(numero + " nao e primo");
+//   console.log(numero + " não é primo");
 // }
