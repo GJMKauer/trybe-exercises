@@ -35,5 +35,47 @@
 // ------------------------------
 // ----- For/in e for/of - Para Fixar 1
 
+// let names = {
+//     person1: 'João',
+//     person2: 'Maria',
+//     person3: 'Jorge',
+//   };
+// for (let key in names) {
+//     console.log('Olá ' + names[key]);
+// }
 
 
+// ----- For/in e for/of - Para Fixar 2
+
+// let car = {
+//     model: 'A3 Sedan',
+//     manufacturer: 'Audi',
+//     year: 2020
+//   };
+// for (let key in car) {
+//     console.log(key, car[key]);
+// }
+
+
+// ------------------------------
+// ----- Funções - Exercício 1
+
+
+
+
+// ----- Funções - Exercício 2
+
+
+
+
+// ----- Funções - Exercício 3
+
+
+
+
+// ----- Funções - Exercício 4
+
+
+
+
+// ----- Funções - Exercício 5
