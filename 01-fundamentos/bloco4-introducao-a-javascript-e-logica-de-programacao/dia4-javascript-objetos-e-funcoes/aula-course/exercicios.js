@@ -93,12 +93,12 @@
 
 // function maiorDeDois(a, b) {
 //     if (a > b) {
-//         console.log('O primeiro número é maior que o segundo.');
+//         return 'O primeiro número é maior que o segundo.';
 //     } else {
-//         console.log('O primeiro número é menor que o segundo.');
+//         return 'O primeiro número é menor que o segundo.';
 //     }
 // }
-// maiorDeDois(7,50);
+// console.log(maiorDeDois(7,50));
 
 // // ----- Funções - Exercício 3
 
