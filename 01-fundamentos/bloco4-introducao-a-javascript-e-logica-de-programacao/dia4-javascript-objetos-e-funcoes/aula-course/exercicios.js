@@ -110,17 +110,16 @@
 
 // // ----- Funções - Exercício 3
 
-// const a = 2;
-// const b = 3;
-// const c = 1;
-
-// if (a > b && a > c) {
-//     console.log("'a' é o maior número");
-// } else if (b > a && b > c) {
-//     console.log("'b' é o maior número");
-// } else {
-//     console.log("'c' é o maior número");
+// function maiorDeTres(a, b, c) {
+//     if (a > b && a > c) {
+//         console.log('O primeiro número é o maior.');
+//     } else if (b > a && b > c) {
+//         console.log('O segundo número é o maior.');
+//     } else {
+//         console.log('O terceiro número é o maior.');
+//     }
 // }
+// maiorDeTres(10, 20, 5);
 
 
 // // ----- Funções - Exercício 4
