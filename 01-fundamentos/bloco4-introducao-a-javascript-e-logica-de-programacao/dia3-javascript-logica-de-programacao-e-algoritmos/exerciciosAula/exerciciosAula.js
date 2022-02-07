@@ -122,6 +122,14 @@
 // Exercicio Bônus 2
 // Faça o mesmo que antes, mas que imprima um triângulo retângulo com 5 asteriscos de base.
 
+// let asterisco = '';
+// let n = 5;
+
+// for (index = 0; index < n; index += 1) {
+//   asterisco += '*';
+//   console.log(asterisco);
+// }
+
 // -----
 
 // Exercicio Bônus 3
