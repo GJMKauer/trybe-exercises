@@ -60,22 +60,104 @@
 // ------------------------------
 // ----- Funções - Exercício 1
 
+// const a = 2;
+// const b = 3;
+// const c = 1;
+
+// function soma(a, b) {
+//     let somaF = a + b;
+
+//     return somaF;
+// }
+// console.log('Soma: ' + soma(a, b));
+
+// function subtracao(a, b) {
+//     let subtracaoF = a - b;
+
+//     return subtracaoF;
+// }
+// console.log('Subtração: ' + subtracao(a, b));
+
+// function multiplicacao(a, b) {
+//     let multiplicacaoF = a * b;
+
+//     return multiplicacaoF;
+// }
+// console.log('Multiplicação: ' + multiplicacao(a, b));
+
+// function divisao(a, b) {
+//     let divisaoF = a / b;
+
+//     return divisaoF;
+// }
+// console.log('Divisão: ' + divisao(a, b));
+
+// function modulo(a, b) {
+//     let moduloF = a % b;
+
+//     return moduloF;
+// }
+// console.log('Módulo: ' + modulo(a, b));
+
+// // ----- Funções - Exercício 2
+
+// const a = 2;
+// const b = 3;
+// const c = 1;
+
+// if (a > b) {
+//     console.log("'a' é maior que 'b'");
+// } else {
+//     console.log("'a' é menor que 'b'");
+// }
 
 
+// // ----- Funções - Exercício 3
 
-// ----- Funções - Exercício 2
+// const a = 2;
+// const b = 3;
+// const c = 1;
+
+// if (a > b && a > c) {
+//     console.log("'a' é o maior número");
+// } else if (b > a && b > c) {
+//     console.log("'b' é o maior número");
+// } else {
+//     console.log("'c' é o maior número");
+// }
 
 
+// // ----- Funções - Exercício 4
+
+// const a = 2;
+// const b = 3;
+// const c = 1;
+
+// if (a > 0) {
+//     console.log('positive');
+// } else if (a < 0) {
+//     console.log('negative');
+// } else {
+//     console.log('zero');
+// }
 
 
-// ----- Funções - Exercício 3
+// // ----- Funções - Exercício 5
 
+// let trianguloA = 100;
+// let trianguloB = 30;
+// let trianguloC = 50;
 
+// let trianguloTotal = trianguloA + trianguloB + trianguloC;
 
+// let trianguloValido = trianguloA > 0 && trianguloB > 0 && trianguloC > 0;
 
-// ----- Funções - Exercício 4
-
-
-
-
-// ----- Funções - Exercício 5
+// if (trianguloValido) {
+//     if (trianguloTotal === 180) {
+//         console.log(true);
+//     } else {
+//         console.log(false);
+//     };
+// } else {
+//     console.log('Erro: não é um triângulo');
+// }
