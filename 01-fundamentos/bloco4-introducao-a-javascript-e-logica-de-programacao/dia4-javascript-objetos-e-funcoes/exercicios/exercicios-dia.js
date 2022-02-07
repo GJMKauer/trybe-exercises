@@ -12,13 +12,15 @@ let info = {
 
 // Exercício 2
 
-// info['recorrente'] = 'Sim';
+info['recorrente'] = 'Sim';
 // console.log(info);
 
 
 // Exercício 3
 
-
+for (let key in info) {
+    console.log(key);
+}
 
 
 // Exercício 4
