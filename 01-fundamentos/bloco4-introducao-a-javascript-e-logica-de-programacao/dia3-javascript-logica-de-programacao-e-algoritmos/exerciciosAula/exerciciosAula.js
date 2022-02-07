@@ -157,6 +157,27 @@
 // Exercicio Bônus 4
 // Faça uma pirâmide com n asteriscos de base.
 
+// let n = 5;
+// let asterisco = '';
+
+// let meioDaMatriz = (n + 1) / 2;
+// let controleEsquerdo = meioDaMatriz;
+// let controleDireito = meioDaMatriz;
+
+// for (let index = 0; index <= meioDaMatriz; index += 1) {
+//   for (let index2 = 0; index2 <= n; index2 += 1) {
+//     if (index2 > controleEsquerdo && index2 < controleDireito) {
+//       asterisco += '*';
+//     } else {
+//       asterisco += ' ';
+//     }
+//   }
+//   console.log(asterisco);
+//   asterisco = '';
+//   controleEsquerdo -= 1;
+//   controleDireito += 1;
+// }
+
 // -----
 
 // Exercicio Bônus 5
