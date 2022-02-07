@@ -8,7 +8,7 @@
 //         golden: 2,
 //         silver: 3,
 //     },
-// }
+// };
 
 
 // ----- Objetos - Para Fixar 2
