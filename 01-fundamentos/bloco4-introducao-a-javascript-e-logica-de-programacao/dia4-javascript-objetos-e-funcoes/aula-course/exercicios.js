@@ -98,15 +98,14 @@
 
 // // ----- Funções - Exercício 2
 
-// const a = 2;
-// const b = 3;
-// const c = 1;
-
-// if (a > b) {
-//     console.log("'a' é maior que 'b'");
-// } else {
-//     console.log("'a' é menor que 'b'");
+// function maiorDeDois(a, b) {
+//     if (a > b) {
+//         console.log('O primeiro número é maior que o segundo.');
+//     } else {
+//         console.log('O primeiro número é menor que o segundo.');
+//     }
 // }
+// maiorDeDois(7,50);
 
 
 // // ----- Funções - Exercício 3
