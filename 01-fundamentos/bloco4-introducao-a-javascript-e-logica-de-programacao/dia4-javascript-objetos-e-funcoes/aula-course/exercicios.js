@@ -60,44 +60,41 @@
 // ------------------------------
 // ----- Funções - Exercício 1
 
-// const a = 2;
-// const b = 3;
-// const c = 1;
-
 // function soma(a, b) {
 //     let somaF = a + b;
 
 //     return somaF;
 // }
-// console.log('Soma: ' + soma(a, b));
+// console.log('Soma: ' + soma(2, 3));
 
 // function subtracao(a, b) {
 //     let subtracaoF = a - b;
 
 //     return subtracaoF;
 // }
-// console.log('Subtração: ' + subtracao(a, b));
+// console.log('Subtração: ' + subtracao(2, 3));
 
 // function multiplicacao(a, b) {
 //     let multiplicacaoF = a * b;
 
 //     return multiplicacaoF;
 // }
-// console.log('Multiplicação: ' + multiplicacao(a, b));
+// console.log('Multiplicação: ' + multiplicacao(2, 3));
 
 // function divisao(a, b) {
 //     let divisaoF = a / b;
 
 //     return divisaoF;
 // }
-// console.log('Divisão: ' + divisao(a, b));
+// console.log('Divisão: ' + divisao(2, 3));
 
 // function modulo(a, b) {
 //     let moduloF = a % b;
 
 //     return moduloF;
 // }
-// console.log('Módulo: ' + modulo(a, b));
+// console.log('Módulo: ' + modulo(2, 3));
+
 
 // // ----- Funções - Exercício 2
 
