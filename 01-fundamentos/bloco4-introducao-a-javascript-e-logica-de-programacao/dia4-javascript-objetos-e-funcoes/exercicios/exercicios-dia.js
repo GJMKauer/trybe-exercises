@@ -65,7 +65,13 @@ let leitor = {
 
 // Exercício 7
 
+// leitor.livrosFavoritos[1] = {
+//     titulo: 'Harry Potter e o Prisioneiro de Azkaban',
+//     autor: 'JK Rowling',
+//     editora: 'Rocco',
+// };
 
+// console.log(leitor.livrosFavoritos[1]);
 
 
 // Exercício 8
