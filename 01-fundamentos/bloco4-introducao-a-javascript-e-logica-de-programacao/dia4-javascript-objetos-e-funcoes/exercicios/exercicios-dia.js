@@ -102,7 +102,7 @@
 
 // function indiceMaiorValor(numeros) {
 //     let indiceMaior = 0;
-//     for (index = 0; index < numeros.length; index += 1) {
+//     for (let index = 0; index < numeros.length; index += 1) {
 //         if (numeros[indiceMaior] < numeros[index]) {
 //             indiceMaior = index;
 //         }
@@ -115,7 +115,7 @@
 
 // function indiceMenorValor(numeros) {
 //     let indiceMenor = numeros[0];
-//     for (index = 0; index < numeros.length; index += 1) {
+//     for (let index = 0; index < numeros.length; index += 1) {
 //         if (numeros[indiceMenor] > numeros[index]) {
 //             indiceMenor = index;
 //         }
@@ -129,7 +129,7 @@
 
 // function indiceMaiorCaracteres(caracteres) {
 //     let indiceMaior = 0;
-//     for (index = 0; index < caracteres.length; index += 1) {
+//     for (let index = 0; index < caracteres.length; index += 1) {
 //         if (caracteres[indiceMaior].length < caracteres[index].length) {
 //             indiceMaior = index;
 //         }
@@ -146,7 +146,14 @@
 
 // Exercício 6
 
-
+// function somaTotal(numero) {
+//     let soma = 0;
+//     for (let index = 0; index <= numero; index += 1) {
+//         soma += index;
+//     }
+//     return soma;
+// }
+// console.log(somaTotal(5));
 
 
 // Exercício 7
