@@ -127,7 +127,16 @@
 
 // Exercício 4
 
-
+// function indiceMaiorCaracteres(caracteres) {
+//     let indiceMaior = 0;
+//     for (index = 0; index < caracteres.length; index += 1) {
+//         if (caracteres[indiceMaior].length < caracteres[index].length) {
+//             indiceMaior = index;
+//         }
+//     }
+//     return caracteres[indiceMaior];
+// }
+// console.log(indiceMaiorCaracteres(['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana']));
 
 
 // Exercício 5
