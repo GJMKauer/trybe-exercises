@@ -113,7 +113,16 @@
 
 // Exercício 3
 
-
+// function indiceMenorValor(numeros) {
+//     let indiceMenor = numeros[0];
+//     for (index = 0; index < numeros.length; index += 1) {
+//         if (numeros[indiceMenor] > numeros[index]) {
+//             indiceMenor = index;
+//         }
+//     }
+//     return indiceMenor;
+// }
+// console.log(indiceMenorValor([2, 4, 6, 7, 10, 0, -3]));
 
 
 // Exercício 4
