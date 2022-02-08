@@ -181,25 +181,4 @@
 
 
 // ------------------------------
-// Exercício Bônus 1
-
-
-
-
-// Exercício Bônus 2
-
-
-
-
-// Exercício Bônus 3
-
-
-
-
-// Exercício Bônus 4
-
-
-
-
-// Exercício Bônus 5
 
