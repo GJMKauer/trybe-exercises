@@ -177,8 +177,11 @@
 
 // Exercício 7
 
-
-
-
-// ------------------------------
-
+// function verificaFimPalavra(word, ending) {
+//     if (ending.charAt(ending.length-1) === word.charAt(word.length-1) && ending.charAt(ending.length-2) === word.charAt(word.length-2)) {
+//         return true;
+//     } else {
+//         return false;
+//     }
+// }
+// console.log(verificaFimPalavra('trybe', 'be'));
