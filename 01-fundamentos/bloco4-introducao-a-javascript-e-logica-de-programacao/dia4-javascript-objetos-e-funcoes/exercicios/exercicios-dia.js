@@ -141,7 +141,26 @@
 
 // Exercício 5
 
+// function inteiroRepete(numeros) {
+//     let contagemMaxima = 0;
+//     let contagemAtual = 0;
+//     let numeroQueRepete = numeros[0];
 
+//     for (let index in numeros) {
+//         for (let index2 in numeros) {
+//             if (numeros[index] === numeros[index2]) {
+//                 contagemAtual += 1;
+//             }
+//         }
+//         if (contagemAtual > contagemMaxima) {
+//             contagemMaxima = contagemAtual;
+//             numeroQueRepete = index;
+//         }
+//         contagemAtual = 0;
+//     }
+//     return numeros[numeroQueRepete];
+// }
+// console.log(inteiroRepete([2, 3, 2, 5, 8, 2, 3]));
 
 
 // Exercício 6
