@@ -41,16 +41,19 @@ alteraH1("h1", "Exercício 5.1 - JavaScript");
 //  5. Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
 
 function alteraPUpper(elemento) {
-    let pUpper = document.getElementsByTagName(elemento);
-  
-    for (i = 0; i < pUpper.length; i += 1) {
-      pUpper[i].innerHTML = pUpper[i].innerHTML.toUpperCase();
-    }
-    return pUpper;
-    console.log(pUpper);
+  let pUpper = document.getElementsByTagName(elemento);
+
+  for (i = 0; i < pUpper.length; i += 1) {
+    pUpper[i].innerHTML = pUpper[i].innerHTML.toUpperCase();
   }
-  alteraPUpper("p");
+  return pUpper;
+  console.log(pUpper);
+}
+alteraPUpper("p");
 
 //  6. Crie uma função que exiba o conteúdo de todas as tags <p> no console.
 
-
+function exibeTagP(elemento) {
+  console.log(document.getElementsByClassName('center-content')[0].innerHTML);
+}
+exibeTagP('center-content');
