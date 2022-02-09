@@ -1,0 +1,47 @@
+// getElementById
+
+<!-- <!DOCTYPE html>
+<html>
+  <body>
+    <header>
+      <h2 id="page-title">Título</h2>
+      <p id="paragraph">Dê uma cor para este parágrafo!</p>
+      <h4 id="subtitle">Subtítulo</h4>
+      <p id="second-paragraph">Segundo parágrafo!</p>
+    </header>
+    <script>
+      document.getElementById("page-title").innerText = "Kimi no na Wa";
+      document.getElementById("paragraph").innerText =
+        "Esse é o meu filme favorito!";
+      const paragraph = document.getElementById("paragraph");
+      paragraph.style.color = "red";
+      document.getElementById("subtitle").innerText = "História do filme:";
+    </script>
+  </body>
+</html> -->
+
+// getElementsByClassName
+
+<!DOCTYPE html>
+<html>
+  <body>
+    <header>
+      <h2 id="page-title">Título</h2>
+      <p id="paragraph" class="paragrafo">Dê uma cor para este parágrafo!</p>
+      <h4 id="subtitle">Subtítulo</h4>
+      <p id="second-paragraph" class="paragrafo">Segundo parágrafo!</p>
+    </header>
+    <script>
+      document.getElementById("page-title").innerText = "Kimi no na Wa";
+      document.getElementById("paragraph").innerText =
+        "Esse é o meu filme favorito!";
+      const paragraph = document.getElementById("paragraph");
+      paragraph.style.color = "red";
+      document.getElementById("subtitle").innerText = "História do filme:";
+      const paragrafo1 = document.getElementsByClassName("paragrafo")[0];
+      paragrafo1.style.padding = "10px";
+      const subtitulo = document.getElementsByTagName('h4')[0];
+      subtitulo.style.color = "blue";
+    </script>
+  </body>
+</html>
