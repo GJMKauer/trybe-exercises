@@ -132,7 +132,7 @@
 
       // Exercício 2
       h3.className = "description";
-      h3.nextSibling .className = "description";
+      h3.nextSibling.className = "description";
       h3.nextElementSibling.nextElementSibling.className = "description";
 
       // Exercício 3
@@ -140,14 +140,18 @@
       main.removeChild(sectionClasse);
 
       // Exercício 4
-      document.getElementsByClassName('right-content')[0].style.marginRight = 'auto';
+      document.getElementsByClassName("right-content")[0].style.marginRight =
+        "auto";
 
       // Exercício 5
-      let paiSection = document.getElementsByTagName('section')[0].parentNode;
-      paiSection.style.backgroundColor = 'green';
+      let paiSection = document.getElementsByTagName("section")[0].parentNode;
+      paiSection.style.backgroundColor = "green";
 
       // Exercício 6
-
+      document
+        .getElementsByTagName("ul")[0]
+        .lastElementChild.previousElementSibling.remove();
+      document.getElementsByTagName("ul")[0].lastElementChild.remove();
     </script>
   </body>
 </html>
