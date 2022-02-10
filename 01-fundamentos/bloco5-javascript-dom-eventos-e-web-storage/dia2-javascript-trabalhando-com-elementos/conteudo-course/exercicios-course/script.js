@@ -1,10 +1,11 @@
-// Exercicio 1
+// Parte 1 - Buscando elementos
 
+// Exercicio 1
 console.log(document.getElementById('elementoOndeVoceEsta'));
 
 // Exercicio 2
-let eOVCParent = document.getElementById('elementoOndeVoceEsta').parentNode;
-eOVCParent.style.color = 'red';
+let eOVEParent = document.getElementById('elementoOndeVoceEsta').parentNode;
+eOVEParent.style.color = 'red';
 
 // Exercicio 3
 console.log(document.getElementById('primeiroFilhoDoFilho').textContent += 'Adicionando texto.');
@@ -23,3 +24,25 @@ console.log(document.getElementById('elementoOndeVoceEsta').nextElementSibling);
 
 // Exercicio 8
 console.log(document.getElementById('pai').lastElementChild.previousElementSibling);
+
+
+// Parte 2 - Criando elementos
+
+// Exercício 1
+let irmaoEOVE = document.getElementById('pai');
+let irmaoEOVE2 = document.createElement('section');
+irmaoEOVE.appendChild(irmaoEOVE2);
+
+
+// Exercício 2
+let filhoEOVE = document.getElementById('elementoOndeVoceEsta');
+let filhoEOVE2 = document.createElement('section');
+filhoEOVE.appendChild(filhoEOVE2);
+
+// Exercício 3
+let filhoDoFilhoEOVE = document.getElementById('primeiroFilhoDoFilho');
+let filhoDoFilhoEOVE2 = document.createElement('section');
+filhoDoFilhoEOVE.appendChild(filhoEOVE2);
+
+// Exercício 4
+console.log(document.getElementById('primeiroFilhoDoFilho').lastElementChild.parentNode.parentNode.nextElementSibling);
