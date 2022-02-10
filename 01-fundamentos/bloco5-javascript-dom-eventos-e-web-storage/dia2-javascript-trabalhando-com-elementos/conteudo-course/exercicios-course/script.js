@@ -31,18 +31,24 @@ console.log(document.getElementById('pai').lastElementChild.previousElementSibli
 // Exercício 1
 let irmaoEOVE = document.getElementById('pai');
 let irmaoEOVE2 = document.createElement('section');
+irmaoEOVE2.id = 'irmaoDoElementoOndeVoceEsta';
 irmaoEOVE.appendChild(irmaoEOVE2);
 
 
 // Exercício 2
 let filhoEOVE = document.getElementById('elementoOndeVoceEsta');
 let filhoEOVE2 = document.createElement('section');
+filhoEOVE2.id = 'filhoDoElementoOndeVoceEsta';
 filhoEOVE.appendChild(filhoEOVE2);
 
 // Exercício 3
 let filhoDoFilhoEOVE = document.getElementById('primeiroFilhoDoFilho');
 let filhoDoFilhoEOVE2 = document.createElement('section');
-filhoDoFilhoEOVE.appendChild(filhoEOVE2);
+filhoDoFilhoEOVE2.id = 'filhoDoFilhoDoElementoOndeVoceEsta';
+filhoDoFilhoEOVE.appendChild(filhoDoFilhoEOVE2);
 
 // Exercício 4
 console.log(document.getElementById('primeiroFilhoDoFilho').lastElementChild.parentNode.parentNode.nextElementSibling);
+
+// Parte 3 - Removendo elementos
+
