@@ -52,3 +52,10 @@ console.log(document.getElementById('primeiroFilhoDoFilho').lastElementChild.par
 
 // Parte 3 - Removendo elementos
 
+document.getElementById('pai').firstElementChild.remove();
+document.getElementById('primeiroFilhoDoFilho').firstElementChild.remove();
+document.getElementById('elementoOndeVoceEsta').firstElementChild.nextElementSibling.remove();
+document.getElementById('elementoOndeVoceEsta').lastElementChild.remove();
+document.getElementById('pai').firstElementChild.nextElementSibling.remove();
+document.getElementById('pai').firstElementChild.nextElementSibling.nextElementSibling.remove();
+document.getElementById('pai').lastElementChild.remove();
