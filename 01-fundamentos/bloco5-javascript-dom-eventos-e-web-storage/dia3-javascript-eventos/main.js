@@ -19,28 +19,39 @@ function adicionaClasse() {
   let todosLI = document.getElementsByTagName("li");
 
   for (let i = 0; i < todosLI.length; i += 1) {
-      todosLI[i].className = 'tech';
+    todosLI[i].className = "tech";
   }
   return todosLI;
 }
-console.log(adicionaClasse());
+adicionaClasse();
 
 function removeClasse() {
-    let doisLI = document.getElementsByTagName("li");
+  let doisLI = document.getElementsByTagName("li");
 
-    for (let i = doisLI.length -2; i >= 0; i -= 1) {
-        doisLI[i].classList.remove('tech');
-    }
-    return doisLI;
+  for (let i = doisLI.length - 2; i >= 0; i -= 1) {
+    doisLI[i].classList.remove("tech");
+  }
+  return doisLI;
 }
-console.log(removeClasse());
+removeClasse();
 
 // 3. Crie uma função que, ao digitar na caixa de texto, altere o texto do elemento
 // com a classe 'tech';
+function alteraTexto() {
+  let texto = document.getElementsByClassName("tech")[0];
+  texto.innerText = event.target.value;
+}
+input.addEventListener("input", alteraTexto);
 
 // 4. Crie uma função que, ao clicar duas vezes em 'Meu top 3 do Spotrybefy', ele
 // redirecione para alguma página;
 // 4.1. Que tal redirecionar para seu portfólio?
+let redirecionamento = document.getElementById("my-spotrybefy");
+function redireciona() {
+  console.log(redirecionamento);
+    window.location.href = 'https://gjmkauer.github.io/';
+}
+redirecionamento.addEventListener('dblclick', redireciona);
 
 // 5. Crie uma função que, ao passar o mouse sobre 'Meu top 3 do Spotrybefy', altere
 // a cor do mesmo;
