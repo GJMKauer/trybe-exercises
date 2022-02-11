@@ -41,23 +41,31 @@ function criaDias() {
 criaDias();
 
 function criaFeriado() {
-  for (i = 25; i <= 26; i += 1) {
+  for (let i = 25; i <= 26; i += 1) {
     document.getElementsByClassName("day")[i].className += " holiday";
   }
-  for (i = 32; i <= 32; i += 1) {
+  for (let i = 32; i <= 32; i += 1) {
     document.getElementsByClassName("day")[i].className += " holiday";
   }
 }
 criaFeriado();
 
 function criaSexta() {
-  for (i = 5; i <= 26; i += 7) {
+  for (let i = 5; i <= 26; i += 7) {
     document.getElementsByClassName("day")[i].className += " friday";
   }
 }
 criaSexta();
 
 // Exercicio 2
+function criaBotaoFeriados() {
+    let containerBotao = document.querySelector('.buttons-container');
+    let botaoFeriado = document.createElement('button');
+    botaoFeriado.id = 'btn-holiday';
+    botaoFeriado.innerText = 'Feriados';
+    containerBotao.appendChild(botaoFeriado);
+}
+criaBotaoFeriados();
 
 // Exercicio 3
 
