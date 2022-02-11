@@ -69,16 +69,16 @@ criaBotaoFeriados();
 
 // Exercicio 3
 let botaoFeriado = document.querySelector("button");
-botaoFeriado.addEventListener("click", mudaCorBotaoFeriados);
 
-function mudaCorBotaoFeriados() {
-  botaoFeriado.style.backgroundColor = "rgb(155, 155, 155)";
-}
+botaoFeriado.addEventListener("click", function() {
+  let corAtual = botaoFeriado.style.backgroundColor;
 
-botaoFeriado.addEventListener("click", retornaCorBotaoFeriados);
-function retornaCorBotaoFeriados() {
-    botaoFeriado.style.backgroundColor = "rgb(238, 238, 238)";
+  if (corAtual === 'rgb(155, 155, 155)') {
+    botaoFeriado.style.backgroundColor = 'rgb(238, 238, 238)';
+  } else {
+    botaoFeriado.style.backgroundColor = 'rgb(155, 155, 155)';
   }
+});
 
 // Exercicio 4
 
