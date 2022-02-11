@@ -41,7 +41,7 @@ function alteraTexto() {
   let texto = document.getElementsByClassName("tech")[0];
   texto.innerText = event.target.value;
 }
-input.addEventListener("input", alteraTexto);
+input.addEventListener("keyup", alteraTexto);
 
 // 4. Crie uma função que, ao clicar duas vezes em 'Meu top 3 do Spotrybefy', ele
 // redirecione para alguma página;
