@@ -70,7 +70,7 @@ criaBotaoFeriados();
 // Exercicio 3
 let botaoFeriado = document.querySelector("button");
 
-botaoFeriado.addEventListener("click", function() {
+function mudaCorBotao() {
   let corAtual = botaoFeriado.style.backgroundColor;
 
   if (corAtual === 'rgb(155, 155, 155)') {
@@ -78,7 +78,8 @@ botaoFeriado.addEventListener("click", function() {
   } else {
     botaoFeriado.style.backgroundColor = 'rgb(155, 155, 155)';
   }
-});
+}
+botaoFeriado.addEventListener("click", mudaCorBotao);
 
 // Exercicio 4
 
