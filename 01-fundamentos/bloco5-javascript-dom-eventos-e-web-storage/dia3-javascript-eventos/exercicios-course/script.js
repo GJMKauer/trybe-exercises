@@ -85,6 +85,14 @@ function mudaCorFeriados() {
 botaoFeriado.addEventListener("click", mudaCorFeriados);
 
 // Exercicio 4
+function criaBotaoSexta() {
+  let containerBotao = document.querySelector(".buttons-container");
+  let botaoSexta = document.createElement("button");
+  botaoSexta.id = "btn-friday";
+  botaoSexta.innerText = "Sexta-feira";
+  containerBotao.appendChild(botaoSexta);
+}
+criaBotaoSexta();
 
 // Exercicio 5
 
