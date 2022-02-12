@@ -69,17 +69,20 @@ criaBotaoFeriados();
 
 // Exercicio 3
 let botaoFeriado = document.querySelector("button");
+let diasFeriado = document.querySelectorAll(".holiday");
 
-function mudaCorBotao() {
-  let corAtual = botaoFeriado.style.backgroundColor;
+function mudaCorFeriados() {
+  let corAtual = diasFeriado[0].style.backgroundColor;
 
-  if (corAtual === 'rgb(155, 155, 155)') {
-    botaoFeriado.style.backgroundColor = 'rgb(238, 238, 238)';
-  } else {
-    botaoFeriado.style.backgroundColor = 'rgb(155, 155, 155)';
+  for (let i = 0; i < diasFeriado.length; i += 1) {
+    if (corAtual === "rgb(155, 155, 155)") {
+      diasFeriado[i].style.backgroundColor = "rgb(238, 238, 238)";
+    } else {
+      diasFeriado[i].style.backgroundColor = "rgb(155, 155, 155)";
+    }
   }
 }
-botaoFeriado.addEventListener("click", mudaCorBotao);
+botaoFeriado.addEventListener("click", mudaCorFeriados);
 
 // Exercicio 4
 
