@@ -68,7 +68,7 @@ function criaBotaoFeriados() {
 criaBotaoFeriados();
 
 // Exercicio 3
-let botaoFeriado = document.querySelector("button");
+let botaoFeriado = document.querySelector("#btn-holiday");
 let diasFeriado = document.querySelectorAll(".holiday");
 
 function mudaCorFeriados() {
@@ -95,6 +95,21 @@ function criaBotaoSexta() {
 criaBotaoSexta();
 
 // Exercicio 5
+let botaoSexta = document.querySelector("#btn-friday");
+let diasSexta = document.querySelectorAll(".friday");
+
+function mudaCorSexta() {
+  let corAtual = diasSexta[0].style.backgroundColor;
+
+  for (let i = 0; i < diasSexta.length; i += 1) {
+    if (corAtual === "rgb(57, 95, 64)") {
+      diasSexta[i].style.backgroundColor = "rgb(238, 238, 238)";
+    } else {
+      diasSexta[i].style.backgroundColor = "rgb(57, 95, 64)";
+    }
+  }
+}
+botaoSexta.addEventListener("click", mudaCorSexta);
 
 // Exercicio 6
 
