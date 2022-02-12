@@ -58,14 +58,14 @@ function criaSexta() {
 criaSexta();
 
 // Exercicio 2
-function criaBotaoFeriados() {
+function criaBotaoFeriados(nomeBotaoFeriados) {
   let containerBotao = document.querySelector(".buttons-container");
   let botaoFeriado = document.createElement("button");
   botaoFeriado.id = "btn-holiday";
-  botaoFeriado.innerText = "Feriados";
+  botaoFeriado.innerText = nomeBotaoFeriados;
   containerBotao.appendChild(botaoFeriado);
 }
-criaBotaoFeriados();
+criaBotaoFeriados("Feriados");
 
 // Exercicio 3
 let botaoFeriado = document.querySelector("#btn-holiday");
@@ -85,14 +85,14 @@ function mudaCorFeriados() {
 botaoFeriado.addEventListener("click", mudaCorFeriados);
 
 // Exercicio 4
-function criaBotaoSexta() {
+function criaBotaoSexta(nomeBotaoSexta) {
   let containerBotao = document.querySelector(".buttons-container");
   let botaoSexta = document.createElement("button");
   botaoSexta.id = "btn-friday";
-  botaoSexta.innerText = "Sexta-feira";
+  botaoSexta.innerText = nomeBotaoSexta;
   containerBotao.appendChild(botaoSexta);
 }
-criaBotaoSexta();
+criaBotaoSexta("Sexta-feira");
 
 // Exercicio 5
 let botaoSexta = document.querySelector("#btn-friday");
@@ -112,6 +112,26 @@ function mudaCorSexta() {
 botaoSexta.addEventListener("click", mudaCorSexta);
 
 // Exercicio 6
+
+function colocaZoomDias() {
+  let diasDoMes = document.querySelector("#days");
+
+  diasDoMes.addEventListener("mouseover", function (event) {
+    event.target.style.fontSize = "30px";
+    event.target.style.fontWeight = "600";
+  });
+}
+colocaZoomDias();
+
+function voltaZoomDias() {
+  let diasDoMes = document.querySelector("#days");
+
+  diasDoMes.addEventListener("mouseout", function (event) {
+    event.target.style.fontSize = "20px";
+    event.target.style.fontWeight = "200";
+  });
+}
+voltaZoomDias();
 
 // Exercicio 7
 
