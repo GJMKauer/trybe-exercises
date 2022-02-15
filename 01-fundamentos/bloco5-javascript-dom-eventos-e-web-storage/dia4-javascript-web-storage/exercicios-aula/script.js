@@ -16,6 +16,9 @@ let botaoFonte = document.querySelector("#botaoFonte");
 function mudaBackground() {
   let texto = document.querySelector("#texto");
   switch (texto.style.backgroundColor) {
+    case "rgb(255, 255, 255)":
+      texto.style.backgroundColor = "rgb(237, 222, 164)";
+      break;
     case "rgb(237, 222, 164)":
       texto.style.backgroundColor = "rgb(165, 148, 249)";
       break;
@@ -26,10 +29,10 @@ function mudaBackground() {
       texto.style.backgroundColor = "rgb(13, 27, 42)";
       break;
     case "rgb(13, 27, 42)":
-      texto.style.backgroundColor = "rgb(237, 222, 164)";
+      texto.style.backgroundColor = "rgb(255, 255, 255)";
       break;
     default:
-      texto.style.backgroundColor = "rgb(237, 222, 164)";
+      texto.style.backgroundColor = "rgb(255, 255, 255)";
   }
 }
 botaoBackground.addEventListener("click", mudaBackground);
@@ -37,6 +40,9 @@ botaoBackground.addEventListener("click", mudaBackground);
 function mudaCorTexto() {
   let texto = document.querySelector("#texto");
   switch (texto.style.color) {
+    case "rgb(0, 0, 0)":
+      texto.style.color = "rgb(0, 166, 237)";
+      break;
     case "rgb(0, 166, 237)":
       texto.style.color = "rgb(245, 247, 220)";
       break;
@@ -47,16 +53,19 @@ function mudaCorTexto() {
       texto.style.color = "rgb(205, 193, 255)";
       break;
     case "rgb(205, 193, 255)":
-      texto.style.color = "rgb(0, 166, 237)";
+      texto.style.color = "rgb(0, 0, 0)";
       break;
     default:
-      texto.style.color = "rgb(0, 166, 237)";
+      texto.style.color = "rgb(0, 0, 0)";
   }
 }
 botaoCor.addEventListener("click", mudaCorTexto);
 
 function mudaTamanhoLetra() {
   switch (texto.style.fontSize) {
+    case "16px":
+      texto.style.fontSize = "18px";
+      break;
     case "18px":
       texto.style.fontSize = "20px";
       break;
@@ -67,10 +76,9 @@ function mudaTamanhoLetra() {
       texto.style.fontSize = "24px";
       break;
     case "24px":
-      texto.style.fontSize = "18px";
-      break;
+      texto.style.fontSize = "16px";
     default:
-      texto.style.fontSize = "18px";
+      texto.style.fontSize = "16px";
   }
 }
 botaoTamanho.addEventListener("click", mudaTamanhoLetra);
@@ -88,20 +96,20 @@ botaoEspacamento.addEventListener("click", mudaEspacamento);
 function mudaFonteTexto() {
   let texto = document.querySelector("#texto");
   switch (texto.style.fontFamily) {
+    case "times-new-roman":
+      texto.style.fontFamily = "arial";
+      break;
     case "arial":
       texto.style.fontFamily = "monospace";
       break;
     case "monospace":
-      texto.style.fontFamily = "times-new-roman";
-      break;
-    case "times-new-roman":
       texto.style.fontFamily = "courier";
       break;
     case "courier":
-      texto.style.fontFamily = "arial";
+      texto.style.fontFamily = "times-new-roman";
       break;
     default:
-      texto.style.fontFamily = "arial";
+      texto.style.fontFamily = "times-new-roman";
   }
 }
 botaoFonte.addEventListener("click", mudaFonteTexto);
