@@ -1,6 +1,5 @@
 let texto = document.querySelector("#texto");
 texto.style.textAlign = "justify";
-// textoPrincipal.style.lineHeight = "24px";
 
 let botoes = document.querySelector("#containerBotoes");
 
@@ -84,12 +83,24 @@ function mudaTamanhoLetra() {
 botaoTamanho.addEventListener("click", mudaTamanhoLetra);
 
 function mudaEspacamento() {
-  //   let texto = document.querySelector("#texto");
-  //   if (texto.style.fontFamily === "Arial") {
-  //     texto.style.fontFamily = "Monospace";
-  //   } else {
-  //     texto.style.fontFamily = "Arial";
-  //   }
+  switch (texto.style.lineHeight) {
+    case "18px":
+      texto.style.lineHeight = "20px";
+      break;
+    case "20px":
+      texto.style.lineHeight = "22px";
+      break;
+    case "22px":
+      texto.style.lineHeight = "24px";
+      break;
+    case "24px":
+      texto.style.lineHeight = "26px";
+      break;
+    case "26px":
+      texto.style.lineHeight = "18px";
+    default:
+      texto.style.lineHeight = "18px";
+  }
 }
 botaoEspacamento.addEventListener("click", mudaEspacamento);
 
