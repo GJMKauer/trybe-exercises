@@ -1,7 +1,5 @@
-let textoPrincipal = document.querySelector("#texto");
-// textoPrincipal.style.textAlign = "justify";
-// textoPrincipal.style.color = "rgb(13, 27, 42)";
-// textoPrincipal.style.fontSize = "18px";
+let texto = document.querySelector("#texto");
+texto.style.textAlign = "justify";
 // textoPrincipal.style.lineHeight = "24px";
 
 let botoes = document.querySelector("#containerBotoes");
@@ -17,7 +15,6 @@ let botaoFonte = document.querySelector("#botaoFonte");
 
 function mudaBackground() {
   let texto = document.querySelector("#texto");
-  console.log(texto.style.backgroundColor);
   switch (texto.style.backgroundColor) {
     case "rgb(237, 222, 164)":
       texto.style.backgroundColor = "rgb(165, 148, 249)";
@@ -39,7 +36,6 @@ botaoBackground.addEventListener("click", mudaBackground);
 
 function mudaCorTexto() {
   let texto = document.querySelector("#texto");
-  console.log(texto.style.color);
   switch (texto.style.color) {
     case "rgb(0, 166, 237)":
       texto.style.color = "rgb(245, 247, 220)";
@@ -60,12 +56,22 @@ function mudaCorTexto() {
 botaoCor.addEventListener("click", mudaCorTexto);
 
 function mudaTamanhoLetra() {
-  //   let texto = document.querySelector("#texto");
-  //   if (texto.style.fontFamily === "Arial") {
-  //     texto.style.fontFamily = "Monospace";
-  //   } else {
-  //     texto.style.fontFamily = "Arial";
-  //   }
+  switch (texto.style.fontSize) {
+    case "18px":
+      texto.style.fontSize = "20px";
+      break;
+    case "20px":
+      texto.style.fontSize = "22px";
+      break;
+    case "22px":
+      texto.style.fontSize = "24px";
+      break;
+    case "24px":
+      texto.style.fontSize = "18px";
+      break;
+    default:
+      texto.style.fontSize = "18px";
+  }
 }
 botaoTamanho.addEventListener("click", mudaTamanhoLetra);
 
@@ -81,7 +87,6 @@ botaoEspacamento.addEventListener("click", mudaEspacamento);
 
 function mudaFonteTexto() {
   let texto = document.querySelector("#texto");
-  console.log(texto.style.fontFamily);
   switch (texto.style.fontFamily) {
     case "arial":
       texto.style.fontFamily = "monospace";
