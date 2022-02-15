@@ -1,0 +1,15 @@
+.opcoes {
+  display: inline-block;
+  padding: 2px;
+}
+
+#containerOpcoes {
+  border: 1px solid rgb(58, 52, 52);
+  padding: 3px;
+  align-content: center;
+  width: 500px;
+}
+
+body {
+  max-width: 800px;
+}
