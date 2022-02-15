@@ -2,18 +2,57 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>Leitor de Textos</title>
   </head>
+  <header>
+      <h1>Este é um leitor de Textos.</h1>
+  </header>
   <body>
-    <div id="containerBotoes">
-        <button id="botaoCorFundo">Alterar cor de fundo do texto</button>
-        <button id="botaoCorTexto">Alterar cor do texto</button>
-        <button id="botaoTamanho">Alterar tamanho da letra do texto</button>
-        <button id="botaoEspacamento">
-          Alterar o espaçamento entre as linhas do texto
-        </button>
-        <button id="botaoFonte">Alterar a fonte do texto</button>
-      </div>
+    <div id="containerOpcoes">
+      <section class="opcoes">
+        <input type="text" id="corBackground" />
+        <input type="color" id="selecionaCorBackground" />
+        <input
+          type="button"
+          value="Altere a cor de fundo do texto"
+          onclick="mudaCorFundo()"
+        />
+      </section>
+      <br>
+      <br>
+      <section class="opcoes">
+        <input type="text" id="corTexto" />
+        <input type="color" id="selecionaCorTexto" />
+        <input
+          type="button"
+          value="Altere a cor do texto"
+          onclick="mudaCorTexto()"
+        />
+      </section>
+      <br>
+      <br>
+      <section class="opcoes">
+        <input type="number" id="inputTamanhoFonte" />
+        <span>Altere o tamanho da fonte do texto</span>
+      </section>
+      <br>
+      <br>
+      <section class="opcoes">
+        <input type="number" id="inputAlturaLinha" />
+        <span>Altere o espaçamento entre linhas do texto</span>
+      </section>
+      <br>
+      <br>
+      <section class="opcoes">
+        <select name="selecaoDeFonte" id="selecaoDeFonte">
+          <option value="Times New Roman">Times New Roman</option>
+          <option value="Arial">Arial</option>
+          <option value="Monospace">Monospace</option>
+        </select>
+        <span>Altere a fonte do texto</span>
+      </section>
+    </div>
     <p id="texto">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ligula
       nibh, congue non leo non, dictum bibendum lectus. Pellentesque vitae
