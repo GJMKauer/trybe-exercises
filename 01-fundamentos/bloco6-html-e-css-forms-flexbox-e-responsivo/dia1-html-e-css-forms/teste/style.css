@@ -1,0 +1,33 @@
+body {
+  background-image: url("carol4.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: lighten;
+  background-size: 1150px;
+  background-position: 160px;
+  padding: 5px;
+}
+
+.img {
+  margin-left: 400px;
+  border: 1px solid black;
+  width: 608px;
+  background-color: rgb(255, 255, 255);
+}
+
+#texto,
+#texto2 {
+  background-color: rgb(143, 160, 175);
+  width: 608px;
+  margin-left: 400px;
+  text-align: center;
+  font-size: 36px;
+}
+
+#texto-select {
+  background-color: rgb(143, 160, 175);
+  width: 608px;
+  margin-left: 400px;
+  text-align: center;
+  font-size: 24px;
+}
