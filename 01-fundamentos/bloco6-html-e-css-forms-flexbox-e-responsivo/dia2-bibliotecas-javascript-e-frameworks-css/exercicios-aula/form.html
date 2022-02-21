@@ -21,17 +21,17 @@
         >
       </p>
       <div>
-          <form action="" method="get">
+          <form id="form" action="" method="get">
         <div class="input-group flex-nowrap">
           <label class="input-group-text" for="nomeCandidato">
             Nome:
-            <input class="form-control" type="text" name="nome" placeholder="Insira aqui seu nome." id="nomeCandidato" minlength="10" maxlength="40" required/>
+            <input class="form-control"type="text" name="nome" placeholder="Insira aqui seu nome." id="nomeCandidato"/>
           </label>
         </div>
         <div class="input-group flex-nowrap">
           <label class="input-group-text" for="emailCandidato"
             >E-mail:
-            <input class="form-control" type="text" name="email" placeholder="Insira aqui seu e-mail." id="emailCandidato" minlength="10" maxlength="50" required/>
+            <input class="form-control" type="text" name="email" placeholder="Insira aqui seu e-mail." id="emailCandidato"/>
           </label>
         </div>
         <div class="form-check">
@@ -92,7 +92,7 @@
         </div>
     </div>
       <button class="btn btn-primary" type="submit" id="botao-enviar">Enviar</button>
-      <button class="btn btn-danger" id="botao-apagar">Apagar</button>
+      <button class="btn btn-danger" type="button" id="botao-apagar">Apagar</button>
     </form>
     </div>
     <script src="script.js"></script>
