@@ -2,37 +2,6 @@ body {
   padding: 50px;
 }
 
-/* #container-all {
-  background-color: rgb(235, 243, 247);
-  width: 780px;
-}
-
-#header {
-  font-size: 35px;
-}
-
-#container-form {
-  border: 3px solid black;
-  padding: 25px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.container-form-elemento {
-  padding: 5px;
-}
-
-.opcoes {
-  margin-left: 20px;
-}
-
-.button {
-  padding: 8px 40px;
-  border-radius: 10px;
-  font-size: 20px;
-  background-color: rgb(235, 243, 247);
-} */
-
 textarea {
   resize: none;
 }

@@ -11,3 +11,4 @@ function apagar() {
   formulario.reset();
 }
 botaoApagar.addEventListener("click", apagar);
+
