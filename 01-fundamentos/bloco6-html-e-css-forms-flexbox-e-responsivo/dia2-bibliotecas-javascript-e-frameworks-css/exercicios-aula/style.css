@@ -1,11 +1,8 @@
-/* body {
-  font-family: Arial, Helvetica, sans-serif;
+body {
   padding: 50px;
-  background-color: rgb(247, 248, 252);
-  color: rgb(45, 43, 48);
 }
 
-#container-all {
+/* #container-all {
   background-color: rgb(235, 243, 247);
   width: 780px;
 }
@@ -29,13 +26,26 @@
   margin-left: 20px;
 }
 
-textarea {
-  resize: none;
-}
-
 .button {
   padding: 8px 40px;
   border-radius: 10px;
   font-size: 20px;
   background-color: rgb(235, 243, 247);
 } */
+
+textarea {
+  resize: none;
+}
+
+.form-check-label {
+  margin: 10px 0px 0px 40px;
+}
+
+.h5 {
+  margin: 20px 0px;
+}
+
+.input-group,
+.flex-nowrap, {
+  margin: 10px 0px;
+}
