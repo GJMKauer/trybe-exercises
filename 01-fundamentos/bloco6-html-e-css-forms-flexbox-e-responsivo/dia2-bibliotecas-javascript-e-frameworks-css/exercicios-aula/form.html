@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css">
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js"></script>
+    <title>Viagem de Férias | TrybeTrip</title>
+  </head>
+  <body>
+    <div>
+      <header>
+        <h1>TrybeTrip - A Viagem dos seus Sonhos!</h1></header>
+      <p class="h5">
+        <em
+          >Preencha o formulário abaixo para concorrer a uma viagem da
+          TrybeTrip, a viagem mais badalada dos devs.</em
+        >
+      </p>
+      <div>
+          <form id="form" action="" method="get">
+        <div class="input-group flex-nowrap">
+          <label class="input-group-text" for="nomeCandidato">
+            Nome:
+            <input class="form-control"type="text" name="nome" placeholder="Insira aqui seu nome." id="nomeCandidato"/>
+          </label>
+        </div>
+        <div class="input-group flex-nowrap">
+          <label class="input-group-text" for="emailCandidato"
+            >E-mail:
+            <input class="form-control" type="text" name="email" placeholder="Insira aqui seu e-mail." id="emailCandidato"/>
+          </label>
+        </div>
+        <div class="form-check">
+          <label class="form-check-label" for="destino-1">
+            <input class="form-check-input" type="radio" name="destino" id="destino-1" class="opcoes"/>
+            Cidade</label
+          >
+          <label class="form-check-label" for="destino-2">
+            <input class="form-check-input" type="radio" name="destino" id="destino-2" class="opcoes"/>Campo</label
+          >
+          <label class="form-check-label" for="destino-3">
+            <input class="form-check-input" type="radio" name="destino" id="destino-3" class="opcoes"/>Praia</label
+          >
+          <label class="form-check-label" for="destino-4">
+            <input class="form-check-input" type="radio" name="destino" id="destino-4" class="opcoes"/>Montanhas</label
+          >
+        </div>
+        <div>
+          <p class="h5">
+            <em
+              >Por que você deveria ser a pessoa desenvolvedora a ganhar o
+              concurso TrybeTrip?</em
+            >
+          </p>
+          <label for="textArea">
+            <textarea class="form-control"
+              name="textarea"
+              id="textArea"
+              cols="45"
+              rows="7"
+              placeholder="Diga-nos por que você merece ganhar esse concurso! :)"
+              maxlength="500"
+            ></textarea>
+          </label>
+        </div>
+        <div>
+          <p class="h5">
+            <em>Qual é o melhor dia para realizar a sua viagem?</em>
+          </p>
+          <label for="datepicker">
+            Data:
+            <input type="text" name="dataViagem" id="datepicker"/>
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" name="accept" id="acceptOne" />
+          <label for="acceptOne">
+            Gostaria de receber outras incríveis oportunidades oferecidas pela
+            Trybe?
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" name="accept" id="acceptTwo" required />
+          <label for="acceptTwo">
+            Concordo que imagens das minhas férias poderão ser usadas na
+            divulgação de concursos futuros.
+          </label>
+        </div>
+    </div>
+      <button class="btn btn-primary" type="submit" id="botao-enviar">Enviar</button>
+      <button class="btn btn-danger" type="button" id="botao-apagar">Apagar</button>
+    </form>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
+<script>
+    var picker = new Pikaday({
+    field: document.getElementById('datepicker'),
+    format: 'DD/MM/YYYY',
+    toString(date, format) {
+        const day = date.getDate();
+        const month = date.getMonth() + 1;
+        const year = date.getFullYear();
+        return `${day}/${month}/${year}`}});
+</script>
+    <script>
+      const validate = new window.JustValidate('#form');
+    </script>
+  </body>
+</html>
