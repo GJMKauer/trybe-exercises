@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu";
+}
+
+.header-img {
+  width: 70px;
+}
+
+.gallery-img {
+  width: 150px;
+}
+
+.social-img {
+  width: 25px;
+  margin-left: 10px;
+}
+
+.header-container {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(50, 52, 51);
+}
+
+.h1-header {
+  color: rgb(232, 238, 244);
+}
+
+.h3-header {
+  color: rgb(177, 185, 193);
+  text-decoration: underline;
+}
+
+.p-container {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0px;
+  font-size: 22px;
+}
+
+.main-content-father-container {
+  display: flex;
+  justify-content: center;
+}
+
+.main-content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 575px;
+  flex-wrap: wrap;
+}
+
+.h4-img {
+  text-align: center;
+  color: rgb(96, 103, 118);
+  padding: 7px;
+}
+
+.img-div {
+  background-color: rgb(241, 241, 241);
+  width: 180px;
+  height: 220px;
+  margin: 5px;
+  border-radius: 20px;
+  box-shadow: 3px 3px rgb(212, 212, 212);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.footer-father-container {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  width: 180px;
+  padding: 10px 0px;
+  margin-top: 20px;
+  border-top: 1px solid black;
+}
