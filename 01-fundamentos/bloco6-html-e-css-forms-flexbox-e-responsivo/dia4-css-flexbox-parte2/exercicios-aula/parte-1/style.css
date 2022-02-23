@@ -24,12 +24,14 @@ body {
 .menu-container {
   display: flex;
   flex-basis: 500px;
+  flex-grow: 1;
 }
 
 .menu-container ul {
   display: flex;
   justify-content: space-around;
   width: 100%;
+  align-self: center;
 }
 
 .menu-container li {
