@@ -74,6 +74,7 @@ body {
   margin: 10px;
   flex-basis: 16%;
   flex-shrink: 10;
+  flex-grow: 1;
 }
 
 .aside-container {
