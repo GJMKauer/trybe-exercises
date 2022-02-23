@@ -73,7 +73,7 @@ body {
   justify-content: space-around;
   margin: 10px;
   flex-basis: 16%;
-  flex-grow: 10;
+  flex-shrink: 10;
 }
 
 .aside-container {
