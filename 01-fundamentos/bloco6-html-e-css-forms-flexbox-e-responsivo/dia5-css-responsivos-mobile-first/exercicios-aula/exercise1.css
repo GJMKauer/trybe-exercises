@@ -18,27 +18,25 @@ body {
 }
 
 article {
-  font-size: 24px;
+  font-size: 20px;
   text-align: justify;
 }
 
 h1 {
-  font-size: 20px;
+  font-size: 30px;
+  margin-bottom: 30px;
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 20px;
+  margin-top: 45px;
+  margin-bottom: 30px;
+  text-align: center;
 }
 
 img {
   max-width: 100%;
   padding: 20px;
-}
-
-main {
-}
-
-section {
 }
 
 figure {
@@ -47,6 +45,30 @@ figure {
 
 figcaption {
   font-size: 1.4em;
+}
+
+.figure-container1 {
+  display: flex;
+  height: 200px;
+  justify-content: center;
+}
+.figure-container2 {
+  display: flex;
+  height: 200px;
+  justify-content: center;
+}
+.figure-container3 {
+  display: flex;
+  height: 200px;
+  justify-content: center;
+}
+figure {
+  display: flex;
+  align-items: center;
+}
+img {
+  width: 200px;
+  padding: 10px;
 }
 
 @media screen and (min-width: 800px) {
@@ -100,22 +122,22 @@ figcaption {
 
 @media screen and (min-width: 1200px) {
   body {
-    margin: 50px;
-    background-color: red;
+    margin: 30px;
+    max-width: 1366px;
   }
   .figure-container1 {
     display: flex;
-    height: 300px;
+    height: 400px;
     justify-content: center;
   }
   .figure-container2 {
     display: flex;
-    height: 300px;
+    height: 400px;
     justify-content: center;
   }
   .figure-container3 {
     display: flex;
-    height: 300px;
+    height: 400px;
     justify-content: center;
   }
   figure {
@@ -123,27 +145,27 @@ figcaption {
     align-items: center;
   }
   img {
-    width: 280px;
+    width: 400px;
     padding: 10px;
   }
   article {
-    font-size: 24px;
+    font-size: 28px;
     text-align: justify;
   }
 
   h1 {
-    font-size: 50px;
-    margin-bottom: 25px;
+    font-size: 60px;
+    margin-bottom: 30px;
   }
 
   h2 {
-    font-size: 30px;
-    margin-top: 40px;
-    margin-bottom: 20px;
+    font-size: 35px;
+    margin-top: 45px;
+    margin-bottom: 30px;
     text-align: center;
   }
   figcaption {
-    font-size: 20px;
+    font-size: 24px;
     text-align: center;
   }
 }
