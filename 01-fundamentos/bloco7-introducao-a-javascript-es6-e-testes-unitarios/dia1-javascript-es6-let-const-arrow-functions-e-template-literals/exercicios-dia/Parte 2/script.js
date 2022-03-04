@@ -10,6 +10,7 @@
 // }
 // fatorial(6);
 
+
 // // 2. Crie uma função que receba uma frase e retorne qual a maior palavra.
 // // Exemplo:
 // //     longestWord('Antônio foi no banheiro e não sabemos o que aconteceu') // retorna 'aconteceu'
@@ -25,10 +26,12 @@
 // };
 // maiorPalavra("Antônio foi no banheiro e não sabemos o que aconteceu");
 
+
 // 3. Crie uma página que contenha:
 // Um botão ao qual será associado um event listener ;
 // Uma variável clickCount no arquivo JavaScript que acumule o número de clicks no botão;
 // Um campo no HTML que vá atualizando a quantidade de clicks no botão conforme a variável clickCount é atualizada.
+
 
 // 4. Crie um código JavaScript com a seguinte especificação:
 // Não se esqueça de usar template literals
