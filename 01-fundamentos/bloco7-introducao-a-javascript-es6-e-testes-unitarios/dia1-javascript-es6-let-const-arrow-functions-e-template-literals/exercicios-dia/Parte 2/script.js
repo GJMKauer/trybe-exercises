@@ -1,26 +1,34 @@
-// 1. Crie uma função que receba um número e retorne seu fatorial.
-// Na matemática, o fatorial de um número não negativo N , com a notação N! , é o produto de todos os inteiros menores ou iguais a N . Exemplo: 4! = 4 * 3 * 2 * 1 = 24.
-const fatorial = (number) => {
-let numeroAtual = 1;
+// // 1. Crie uma função que receba um número e retorne seu fatorial.
+// // Na matemática, o fatorial de um número não negativo N , com a notação N! , é o produto de todos os inteiros menores ou iguais a N . Exemplo: 4! = 4 * 3 * 2 * 1 = 24.
+// const fatorial = (number) => {
+// let numeroAtual = 1;
 
-for (let i = number; i > 1; i -= 1) {
-    numeroAtual *= i;
-}
-console.log(numeroAtual);
-}
-fatorial(6);
+// for (let i = number; i > 1; i -= 1) {
+//     numeroAtual *= i;
+// }
+// return numeroAtual;
+// }
+// fatorial(6);
 
+// // 2. Crie uma função que receba uma frase e retorne qual a maior palavra.
+// // Exemplo:
+// //     longestWord('Antônio foi no banheiro e não sabemos o que aconteceu') // retorna 'aconteceu'
+// const maiorPalavra = (frase) => {
+//   let fraseArray = frase.split(" ");
+//   let palavraMaior = fraseArray[0];
 
-// 2. Crie uma função que receba uma frase e retorne qual a maior palavra.
-// Exemplo:
-//     longestWord('Antônio foi no banheiro e não sabemos o que aconteceu') // retorna 'aconteceu'
+//   for (let i = 0; i < fraseArray.length; i += 1) {
+//     fraseArray[i].length >= palavraMaior.length ? palavraMaior = fraseArray[i] : palavraMaior;
+//   }
 
+//   return palavraMaior;
+// };
+// maiorPalavra("Antônio foi no banheiro e não sabemos o que aconteceu");
 
 // 3. Crie uma página que contenha:
 // Um botão ao qual será associado um event listener ;
 // Uma variável clickCount no arquivo JavaScript que acumule o número de clicks no botão;
 // Um campo no HTML que vá atualizando a quantidade de clicks no botão conforme a variável clickCount é atualizada.
-
 
 // 4. Crie um código JavaScript com a seguinte especificação:
 // Não se esqueça de usar template literals
@@ -34,4 +42,3 @@ fatorial(6);
 // Exemplo: "Tryber x aqui! Minhas cinco principais habilidades são:
 // JavaScript;
 // HTML; ... #goTrybe".
-
