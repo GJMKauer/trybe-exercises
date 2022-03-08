@@ -19,20 +19,69 @@
 
 // module.exports = myRemove;
 
-const myFizzBuzz = (num) => {
-  if (typeof num !== 'number') {
-    return false;
+// const myFizzBuzz = (num) => {
+//   if (typeof num !== 'number') {
+//     return false;
+//   }
+//   if (num % 3 === 0 && num % 5 === 0) {
+//     return 'fizzbuzz';
+//   }
+//   if (num % 3 === 0) {
+//     return 'fizz';
+//   }
+//   if (num % 5 === 0) {
+//     return 'buzz';
+//   }
+//   return num;
+// };
+
+// module.exports = myFizzBuzz;
+
+// const encode = (stringVowels) => {
+//   let stringVowelsSplit = stringVowels.split('');
+//   for (let index in stringVowelsSplit) {
+//     if (stringVowelsSplit[index] === 'a' || stringVowelsSplit[index] === 'A') {
+//       stringVowelsSplit[index] = 1;
+//     }
+//     if (stringVowelsSplit[index] === 'e' || stringVowelsSplit[index] === 'E') {
+//       stringVowelsSplit[index] = 2;
+//     }
+//     if (stringVowelsSplit[index] === 'i' || stringVowelsSplit[index] === 'I') {
+//       stringVowelsSplit[index] = 3;
+//     }
+//     if (stringVowelsSplit[index] === 'o' || stringVowelsSplit[index] === 'O') {
+//       stringVowelsSplit[index] = 4;
+//     }
+//     if (stringVowelsSplit[index] === 'u' || stringVowelsSplit[index] === 'U') {
+//       stringVowelsSplit[index] = 5;
+//     }
+//   }
+//   return stringVowelsSplit.join('');
+// }
+// module.exports = encode;
+
+const decode = (stringNumbers) => {
+  let stringNumbersSplit = stringNumbers.split('');
+  console.log(stringNumbersSplit);
+
+  for (let index in stringNumbersSplit) {
+    if (stringNumbersSplit[index] === '1') {
+      stringNumbersSplit[index] = 'a';
+    }
+    if (stringNumbersSplit[index] === '2') {
+      stringNumbersSplit[index] = 'e';
+    }
+    if (stringNumbersSplit[index] === '3') {
+      stringNumbersSplit[index] = 'i';
+    }
+    if (stringNumbersSplit[index] === '4') {
+      stringNumbersSplit[index] = 'o';
+    }
+    if (stringNumbersSplit[index] === '5') {
+      stringNumbersSplit[index] = 'u';
+    }
   }
-  if (num % 3 === 0 && num % 5 === 0) {
-    return 'fizzbuzz';
-  }
-  if (num % 3 === 0) {
-    return 'fizz';
-  }
-  if (num % 5 === 0) {
-    return 'buzz';
-  }
-  return num;
+  return stringNumbersSplit.join('');
 };
 
-module.exports = myFizzBuzz;
+module.exports = decode;
