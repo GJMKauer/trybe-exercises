@@ -86,23 +86,42 @@
 
 // module.exports = decode;
 
-const techList = (arrayLista, name) => {
-  let objetosLista = [];
+// const techList = (arrayLista, name) => {
+//   const objetosListaOrdenado = arrayLista.sort();
+//   const objetosLista = [];
 
-  for (let index of arrayLista) {
-    objetosLista.push({
-      tech: index,
-      name: name,
-    });
-  }
-  objetosLista.sort(function (a, b) {
-    return a.tech < b.tech ? -1 : 1;
-  });
+//   for (let index = 0; index < objetosListaOrdenado.length; index += 1) {
+//     objetosLista.push({
+//       tech: objetosListaOrdenado[index],
+//       name,
+//     });
+//   }
 
-  if (objetosLista.length === 0) {
-    return 'Vazio!';
+//   if (objetosLista.length === 0) {
+//     return 'Vazio!';
+//   }
+//   return objetosLista;
+// };
+
+// module.exports = techList;
+
+const hydrate = (string) => {
+  const stringDividida = string.split('');
+  let quantidade = 0;
+
+  for (let i = 0; i < stringDividida.length; i += 1) {
+    const parsedCharacter = parseInt(stringDividida[i]);
+    if (parsedCharacter) {
+      quantidade += parsedCharacter;
+    }
   }
-  return objetosLista;
+
+  let copo = 'copo';
+
+  if (quantidade > 1) {
+    copo = 'copos';
+  }
+  return `${quantidade} ${copo} de água`;
 };
 
-module.exports = techList;
+module.exports = hydrate;
