@@ -54,7 +54,7 @@
 
 // describe('Exercício4.1', () => {
 //   it('Existe uma função chamada "encode"', () => {
-//     expect(encode('Trybe')).toBeTruthy();
+//     expect(typeof encode)).toBe('function'));
 //   });
 //   it('As vogais "a, e, i, o, u" são convertidas para "1, 2, 3, 4, 5", respectivamente', () => {
 //     expect(encode('Trybe')).toBe('Tryb2');
@@ -68,17 +68,60 @@
 //   });
 // });
 
-const decode = require('./sum');
+// const decode = require('./sum');
 
-describe('Exercício4.2', () => {
-  it('Os números "1, 2, 3, 4, 5" são convertidos para "a, e, i, o, u", respectivamente', () => {
-    expect(decode('Tryb2')).toBe('Trybe');
-    expect(decode('1m4rz3nh5')).toBe('amorzinhu');
+// describe('Exercício4.2', () => {
+//   it('Existe uma função chamada "decode"', () => {
+//     expect(typeof decode)).toBe('function'));
+//   })
+//   it('Os números "1, 2, 3, 4, 5" são convertidos para "a, e, i, o, u", respectivamente', () => {
+//     expect(decode('Tryb2')).toBe('Trybe');
+//     expect(decode('1m4rz3nh5')).toBe('amorzinhu');
+//   });
+//   it('Nenhuma letra de "Swrty" é convertida', () => {
+//     expect(decode('Swrty')).toBe('Swrty');
+//   });
+//   it('O tamanho de "2u 1m4 1 Tryb2" é o mesmo após a desconversão', () => {
+//     expect(decode('2u 1m4 1 Tryb2')).toHaveLength(14);
+//   });
+// });
+
+const techList = require('./sum.js');
+
+describe('Testa a função techList', () => {
+  it('Testa se a função techList é definida', () => {
+    expect(techList).toBeDefined();
   });
-  it('Nenhuma letra de "Swrty" é convertida', () => {
-    expect(decode('Swrty')).toBe('Swrty');
+  it('Testa se techList é uma função', () => {
+    expect(typeof techList).toBe('function');
   });
-  it('O tamanho de "2u 1m4 1 Tryb2" é o mesmo após a desconversão', () => {
-    expect(decode('2u 1m4 1 Tryb2')).toHaveLength(14);
+  it('Lista com 5 tecnologias deve retornar uma lista de objetos ordenados', () => {
+    expect(techList(['React', 'Jest', 'HTML', 'CSS', 'JavaScript'], 'Lucas')).toEqual([
+      {
+        tech: 'CSS',
+        name: 'Lucas',
+      },
+      {
+        tech: 'HTML',
+        name: 'Lucas',
+      },
+      {
+        tech: 'JavaScript',
+        name: 'Lucas',
+      },
+      {
+        tech: 'Jest',
+        name: 'Lucas',
+      },
+      {
+        tech: 'React',
+        name: 'Lucas',
+      },
+    ]);
+  });
+  it('Lista com 0 tecnologias deve retornar uma mensagem de erro "Vazio!"', () => {
+    expect(techList([], 'Lucas')).toBe('Vazio!');
   });
 });
+
+module.exports = techList;

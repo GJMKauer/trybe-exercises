@@ -60,28 +60,49 @@
 // }
 // module.exports = encode;
 
-const decode = (stringNumbers) => {
-  let stringNumbersSplit = stringNumbers.split('');
-  console.log(stringNumbersSplit);
+// const decode = (stringNumbers) => {
+//   let stringNumbersSplit = stringNumbers.split('');
+//   console.log(stringNumbersSplit);
 
-  for (let index in stringNumbersSplit) {
-    if (stringNumbersSplit[index] === '1') {
-      stringNumbersSplit[index] = 'a';
-    }
-    if (stringNumbersSplit[index] === '2') {
-      stringNumbersSplit[index] = 'e';
-    }
-    if (stringNumbersSplit[index] === '3') {
-      stringNumbersSplit[index] = 'i';
-    }
-    if (stringNumbersSplit[index] === '4') {
-      stringNumbersSplit[index] = 'o';
-    }
-    if (stringNumbersSplit[index] === '5') {
-      stringNumbersSplit[index] = 'u';
-    }
+//   for (let index in stringNumbersSplit) {
+//     if (stringNumbersSplit[index] === '1') {
+//       stringNumbersSplit[index] = 'a';
+//     }
+//     if (stringNumbersSplit[index] === '2') {
+//       stringNumbersSplit[index] = 'e';
+//     }
+//     if (stringNumbersSplit[index] === '3') {
+//       stringNumbersSplit[index] = 'i';
+//     }
+//     if (stringNumbersSplit[index] === '4') {
+//       stringNumbersSplit[index] = 'o';
+//     }
+//     if (stringNumbersSplit[index] === '5') {
+//       stringNumbersSplit[index] = 'u';
+//     }
+//   }
+//   return stringNumbersSplit.join('');
+// };
+
+// module.exports = decode;
+
+const techList = (arrayLista, name) => {
+  let objetosLista = [];
+
+  for (let index of arrayLista) {
+    objetosLista.push({
+      tech: index,
+      name: name,
+    });
   }
-  return stringNumbersSplit.join('');
+  objetosLista.sort(function (a, b) {
+    return a.tech < b.tech ? -1 : 1;
+  });
+
+  if (objetosLista.length === 0) {
+    return 'Vazio!';
+  }
+  return objetosLista;
 };
 
-module.exports = decode;
+module.exports = techList;
