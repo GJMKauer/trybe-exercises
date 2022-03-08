@@ -143,3 +143,4 @@ describe('Exercício 6', () => {
     expect(hydrate('4 caipirinhas e 2 cervejas')).toBe('6 copos de água');
   });
 });
+// teste
