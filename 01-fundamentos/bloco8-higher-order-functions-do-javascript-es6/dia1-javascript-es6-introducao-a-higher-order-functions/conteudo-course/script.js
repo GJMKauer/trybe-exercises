@@ -10,7 +10,7 @@ const breakfast = () => 'Bora tomar café!!';
 const sleep = () => 'Partiu dormir!!';
 
 // 4. Agora desenvolva uma HOF chamada doingThings e configure esta função para que imprima no console o resultado da execução das funções que você criou nos exemplos anteriores.
-const doingThings = (func) => func();
+const doingThings = (callback) => callback();
 
 console.log(doingThings(wakeUp));
 console.log(doingThings(breakfast));
