@@ -32,4 +32,27 @@
 
 // // -----
 
-// Exercício 3
+// // Exercício 3
+
+// const rightAnswers = ['A', 'C', 'B', 'D', 'A', 'A', 'D', 'A', 'D', 'C'];
+// const studentAnswers = ['A', 'N.A', 'B', 'D', 'A', 'C', 'N.A', 'A', 'D', 'B'];
+
+// const confirmaRespostas = (rightAnswer, studentAnswer) => {
+//   if (rightAnswer === studentAnswer) {
+//     return 1;
+//   }
+//   if (rightAnswer !== studentAnswer && studentAnswer === 'N.A') {
+//     return 0;
+//   }
+//   return -0.5;
+// };
+
+// const resultadoProva = (respostasCorretas, respostasDoEstudante, callback) => {
+//   let contagemPontos = 0;
+//   for (let i = 0; i < respostasCorretas.length; i += 1) {
+//    const callbackReturn = callback(respostasCorretas[i], respostasDoEstudante[i]);
+//    contagemPontos += callbackReturn;
+//   }
+//   return `Resultado final: ${contagemPontos} pontos.`;
+// };
+// console.log(resultadoProva(rightAnswers, studentAnswers, confirmaRespostas));
