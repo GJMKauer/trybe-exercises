@@ -61,8 +61,6 @@ const books = [
   },
 ];
 
-const expectedResult = true;
-
 const someBookWasReleaseOnThe80s = (arr) => {
   return books.some((book) => book.releaseYear >= 1981 && book.releaseYear <= 1990);
 }
