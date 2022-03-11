@@ -95,7 +95,7 @@ const expectedResult = [
 
 const nameAndAge = (array) => {
   // escreva seu código aqui
-  return books
+  return array
   .map((element) => { // Vi no gabarito do Course que eu posso colocar as HOFs após o return dessa forma.
     let authorAge = element.releaseYear - element.author.birthYear;
     return { author: element.author.name, age: authorAge};

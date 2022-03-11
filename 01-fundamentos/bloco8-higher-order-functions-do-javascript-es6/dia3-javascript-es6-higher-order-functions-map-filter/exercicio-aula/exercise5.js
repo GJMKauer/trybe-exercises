@@ -65,21 +65,30 @@ const books = [
 // 5 - Crie um array em ordem alfabética apenas com os nomes de todas as pessoas autoras de ficção científica ou fantasia.
 const expectedResult = ['Frank Herbert', 'George R. R. Martin', 'Isaac Asimov', 'J. R. R. Tolkien'];
 
+// Resolução do gabarito (mais "simples" em relação à tamanho do código):
 const fantasyOrScienceFictionAuthors = (array) => {
-  // escreva seu código aqui
-  const newArray = array.filter((element) => element.genre === 'Fantasia' || element.genre === 'Ficção Científica');
-  return newArray;
-};
+  return array
+  .filter((element) => element.genre === 'Fantasia' || element.genre === 'Ficção Científica')
+  .map((element) => element.author.name).sort();
+}
+console.log(fantasyOrScienceFictionAuthors(books));
 
-const newArrayMap = (array) => {
-  let arrayFantasyFiction = fantasyOrScienceFictionAuthors(array);
-  const arrayMap = arrayFantasyFiction.map((element) => element.author.name);
-  return arrayMap;
-};
+// // Minha resolução abaixo (fiz ela inteira antes de pegar do gabarito):
+// const fantasyOrScienceFictionAuthors = (array) => {
+//   // escreva seu código aqui
+//   const newArray = array.filter((element) => element.genre === 'Fantasia' || element.genre === 'Ficção Científica');
+//   return newArray;
+// };
 
-const sortedArray = (array) => {
-  let mappedArray = newArrayMap(array);
-  const sortArray = mappedArray.sort();
-  return sortArray;
-};
-console.log(sortedArray(books));
+// const newArrayMap = (array) => {
+//   let arrayFantasyFiction = fantasyOrScienceFictionAuthors(array);
+//   const arrayMap = arrayFantasyFiction.map((element) => element.author.name);
+//   return arrayMap;
+// };
+
+// const sortedArray = (array) => {
+//   let mappedArray = newArrayMap(array);
+//   const sortArray = mappedArray.sort();
+//   return sortArray;
+// };
+// console.log(sortedArray(books));
