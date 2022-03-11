@@ -91,7 +91,7 @@ const expectedResult = [
 
 const oldBooksOrdered = (array) => {
   // escreva seu código aqui
-  const livrosOrdenados = array.filter((element) => element.releaseYear < 2022 - 60).sort((a, b) => a.releaseYear - b.releaseYear);
-  return livrosOrdenados;
+  const orderedBooks = array.filter((element) => element.releaseYear < 2022 - 60).sort((a, b) => a.releaseYear - b.releaseYear);
+  return orderedBooks;
 };
 console.log(oldBooksOrdered(books));

@@ -76,7 +76,7 @@ const expectedResult = [
 
 const formatedBookNames = (array) => {
   // escreva seu código aqui
-  const livrosAtualizados = array.map((elemento) => `${elemento.name} - ${elemento.genre} - ${elemento.author.name}`)
-  return livrosAtualizados;
+  const formatedBooks = array.map((elemento) => `${elemento.name} - ${elemento.genre} - ${elemento.author.name}`)
+  return formatedBooks;
 }
 console.log(formatedBookNames(books));

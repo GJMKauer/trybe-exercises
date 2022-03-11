@@ -67,4 +67,8 @@ const expectedResult = ['O Senhor dos Anéis', 'Fundação', 'O Chamado de Cthul
 
 const oldBooks = (array) => {
   // escreva seu código aqui
-}
+  const orderedBooks = array.filter((element) => element.releaseYear < 2022 - 60).sort((a, b) => a.releaseYear - b.releaseYear);
+  const orderedTitles = orderedBooks.map((element) => element.name);
+  return orderedTitles;
+};
+console.log(oldBooks(books));
