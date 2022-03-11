@@ -65,6 +65,21 @@ const books = [
 // 5 - Crie um array em ordem alfabética apenas com os nomes de todas as pessoas autoras de ficção científica ou fantasia.
 const expectedResult = ['Frank Herbert', 'George R. R. Martin', 'Isaac Asimov', 'J. R. R. Tolkien'];
 
-function fantasyOrScienceFictionAuthors() {
+const fantasyOrScienceFictionAuthors = (array) => {
   // escreva seu código aqui
-}
+  const newArray = array.filter((element) => element.genre === 'Fantasia' || element.genre === 'Ficção Científica');
+  return newArray;
+};
+
+const newArrayMap = (array) => {
+  let arrayFantasyFiction = fantasyOrScienceFictionAuthors(array);
+  const arrayMap = arrayFantasyFiction.map((element) => element.author.name);
+  return arrayMap;
+};
+
+const sortedArray = (array) => {
+  let mappedArray = newArrayMap(array);
+  const sortArray = mappedArray.sort();
+  return sortArray;
+};
+console.log(sortedArray(books));
