@@ -93,6 +93,37 @@ const expectedResult = [
   },
 ];
 
-function nameAndAge() {
+const nameAndAge = (array) => {
   // escreva seu código aqui
-}
+  return books
+  .map((element) => { // Vi no gabarito do Course que eu posso colocar as HOFs após o return dessa forma.
+    let authorAge = element.releaseYear - element.author.birthYear;
+    return { author: element.author.name, age: authorAge};
+  })
+  .sort((a, b) => a.age - b.age)
+};
+console.log(nameAndAge(books));
+
+
+// // Antes de ver o gabarito eu estava tentando dessa forma:
+// const nameAndAge = (array) => {
+//   // escreva seu código aqui
+//   const newArray = array.sort((a, b) => a.author.birthYear - b.author.birthYear)
+//   return newArray;
+// }
+
+// const newArray = (array) => {
+//   nameAndAge(array);
+//   const newObjects = array.map((element) => {
+//     let authorAge = element.releaseYear - element.author.birthYear;
+//     return { author: element.author.name, age: authorAge };
+//   });
+//   return newObjects;
+// };
+
+// const newSorted = (array) => {
+//   let oldArray = newArray(array);
+//   const arraySorted = oldArray.sort((a, b) => a.age - b.age);
+//   return arraySorted;
+// }
+// console.log(newSorted(books));
