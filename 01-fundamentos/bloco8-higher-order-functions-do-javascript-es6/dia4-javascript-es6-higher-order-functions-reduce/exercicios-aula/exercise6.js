@@ -12,7 +12,11 @@ const expected = [
   { name: 'Maria Clara', average: 8.8 },
 ];
 
-function studentAverage() {
+const studentAverage = () => {
   // escreva seu código aqui
   // tem que usar o .reduce e o .map
+
+  const newObject = (array, arrayGrade) => array.map((student, grade) => ({ name: student, average: arrayGrade[grade].reduce((acc, curr) => acc + curr, 0) / arrayGrade[grade].length }));
+  return newObject(students, grades);
 }
+console.log(studentAverage());

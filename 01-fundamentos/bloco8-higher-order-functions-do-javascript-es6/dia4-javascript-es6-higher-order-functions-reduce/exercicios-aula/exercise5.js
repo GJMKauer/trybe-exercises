@@ -3,7 +3,7 @@ const names = ['Aanemarie', 'Adervandes', 'Akifusa', 'Abegildo', 'Adicellia', 'A
 
 const expectedResult = 20;
 
-function containsA() {
+const containsA = () => {
   // escreva seu código aqui
   // tem que usar o .reduce
   let count = 0;
