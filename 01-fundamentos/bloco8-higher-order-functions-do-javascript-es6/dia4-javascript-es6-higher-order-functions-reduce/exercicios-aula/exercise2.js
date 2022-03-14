@@ -68,4 +68,14 @@ const expectedResult = 'George R. R. Martin, J. R. R. Tolkien, Isaac Asimov, Fra
 function reduceNames() {
   // escreva seu código aqui
   // tem que usar o .reduce
+  const names = (array) =>
+    array.reduce((acc, book, index, array) => {
+      if (index === array.length - 1) {
+        return `${acc} ${book.author.name}.`;
+      } else {
+        return `${acc} ${book.author.name},`;
+      }
+    }, '');
+  return names(books).trim(); // .trim() é uma função para retirar os espaços "extras" das strings.
 }
+console.log(reduceNames());
