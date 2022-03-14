@@ -67,4 +67,5 @@ const expectedResult = 'George R. R. Martin, J. R. R. Tolkien, Isaac Asimov, Fra
 
 function reduceNames() {
   // escreva seu código aqui
+  // tem que usar o .reduce
 }

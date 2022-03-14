@@ -14,4 +14,5 @@ const expected = [
 
 function studentAverage() {
   // escreva seu código aqui
+  // tem que usar o .reduce e o .map
 }

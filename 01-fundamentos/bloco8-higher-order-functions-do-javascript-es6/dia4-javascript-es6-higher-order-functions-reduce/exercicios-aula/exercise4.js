@@ -77,4 +77,5 @@ const expectedResult = {
 
 function longestNamedBook() {
   // escreva seu código aqui
+  // tem que usar o .reduce
 }

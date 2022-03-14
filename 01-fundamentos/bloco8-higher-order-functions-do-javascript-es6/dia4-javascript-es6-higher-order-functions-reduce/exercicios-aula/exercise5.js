@@ -3,4 +3,5 @@ const names = ['Aanemarie', 'Adervandes', 'Akifusa', 'Abegildo', 'Adicellia', 'A
 
 function containsA() {
   // escreva seu código aqui
+  // tem que usar o .reduce
 }
