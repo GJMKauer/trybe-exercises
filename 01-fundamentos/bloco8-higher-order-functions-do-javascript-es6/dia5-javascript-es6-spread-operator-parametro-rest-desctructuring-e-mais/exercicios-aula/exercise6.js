@@ -6,3 +6,7 @@ const shelbyCobra = ['Shelby Cobra', 'Ford', 1963];
 const chiron = ['Chiron', 'Bugatti', 2016];
 
 // escreva toObject abaixo
+const toObject = ([element1, element2, element3]) => ({ name: element1, model: element2, year: element3 });
+console.log(toObject(palio));
+console.log(toObject(shelbyCobra));
+console.log(toObject(chiron));
