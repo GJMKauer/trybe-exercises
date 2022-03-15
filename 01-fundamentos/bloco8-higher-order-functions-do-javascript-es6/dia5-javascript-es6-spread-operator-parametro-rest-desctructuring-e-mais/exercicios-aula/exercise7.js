@@ -21,6 +21,7 @@ const ships = [
 
 // escreva shipLength abaixo
 const shipLength = ({ name, length, measurementUnit }) => `${name} is ${length} ${measurementUnit} long.`;
+
 console.log(shipLength(ships[0]));
 console.log(shipLength(ships[1]));
 console.log(shipLength(ships[2]));
