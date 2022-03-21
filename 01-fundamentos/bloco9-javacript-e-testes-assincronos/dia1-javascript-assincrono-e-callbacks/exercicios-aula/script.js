@@ -225,16 +225,21 @@ module.exports = {
   getPokemonDetails,
 };
 
-// // Exercício 9: A fim de evitar que futuros treinadores sejam prejudicados, o Professor Carvalho pediu que você o ajude a escrever testes para o sistema que distribui os pokémons. Crie um novo arquivo .test.js ou .spec.js e copie o código abaixo. Complete os testes para a função getPokemonDetails de acordo com as especificações.
-// // Verifique se a importação do arquivo correto está sendo feita.
-// const { getPokemonDetails } = require('./get-pokemon-details');
+// --
 
-// describe('A função getPokemonDetails', () => {
-//   it('retorna erro quando procuramos um pokemon que não existe no banco de dados', () => {
-//     // Escreva aqui seu código
-//   });
+// Exercício 9: Está no arquivo script.test.js.
 
-//   it('retorna um pokemon que existe no banco de dados', () => {
-//     // Escreva aqui seu código
-//   });
+// --
+
+// // Exercício 10: Para este exercício, tente adivinhar a saída dos console.log dos testes abaixo sem executá-los, e veja se compreendeu bem o funcionamento do beforeEach e do afterEach.
+// beforeEach(() => console.log('1 - beforeEach'));
+// afterEach(() => console.log('1 - afterEach'));
+
+// test('', () => console.log('1 - test'));
+
+// describe('Scoped / Nested block', () => {
+//   beforeEach(() => console.log('2 - beforeEach'));
+//   afterEach(() => console.log('2 - afterEach'));
+
+//   test('', () => console.log('2 - test'));
 // });
