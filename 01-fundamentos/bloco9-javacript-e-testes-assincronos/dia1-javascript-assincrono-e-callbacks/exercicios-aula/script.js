@@ -1,38 +1,4 @@
-// Exercício 1: Dado o código abaixo, qual a ordem de finalização de execução das linhas comentadas?
-const planetDistanceFromSun = ({ name, distanceFromSun: { value, measurementUnit } }) => `${name} is ${value} ${measurementUnit} apart from the Sun`;
-
-const mars = {
-  name: 'Mars',
-  distanceFromSun: {
-    value: 227900000,
-    measurementUnit: 'kilometers',
-  },
-};
-
-const venus = {
-  name: 'Venus',
-  distanceFromSun: {
-    value: 108200000,
-    measurementUnit: 'kilometers',
-  },
-};
-
-const jupiter = {
-  name: 'Jupiter',
-  distanceFromSun: {
-    value: 778500000,
-    measurementUnit: 'kilometers',
-  },
-};
-
-console.log(planetDistanceFromSun(mars)); // A
-console.log(planetDistanceFromSun(venus)); // B
-console.log(planetDistanceFromSun(jupiter)); // C
-// Resposta: A ordem é a mesma do código pois é um código síncrono. Ou seja: A, depois B e, por fim, C.
-
-// // --
-
-// // Exercício 2: Agora, dado o código abaixo, qual a ordem de finalização de execução das linhas comentadas?
+// // Exercício 1: Dado o código abaixo, qual a ordem de finalização de execução das linhas comentadas?
 // const planetDistanceFromSun = ({ name, distanceFromSun: { value, measurementUnit } }) => `${name} is ${value} ${measurementUnit} apart from the Sun`;
 
 // const mars = {
@@ -60,8 +26,43 @@ console.log(planetDistanceFromSun(jupiter)); // C
 // };
 
 // console.log(planetDistanceFromSun(mars)); // A
-// setTimeout(() => console.log(planetDistanceFromSun(venus)), 3000); // B
-// setTimeout(() => console.log(planetDistanceFromSun(jupiter)), 2000); // C
+// console.log(planetDistanceFromSun(venus)); // B
+// console.log(planetDistanceFromSun(jupiter)); // C
+// // Resposta: A ordem é a mesma do código pois é um código síncrono. Ou seja: A, depois B e, por fim, C. (A -> B -> C)
+
+// // --
+
+// Exercício 2: Agora, dado o código abaixo, qual a ordem de finalização de execução das linhas comentadas?
+const planetDistanceFromSun = ({ name, distanceFromSun: { value, measurementUnit } }) => `${name} is ${value} ${measurementUnit} apart from the Sun`;
+
+const mars = {
+  name: 'Mars',
+  distanceFromSun: {
+    value: 227900000,
+    measurementUnit: 'kilometers',
+  },
+};
+
+const venus = {
+  name: 'Venus',
+  distanceFromSun: {
+    value: 108200000,
+    measurementUnit: 'kilometers',
+  },
+};
+
+const jupiter = {
+  name: 'Jupiter',
+  distanceFromSun: {
+    value: 778500000,
+    measurementUnit: 'kilometers',
+  },
+};
+
+console.log(planetDistanceFromSun(mars)); // A
+setTimeout(() => console.log(planetDistanceFromSun(venus)), 3000); // B
+setTimeout(() => console.log(planetDistanceFromSun(jupiter)), 2000); // C
+// Resposta: Como é um código assíncrono, a primeira parte é a parte síncrona, ou seja, o A. Depois o C, que tem um timeout de 2s e, por fim, o B, que tem um timeout de 3s. (A -> C -> B)
 
 // // --
 
