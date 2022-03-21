@@ -25,7 +25,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 3-2: _HTML & CSS - Primeiros passos em CSS_
 - [X] 3-3: _HTML & CSS - Seletores e posicionamento_
 - [X] 3-4: _HTML Semântico_
-- [X] 3-5: _[Projeto - Lessons Learned](https://github.com/GJMKauer/Exercicios-da-Trybe/tree/master/01-fundamentos/projetos-trybe/projeto1-lessons-learned)_
+- [X] 3-5: _[Projeto 1 - Lessons Learned](https://github.com/GJMKauer/Exercicios-da-Trybe/tree/master/01-fundamentos/projetos-trybe/projeto1-lessons-learned)_
 ​
 ##### Bloco 4: Introdução à JavaScript & Lógica de Programação
 ​
@@ -33,7 +33,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 4-2: _JavaScript - Array e loop For_
 - [X] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
 - [X] 4-4: _JavaScript - Objetos e funções_
-- [X] 4-5: _[Projeto - Playground Functions](https://github.com/GJMKauer/Exercicios-da-Trybe/tree/master/01-fundamentos/projetos-trybe/projeto2-playground-functions)_
+- [X] 4-5: _[Projeto 2 - Playground Functions](https://github.com/GJMKauer/Exercicios-da-Trybe/tree/master/01-fundamentos/projetos-trybe/projeto2-playground-functions)_
 ​
 ##### Bloco 5: JavaScript - Dom, Eventos & Web Storage
 ​
@@ -42,8 +42,8 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 5-3: _JavaScript - Eventos_
 - [X] 5-4: _JavaScript - Web Storage_
 - [X] 5-5: _Fundamentos - JavaScript - Projetos_
-- [X] 5-5: _[Projeto - Arte com Pixels](https://github.com/GJMKauer/Exercicios-da-Trybe/tree/master/01-fundamentos/projetos-trybe/projeto3-pixel-art)_
-- [X] 5-6: _[Projeto - Lista de Tarefas](https://github.com/GJMKauer/Exercicios-da-Trybe/tree/master/01-fundamentos/projetos-trybe/projeto4-to-do-list)_
+- [X] 5-5: _[Projeto 3 - Arte com Pixels](https://github.com/GJMKauer/Exercicios-da-Trybe/tree/master/01-fundamentos/projetos-trybe/projeto3-pixel-art)_
+- [X] 5-6: _[Projeto 4 - Lista de Tarefas](https://github.com/GJMKauer/Exercicios-da-Trybe/tree/master/01-fundamentos/projetos-trybe/projeto4-to-do-list)_
 - [ ] 5-7: _[Projeto BÔNUS - Meme Generator]()_
 - [ ] 5-7: _[Projeto BÔNUS - Adivinhe a Cor]()_
 - [ ] 5-7: _[Projeto BÔNUS - Carta Misteriosa]()_
@@ -55,14 +55,14 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 6-3: _CSS Flexbox - Part 1_
 - [X] 6-4: _CSS Flexbox - Part 2_
 - [X] 6-5: _CSS Responsivo - Mobile First_
-- [X] 6-6: _[Projeto - Trybewarts](https://github.com/GJMKauer/Exercicios-da-Trybe/tree/master/01-fundamentos/projetos-trybe/projeto5-trybewarts)_
+- [X] 6-6: _[Projeto 5 - Trybewarts](https://github.com/GJMKauer/Exercicios-da-Trybe/tree/master/01-fundamentos/projetos-trybe/projeto5-trybewarts)_
 ​
 ##### Bloco 7: JavaScript ES6 & Testes Unitários
 ​
 - [X] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
 - [X] 7-2: _JavaScript ES6 - Fluxo de exceção e Objetos_
 - [X] 7-3: _Primeiros passos em Jest_
-- [ ] 7-4: _[Projeto - JavaScript Testes Unitários]()_
+- [X] 7-4: _[Projeto 6 - JavaScript Testes Unitários](https://github.com/GJMKauer/Exercicios-da-Trybe/tree/master/01-fundamentos/projetos-trybe/projeto6-js-unit-tests)_
 ​
 ##### Bloco 8: Higher Order Functions do JavaScript ES6
 ​
@@ -71,14 +71,14 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 8-3: _JavaScript ES6 - Higher Order Functions - map e filter_
 - [X] 8-4: _JavaScript ES6 - Higher Order Functions - reduce_
 - [X] 8-5: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
-- [ ] 8-6: _[Projeto - Zoo functions]()_
+- [X] 8-6: _[Projeto 7 - Zoo functions](https://github.com/GJMKauer/Exercicios-da-Trybe/tree/master/01-fundamentos/projetos-trybe/projeto7-zoo-functions/src)_
 ​
 ##### Bloco 9: Assincronicidade & Callbacks
 ​
-- [ ] 9-1: _JavaScript Assíncrono e Callbacks_
+- [X] 9-1: _JavaScript Assíncrono e Callbacks_
 - [ ] 9-2: _JavaScript Assíncrono - Fetch API e async/await_
 - [ ] 9-3: _Jest - Testes Assíncronos_
-- [ ] 9-4: _[Projeto - Carrinho de Compras]()_
+- [ ] 9-4: _[Projeto 8 - Carrinho de Compras]()_
 ​
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
 ​
