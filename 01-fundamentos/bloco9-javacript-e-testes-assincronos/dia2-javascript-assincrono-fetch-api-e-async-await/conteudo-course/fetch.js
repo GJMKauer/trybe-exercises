@@ -11,18 +11,18 @@
 
 // // --
 
-// // Controlando o fluxo assíncrono:
-// const fetch = require('node-fetch');
+// Controlando o fluxo assíncrono:
+const fetch = require('node-fetch');
 
-// const fetchJoke = () => {
-//   const url = 'https://api.chucknorris.io/jokes/random?category=dev';
+const fetchJoke = () => {
+  const url = 'https://api.chucknorris.io/jokes/random?category=dev';
 
-//   fetch(url)
-//     .then((response) => response.json())
-//     .then((data) => console.log(data.value));
-// };
+  fetch(url)
+    .then((response) => response.json())
+    .then((data) => console.log(data.value));
+};
 
-// fetchJoke();
+fetchJoke();
 // // Gera um elogio sobre o Chuck Norris. Exemplo: "Chuck Norris is the only human being to display the Heisenberg uncertainty principle - you can never know both exactly where and how quickly he will roundhouse-kick you in the face."
 
 // // --
