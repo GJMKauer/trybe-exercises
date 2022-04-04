@@ -78,7 +78,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 9-1: _JavaScript Assíncrono e Callbacks_
 - [X] 9-2: _JavaScript Assíncrono - Fetch API e async/await_
 - [X] 9-3: _Jest - Testes Assíncronos_
-- [ ] 9-4: _[Projeto 8 - Carrinho de Compras]()_
+- [X] 9-4: _[Projeto 8 - Carrinho de Compras](https://github.com/GJMKauer/Exercicios-da-Trybe/tree/master/01-fundamentos/projetos-trybe/projeto8-shopping-cart)_
 ​
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
 ​
