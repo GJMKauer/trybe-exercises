@@ -13,7 +13,7 @@ function App() {
       <header className='App-header'>
         <ul>
           {arrayTarefas.map((element) => {
-            return <li>{element}</li>;
+            return <ul>{Task(element)}</ul>;
           })}
         </ul>
         <img src={logo} className='App-logo' alt='logo' />
