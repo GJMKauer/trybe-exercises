@@ -121,7 +121,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 15-5: _Testes em React-Redux_
 - [ ] 15-6: _[Projeto 14 - Trybe Wallet]()_
 ​
-##### Bloco 16: Projeto React
+##### Bloco 16: Projeto Jogo de Trivia
 ​
 - [ ] 16-1: _[Projeto 15 - Jogo de Trivia]()_
 ​
@@ -132,7 +132,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 17-3: _React Hooks - useEffect e Hooks customizados_
 - [ ] 17-4: _[Projeto 16 - StarWars Datatable com Context API e Hooks]()_
 ​
-##### Bloco 18: Projeto Final de Front-end
+##### Bloco 18: Projeto App de Receitas
 ​
 - [ ] 18-1: _[Projeto 17 - App de Receitas]()_
 ​
