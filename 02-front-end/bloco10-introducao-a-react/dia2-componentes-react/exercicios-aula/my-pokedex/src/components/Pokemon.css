@@ -1,0 +1,18 @@
+* {
+  list-style: none;
+  padding: 0
+}
+
+.pokemon-container {
+  margin: 10px;
+  width: 300px;
+  border: 1px solid black;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pokemon-li {
+  padding: 5px;
+}
