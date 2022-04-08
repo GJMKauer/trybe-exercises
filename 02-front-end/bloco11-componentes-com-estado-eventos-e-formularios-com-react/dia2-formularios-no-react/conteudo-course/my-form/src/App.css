@@ -1,0 +1,11 @@
+body {
+  padding: 50px;
+}
+
+input, textarea, select {
+  margin: 10px 0 0;
+}
+
+textarea {
+  resize: none;
+}
