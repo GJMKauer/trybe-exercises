@@ -1,0 +1,148 @@
+@import url('http://fonts.cdnfonts.com/css/pokemon-solid');
+
+* {
+  margin: 2px;
+  font-family: 'Pokemon Solid';
+}
+
+body {
+  background-image: url('./background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 250px;
+}
+
+.pokedex {
+  text-align: center;
+  margin-top: 270px;
+}
+
+.pokemon-container-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 50px;
+}
+
+.pokemon-type-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.filter-pokemon-all {
+  margin-top: 20px;
+  font-size: 20px;
+  border-style: none;
+  border-radius: 15px;
+  padding: 10px 20px;
+  background-color: rgb(145, 141, 141);
+}
+
+.filter-pokemon-all:hover {
+  cursor: pointer;
+}
+
+.filter-pokemon-bug {
+  margin-top: 20px;
+  font-size: 20px;
+  border-style: none;
+  border-radius: 15px;
+  padding: 10px 20px;
+  background-color: #a8b81f;
+}
+
+.filter-pokemon-bug:hover {
+  cursor: pointer;
+}
+
+.filter-pokemon-dragon {
+  margin-top: 20px;
+  font-size: 20px;
+  border-style: none;
+  border-radius: 15px;
+  padding: 10px 20px;
+  background-color: #7038f8;
+}
+
+.filter-pokemon-dragon:hover {
+  cursor: pointer;
+}
+
+.filter-pokemon-electric {
+  margin-top: 20px;
+  font-size: 20px;
+  border-style: none;
+  border-radius: 15px;
+  padding: 10px 20px;
+  background-color: #f8d02f;
+}
+
+.filter-pokemon-electric:hover {
+  cursor: pointer;
+}
+
+.filter-pokemon-fire {
+  margin-top: 20px;
+  font-size: 20px;
+  border-style: none;
+  border-radius: 15px;
+  padding: 10px 20px;
+  background-color: #f08030;
+}
+
+.filter-pokemon-fire:hover {
+  cursor: pointer;
+}
+
+.filter-pokemon-normal {
+  margin-top: 20px;
+  font-size: 20px;
+  border-style: none;
+  border-radius: 15px;
+  padding: 10px 20px;
+  background-color: #a8a878;
+}
+
+.filter-pokemon-normal:hover {
+  cursor: pointer;
+}
+
+.filter-pokemon-poison {
+  margin-top: 20px;
+  font-size: 20px;
+  border-style: none;
+  border-radius: 15px;
+  padding: 10px 20px;
+  background-color: #a040a0;
+}
+
+.filter-pokemon-poison:hover {
+  cursor: pointer;
+}
+
+.filter-pokemon-psychic {
+  margin-top: 20px;
+  font-size: 20px;
+  border-style: none;
+  border-radius: 15px;
+  padding: 10px 20px;
+  background-color: #f85888;
+}
+
+.filter-pokemon-psychic:hover {
+  cursor: pointer;
+}
+
+.next-pokemon-button {
+  margin-top: 20px;
+  font-size: 20px;
+  border-style: none;
+  border-radius: 15px;
+  padding: 10px 20px;
+  background-color: rgb(212, 212, 208);
+}
+
+.next-pokemon-button:hover {
+  cursor: pointer;
+}
