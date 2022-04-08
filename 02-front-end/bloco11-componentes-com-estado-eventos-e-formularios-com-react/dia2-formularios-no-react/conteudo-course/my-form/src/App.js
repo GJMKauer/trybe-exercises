@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
+import InputNumber from './components/InputNumber';
+import TextArea from './components/TextArea';
 
 class Form extends Component {
   constructor() {
@@ -9,19 +11,40 @@ class Form extends Component {
 
     this.state = {
       estadoFavorito: '',
-      idade: 0,
+      idade: '',
       vaiComparecer: false,
       arquivo: '',
+      formularioComErros: false,
     };
+  }
+
+  handleError() {
+    const { estadoFavorito, idade } = this.state;
+
+    const errorCases = [
+      estadoFavorito.length > 40,
+      idade > 99 || idade < 18 && idade !== '',
+    ];
+
+    const formularioPreenchido = errorCases.every((error) => error !== true);
+
+    this.setState({
+      formularioComErros: !formularioPreenchido,
+    });
   }
 
   handleFormInputChange({ target }) {
     const { name } = target;
     const value = target.type === 'checkbox' ? target.checked : target.value;
 
-    this.setState({
-      [name]: value,
-    });
+    this.setState(
+      {
+        [name]: value,
+      },
+      () => {
+        this.handleError();
+      }
+    );
   }
 
   render() {
@@ -31,30 +54,15 @@ class Form extends Component {
           Estados e React - Tecnologia fantástica ou reagindo a regionalismos?
         </h1>
         <form className="form">
-          <label>
-            <fieldset>
-              <legend>
-                Diga qual o seu Estado favorito! De React ou do Brasil, você
-                decide! =D
-              </legend>
-              <textarea
-                name="estadoFavorito"
-                value={this.state.estadoFavorito}
-                onChange={this.handleFormInputChange}
-              />
-            </fieldset>
-          </label>
+          <TextArea
+            estadoFavorito={this.state.estadoFavorito}
+            handleChange={this.handleFormInputChange}
+          />
           <br></br>
-          <label>
-            <fieldset>
-              <legend>Qual é a sua idade?</legend>
-              <input
-                type="number"
-                name="idade"
-                onChange={this.handleFormInputChange}
-              />
-            </fieldset>
-          </label>
+          <InputNumber
+            age={this.state.idade}
+            handleChange={this.handleFormInputChange}
+          />
           <br></br>
           <label>
             <fieldset>
