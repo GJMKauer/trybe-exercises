@@ -20,6 +20,7 @@ class App extends Component {
     this.handleChange = this.handleChange.bind(this);
     this.handleBlur = this.handleBlur.bind(this);
     this.handleDefault = this.handleDefault.bind(this);
+    this.handleMouse = this.handleMouse.bind(this);
 
     this.state = {
       formName: '',
@@ -32,6 +33,7 @@ class App extends Component {
       formCurriculum: '',
       formCurriculum2: '',
       formCurriculum3: '',
+      onEvent: false,
     };
   }
 
@@ -55,11 +57,20 @@ class App extends Component {
   }
 
   handleDefault({ target }) {
-    if (target.value === "estadoPadrao") {
+    if (target.value === 'estadoPadrao') {
       this.setState({
         formState: '',
       });
     }
+  }
+
+  handleMouse({ target }) {
+    if (this.state.onEvent === false) {
+      alert('Preencha com cuidado esta informação.')
+    }
+    this.setState({
+      onEvent: true,
+    })
   }
 
   render() {
@@ -91,9 +102,19 @@ class App extends Component {
         </fieldset>
         <fieldset>
           <legend>Dados Profissionais</legend>
-          <Curriculum />
-          <Curriculum2 />
-          <Curriculum3 />
+          <Curriculum
+            name={this.state.formCurriculum}
+            handleChange={this.handleChange}
+          />
+          <Curriculum2
+            name={this.state.formCurriculum2}
+            handleChange={this.handleChange}
+            handleMouse={this.handleMouse}
+          />
+          <Curriculum3
+            name={this.state.formCurriculum3}
+            handleChange={this.handleChange}
+          />
         </fieldset>
         <ButtonDiv />
         <ButtonRemoveAll />

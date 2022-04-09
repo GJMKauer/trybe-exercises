@@ -5,6 +5,7 @@
 
 body {
   padding: 20px;
+  width: 500px;
 }
 
 fieldset {
@@ -12,13 +13,25 @@ fieldset {
 }
 
 label {
-  padding: 5px;
+  display: inline-block;
+  padding: 10px 10px 0;
 }
 
-/* .name-form {
-  display: flex;
-  flex-direction: column;
-  border: 1px solid green;
-  display: flex;
-  flex-direction: column;
-} */
+input,
+select,
+textarea {
+  margin: 15px;
+  padding: 5px;
+  border-radius: 10px;
+  width: 400px;
+  resize: none;
+}
+
+.radio-input {
+  width: auto;
+}
+
+.span-error {
+  color: red;
+  margin-left: 20px;
+}

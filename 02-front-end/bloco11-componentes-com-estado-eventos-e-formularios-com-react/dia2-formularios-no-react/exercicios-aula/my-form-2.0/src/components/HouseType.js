@@ -12,6 +12,7 @@ class HouseType extends Component {
         <label>
           <input
             type="radio"
+            className="radio-input"
             name="formHouseType"
             value="Casa"
             onChange={handleChange}
@@ -21,13 +22,14 @@ class HouseType extends Component {
         <label>
           <input
             type="radio"
+            className="radio-input"
             name="formHouseType"
             value="Apartamento"
             onChange={handleChange}
             required></input>
           Apartamento
         </label>
-        <span>{errorMessage}</span>
+        <span className="span-error">{errorMessage}</span>
       </div>
     );
   }

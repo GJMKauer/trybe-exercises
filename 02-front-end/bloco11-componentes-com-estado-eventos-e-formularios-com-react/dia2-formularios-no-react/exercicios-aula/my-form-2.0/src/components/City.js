@@ -20,7 +20,7 @@ class City extends Component {
             onBlur={handleBlur}
             required></input>
         </label>
-        <span>{errorMessage}</span>
+        <span className="span-error">{errorMessage}</span>
       </div>
     );
   }

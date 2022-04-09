@@ -19,7 +19,7 @@ class Email extends Component {
             onChange={handleChange}
             required></input>
         </label>
-        <span>{errorMessage}</span>
+        <span className="span-error">{errorMessage}</span>
       </div>
     );
   }
