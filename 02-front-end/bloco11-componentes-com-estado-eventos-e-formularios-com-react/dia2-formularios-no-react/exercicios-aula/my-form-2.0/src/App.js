@@ -21,6 +21,10 @@ class App extends Component {
     this.handleBlur = this.handleBlur.bind(this);
     this.handleDefault = this.handleDefault.bind(this);
     this.handleMouse = this.handleMouse.bind(this);
+    this.createDiv = this.createDiv.bind(this);
+    this.divCounter = this.divCounter.bind(this);
+    this.handleButtonMouse = this.handleButtonMouse.bind(this);
+    this.handleAll = this.handleAll.bind(this);
 
     this.state = {
       formName: '',
@@ -34,6 +38,8 @@ class App extends Component {
       formCurriculum2: '',
       formCurriculum3: '',
       onEvent: false,
+      divCount: 0,
+      buttonDiv: false,
     };
   }
 
@@ -64,13 +70,81 @@ class App extends Component {
     }
   }
 
-  handleMouse({ target }) {
+  handleMouse() {
     if (this.state.onEvent === false) {
-      alert('Preencha com cuidado esta informação.')
+      alert('Preencha com cuidado esta informação.');
     }
     this.setState({
       onEvent: true,
-    })
+    });
+  }
+
+  divCounter() {
+    this.setState({
+      divCount: this.state.divCount + 1,
+    });
+  }
+
+  createDiv() {
+    const rowList = [];
+
+    for (let i = 0; i < this.state.divCount; i += 1) {
+      rowList.push(
+        <div>
+          <span className="span-resumo">
+            Seu nome: {this.state.formName.toUpperCase()}
+          </span>
+          <span className="span-resumo">Seu email: {this.state.formEmail}</span>
+          <span className="span-resumo">Seu CPF: {this.state.formCPF} </span>
+          <span className="span-resumo">
+            Seu endereço: {this.state.formAddress}{' '}
+          </span>
+          <span className="span-resumo">
+            Sua cidade: {this.state.formCity}{' '}
+          </span>
+          <span className="span-resumo">
+            Seu estado: {this.state.formState}{' '}
+          </span>
+          <span className="span-resumo">
+            Tipo da sua casa: {this.state.formHouseType}{' '}
+          </span>
+          <span className="span-resumo">
+            Resumo do seu currículo: {this.state.formCurriculum}{' '}
+          </span>
+          <span className="span-resumo">
+            Seu cargo atual: {this.state.formCurriculum2}{' '}
+          </span>
+          <span className="span-resumo">
+            Descrição do cargo: {this.state.formCurriculum3}{' '}
+          </span>
+        </div>
+      );
+    }
+    return rowList;
+  }
+
+  handleButtonMouse() {
+    this.setState({
+      buttonDiv: true,
+    });
+  }
+
+  handleAll() {
+    this.setState({
+      formName: '',
+      formEmail: '',
+      formCPF: '',
+      formAddress: '',
+      formCity: '',
+      formState: '',
+      formHouseType: '',
+      formCurriculum: '',
+      formCurriculum2: '',
+      formCurriculum3: '',
+      onEvent: false,
+      divCount: 0,
+      buttonDiv: false,
+    });
   }
 
   render() {
@@ -116,9 +190,12 @@ class App extends Component {
             handleChange={this.handleChange}
           />
         </fieldset>
-        <ButtonDiv />
-        <ButtonRemoveAll />
-        <button type="submit">Enviar dados</button>
+        {this.createDiv()}
+        <ButtonDiv
+          handleDiv={this.divCounter}
+          handleMouse={this.handleButtonMouse}
+        />
+        <ButtonRemoveAll handleAll={this.handleAll} />
       </form>
     );
   }

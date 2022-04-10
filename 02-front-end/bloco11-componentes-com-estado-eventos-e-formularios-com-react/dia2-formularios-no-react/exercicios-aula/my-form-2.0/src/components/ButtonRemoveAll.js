@@ -2,7 +2,13 @@ import React, { Component } from 'react';
 
 class ButtonRemoveAll extends Component {
   render() {
-    return <div>oi</div>;
+    const { handleAll } = this.props;
+
+    return (
+      <button type="button" onClick={handleAll}>
+        Limpar tudo
+      </button>
+    );
   }
 }
 

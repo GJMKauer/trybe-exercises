@@ -19,7 +19,8 @@ label {
 
 input,
 select,
-textarea {
+textarea,
+button {
   margin: 15px;
   padding: 5px;
   border-radius: 10px;
@@ -34,4 +35,9 @@ textarea {
 .span-error {
   color: red;
   margin-left: 20px;
+}
+
+.span-resumo {
+  display: block;
+  margin-top: 10px;
 }

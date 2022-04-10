@@ -43,7 +43,7 @@ class State extends Component {
             onClick={handleChange}
             onBlur={handleDefault}
             required>
-              <option value="estadoPadrao">Selecione o seu estado</option>
+            <option value="estadoPadrao">Selecione o seu estado</option>
             {states.map((element, index) => (
               <option key={element}>{element}</option>
             ))}
