@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 20px;
+  width: 500px;
+}
+
+fieldset {
+  margin: 20px 0;
+}
+
+label {
+  display: inline-block;
+  padding: 10px 10px 0;
+}
+
+input,
+select,
+textarea,
+button {
+  margin: 15px;
+  padding: 5px;
+  border-radius: 10px;
+  width: 400px;
+  resize: none;
+}
+
+.radio-input {
+  width: auto;
+}
+
+.span-error {
+  color: red;
+  margin-left: 20px;
+}
+
+.span-resumo {
+  display: block;
+  margin-top: 10px;
+}
