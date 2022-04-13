@@ -1,5 +1,5 @@
 import React from 'react';
-import Counter from './Counter';
+import Joke from './Joke.js';
 
 class DadJoke extends React.Component {
   constructor() {
@@ -15,27 +15,33 @@ class DadJoke extends React.Component {
   }
 
   async fetchJoke() {
-    const requestHeaders = { headers: { Accept: 'application/json' } }
-    const requestReturn = await fetch('https://icanhazdadjoke.com/', requestHeaders)
-    const requestObject = await requestReturn.json();
-    this.setState({
-      jokeObj: requestObject,
-    })
+    this.setState(
+      { loading: true }, // Primeiro parâmetro da setState()!
+      async () => {
+      const requestHeaders = { headers: { Accept: 'application/json' } }
+      const requestReturn = await fetch('https://icanhazdadjoke.com/', requestHeaders)
+      const requestObject = await requestReturn.json();
+      this.setState({
+        loading: false,
+        jokeObj: requestObject
+      });
+    });
   }
 
   componentDidMount() {
     this.fetchJoke();
-    this.setState({
-      loading: false,
-    })
   }
 
   saveJoke() {
-    //Esse método será responsável por salvar a piada no array de piadas storedJokes!!
+    this.setState(({ storedJokes, jokeObj }) => ({
+      storedJokes: [...storedJokes, jokeObj]
+    }));
+
+    this.fetchJoke();
   }
 
   render() {
-    const { storedJokes } = this.state;
+    const { storedJokes, loading, jokeObj } = this.state;
     const loadingElement = <span>Loading...</span>;
 
     return (
@@ -43,7 +49,15 @@ class DadJoke extends React.Component {
         <span>
           {storedJokes.map(({ id, joke }) => (<p key={id}>{joke}</p>))}
         </span>
-        {this.state.loading ? <span>{loadingElement}</span> : <Counter />}
+
+        <p>
+          {
+            loading 
+              ? loadingElement
+              : <Joke jokeObj={jokeObj} saveJoke={this.saveJoke} />
+          }
+        </p>
+
       </div>
     );
   }
