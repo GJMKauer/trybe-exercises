@@ -1,4 +1,5 @@
 import React from 'react';
+import Counter from './Counter';
 
 class DadJoke extends React.Component {
   constructor() {
@@ -24,6 +25,9 @@ class DadJoke extends React.Component {
 
   componentDidMount() {
     this.fetchJoke();
+    this.setState({
+      loading: false,
+    })
   }
 
   saveJoke() {
@@ -39,18 +43,7 @@ class DadJoke extends React.Component {
         <span>
           {storedJokes.map(({ id, joke }) => (<p key={id}>{joke}</p>))}
         </span>
-        <span>Eu simplesmente existo</span>
-
-        {
-          /*
-          Aqui vamos construir nossa lógica com uma renderização condicional
-          do nosso componente Joke, a ideia é renderizar um loading enquanto
-          esperamos a nossa requisição de piadas finalizar.
-  
-          <p>RENDERIZAÇÃO CONDICIONAL</p>
-          */
-        }
-
+        {this.state.loading ? <span>{loadingElement}</span> : <Counter />}
       </div>
     );
   }
