@@ -86,28 +86,28 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ​
 - [X] 10-1: _'Hello, world!' no React!_
 - [X] 10-2: _Componentes React_
-- [X] 10-3: _[Projeto 9 - Sistema Solar](https://github.com/GJMKauer/Exercicios-da-Trybe/tree/master/02-front-end/projetos/projeto9-solar-system/src)_
+- [X] 10-3: _[Projeto 9 - Sistema Solar](https://github.com/GJMKauer/Exercicios-da-Trybe/tree/master/02-front-end/projetos/projeto9-solar-system/)_
 ​
 ##### Bloco 11: Componentes com Estado, Eventos & Formulários com React
 ​
 - [X] 11-1: _Componentes com estado e eventos_
 - [X] 11-2: _Formulários no React_
-- [ ] 11-3: _[Projeto 10 - Tryunfo]()_
+- [X] 11-3: _[Projeto 10 - Tryunfo](https://github.com/GJMKauer/Exercicios-da-Trybe/tree/master/02-front-end/projetos/projeto10-tryunfo)_
 ​
 ##### Bloco 12: Ciclo de Vida de Componentes & React Router
 ​
-- [ ] 12-1: _Ciclo de vida de componentes_
-- [ ] 12-2: _React Router_
-- [ ] 12-3: _[Projeto 11 - TrybeTunes]()_
+- [X] 12-1: _Ciclo de vida de componentes_
+- [X] 12-2: _React Router_
+- [X] 12-3: _[Projeto 11 - TrybeTunes](https://github.com/GJMKauer/Exercicios-da-Trybe/tree/master/02-front-end/projetos/projeto11-trybetunes)_
 ​
 ##### Bloco 13: Metodologias Ágeis
 ​
-- [ ] 13-1: _Metodologias Ágeis_
+- [X] 13-1: _Metodologias Ágeis_
 - [ ] 13-2: _[Projeto 12 - Frontend Online Store]()_
 ​
 ##### Bloco 14: Testes automatizados com React Testing Library
 ​
-- [ ] 14-1: _RTL - Primeiros passos_
+- [X] 14-1: _RTL - Primeiros passos_
 - [ ] 14-2: _RTL - Mocks e Imputs_
 - [ ] 14-3: _RTL - Testando React Router_
 - [ ] 14-4: _[Projeto 13 - Testes em React]()_
