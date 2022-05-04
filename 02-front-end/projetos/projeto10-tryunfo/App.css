@@ -1,0 +1,222 @@
+* {
+  font-family: Courier New , Courier , monospace;
+  margin: 0;
+}
+
+h1 {
+  margin-bottom: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  padding-top: 15px;
+  width: 850px;
+}
+
+label {
+  padding: 15px;
+}
+
+img {
+  height: 280px;
+  margin-left: 10px;
+  width: 320px;
+}
+
+.input, textarea, button {
+  border-radius: 10px;
+  display: block;
+  margin: 15px 15px 30px;
+  padding: 5px;
+  resize: none;
+  width: 400px;
+}
+
+button, select, .input-checkbox {
+  cursor: pointer;
+}
+
+select {
+  border-radius: 10px;
+  margin: 15px;
+  padding: 5px;
+  width: 180px;
+}
+
+span {
+  display: block;
+  margin-top: 15px;
+}
+
+.input-checkbox {
+  margin: 15px 20px 0 0;
+}
+
+.textarea-text {
+  font-size: 14px;
+  margin-top: 8px;
+  padding: 0 0 0 5px;
+  white-space: pre;
+}
+
+.trunfo-label {
+  display: inline;
+}
+
+.form-card-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.white-container {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px #00000040;
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+  width: 370px;
+}
+
+.green-container {
+  background: #036b52;
+  border-radius: 10px;
+  height: 680px;
+  margin: 10px 0 0 10px;
+  width: 350px;
+}
+
+.container-name {
+  background: #023031;
+  border-radius: 10px 10px 0 0;
+  color: white;
+  display: inline-block;
+  font-size: 20px;
+  height: 40px;
+  line-height: 10px;
+  margin: 15px 0 0 15px;
+  text-align: center;
+  width: 320px;
+}
+
+.container-image {
+  height: 280px;
+  margin-left: 5px;
+  width: 320px;
+}
+
+.container-description {
+  background: #036b52;
+  color: white;
+  display: inline-block;
+  height: 100px;
+  margin: 0 0 20px 15px;
+  max-width: 329px;
+  position: relative;
+  text-align: left;
+  top: -50px;
+  transform: rotate(-6.92deg);
+  width: 329px;
+}
+
+.container-attr1, .container-attr2, .container-attr3 {
+  align-items: center;
+  background: #f0f2f5;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+  justify-content: space-between;
+  line-height: 40px;
+  margin: 20px;
+  position: relative;
+  top: -140px;
+  width: 90%;
+}
+
+.container-attr1 {
+  margin-top: 100px;
+}
+
+.card-attr-name {
+  margin: 0 0 0 10px;
+}
+
+.card-attr {
+  background-color: #023031;
+  border-radius: 0 10px 10px 0;
+  color: white;
+  font-size: 24px;
+  margin: 0;
+  text-align: center;
+  width: 50px;
+}
+
+.card-rare {
+  color: white;
+  font-size: 24px;
+  margin: 0 20px;
+  position: relative;
+  text-align: right;
+  top: -130px;
+}
+
+.card-tr {
+  color: white;
+  display: inline;
+  font-size: 20px;
+  margin: 15px;
+  position: relative;
+  top: -115px;
+}
+
+.deck-container {
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+
+  /* border: 1px solid blue; */
+}
+
+.input-filter {
+  border-radius: 10px;
+  margin: 15px 15px 30px;
+  padding: 5px;
+  width: 200px;
+}
+
+.button-container {
+  display: block;
+
+  /* border: 1px solid brown; */
+}
+
+.card-button-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1175px;
+}
+
+.span-name {
+  font-size: 24px;
+  text-align: center;
+}
+
+.delete-button {
+  width: 200px;
+}
