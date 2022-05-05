@@ -9,4 +9,12 @@ const returnStrings2 = (string) => string.charAt(0)
 const returnStrings3 = (string1, string2) => string1 + string2;
 // console.log(returnStrings3('Abacaxi', 'Uva'))
 
-module.exports = { randomNumber, returnStrings, returnStrings2, returnStrings3 };
+const fetchDog = async () => {
+  const FETCH_URL = 'https://dog.ceo/api/breeds/image/random';
+
+  const fetchAPI = await fetch(FETCH_URL);
+  const result = await fetchAPI.json();
+  return await (result.ok ? Promise.resolve(result) : Promise.reject(result));
+}
+
+module.exports = { randomNumber, returnStrings, returnStrings2, returnStrings3, fetchDog };

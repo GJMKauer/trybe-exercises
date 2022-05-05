@@ -143,8 +143,24 @@ describe('Exercício 4 - Crie três funções. A primeira deve receber uma strin
   })
 })
 
-// describe('Exercício 5 - Crie uma função que faça requisição para a API dog pictures (https://dog.ceo/dog-api/). Mocke a requisição e crie dois testes. O primeiro deve interpretar que a requisição se resolveu e teve como valor "request success". A segunda deve interpretar que a requisição falhou e ter como valor "request failed"', () => {
-//   it('', () => {
+describe('Exercício 5 - Crie uma função que faça requisição para a API dog pictures (https://dog.ceo/dog-api/). Mocke a requisição e crie dois testes. O primeiro deve interpretar que a requisição se resolveu e teve como valor "request success". A segunda deve interpretar que a requisição falhou e ter como valor "request failed"', () => {
+  it('Testa se a promise resolveu a traz a mensagem "request success"', async () => {
+    fetchDog = jest.fn();
+    fetchDog.mockResolvedValue('request success');
 
-//   })
-// })
+    fetchDog();
+
+    expect(fetchDog).toHaveBeenCalled();
+    expect(fetchDog).toHaveBeenCalledTimes(1);
+    await expect(fetchDog()).resolves.toBe('request success');
+  })
+
+  it('Testa se a promise rejeitou e traz a mensagem "request failed"', async () => {
+    fetchDog = jest.fn();
+    fetchDog.mockRejectedValue('request failed');
+
+    expect(fetchDog).toHaveBeenCalledTimes(0);
+    await expect(fetchDog()).rejects.toMatch('request failed');
+    expect(fetchDog).toHaveBeenCalledTimes(1);
+  })
+})
