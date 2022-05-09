@@ -1,0 +1,84 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@400&display=swap') ;
+ cara, n ta dando pra fzer nada kkkkkkkkkkk
+* {
+  font-family: Oxygen;
+} */
+
+body {
+  background-color: #232946;
+  color: #fffffe;
+  font-size: larger;
+  font-style: italic;
+}
+
+button {
+  background-color: #232946;
+  border: 1px solid #121629;
+  border-radius: 5px;
+  color: #fffffe;
+  cursor: pointer;
+  height: 50px;
+}
+
+button:hover {
+  background-color: #eebbc3;
+  border: none;
+  color: black;
+}
+
+.input-buscar {
+  border-radius: 8px;
+  grid-area: input;
+}
+
+.btn-buscar {
+  background-color: #b8c1ec;
+  color: #232946;
+  grid-area: botaoP;
+  width: 30%;
+
+}
+
+.classe-link {
+  grid-area: carrinho;
+}
+
+.category-div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  grid-area: categoria;
+  width: 200px;
+}
+
+.div-todona {
+  display: grid;
+  grid: 'categoria produtos' / 1fr 3fr;
+}
+
+.div-produto {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  grid-area: produtos;
+}
+
+.divinha {
+  align-items: center;
+  border: solid 3px #121629;
+  display: flex;
+  flex-direction: column;
+  height: 450px;
+  justify-content: center;
+  width: 300px;
+}
+
+img {
+  height: 150px;
+  width: 150px;
+}
+
+.container {
+  display: grid;
+  grid: 'ok input botaoP carrinho' 1fr 2fr 1fr 1fr;
+}
