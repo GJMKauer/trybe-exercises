@@ -109,8 +109,8 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ​
 - [X] 14-1: _RTL - Primeiros passos_
 - [X] 14-2: _RTL - Mocks e Imputs_
-- [ ] 14-3: _RTL - Testando React Router_
-- [ ] 14-4: _[Projeto 13 - Testes em React]()_
+- [X] 14-3: _RTL - Testando React Router_
+- [X] 14-4: _[Projeto 13 - Testes em React](https://github.com/GJMKauer/Exercicios-da-Trybe/tree/master/02-front-end/projetos/projeto13-react-testing-library)_
 ​
 ##### Bloco 15: Gerenciamento de estado com Redux
 ​
