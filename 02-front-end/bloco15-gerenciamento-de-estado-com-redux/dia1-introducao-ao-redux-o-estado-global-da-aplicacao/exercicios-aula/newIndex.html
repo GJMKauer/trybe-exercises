@@ -75,11 +75,28 @@
           nome: 'Gabriel',
           sobrenome: 'Kauer'
         });
-      }
-      ), 3000
+
+        store.dispatch({
+          type: "SECOND_REDUCER_NAME",
+          nome: 'Jackson',
+          sobrenome: 'Viana',
+        });
+      }, 3000)
     }
     store.subscribe(() => {
-      console.log('oie');
+      const { meuPrimeiroReducer, meuSegundoReducer } = store.getState();
+
+      const firstName = document.querySelector('#nome-1');
+      const firstSurname = document.querySelector('#sobrenome-1');
+
+      firstName.innerHTML = meuPrimeiroReducer.nome;
+      firstSurname.innerHTML = meuPrimeiroReducer.sobrenome;
+
+      const secondName = document.querySelector('#nome-2');
+      const secondSurname = document.querySelector('#sobrenome-2');
+
+      secondName.innerHTML = meuSegundoReducer.nome;
+      secondSurname.innerHTML = meuSegundoReducer.sobrenome;
     })
 
   </script>
