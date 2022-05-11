@@ -45,13 +45,18 @@
         case "NEXT_COLOR":
           return {
             ...state,
-            index: state.index === 5 ? 0 : state.index + 1,
+            index: state.index === state.colors.length - 1 ? 0 : state.index + 1,
           }
         case "PREVIOUS_COLOR":
           return {
             ...state,
-            index: state.index === 0 ? 5 : state.index - 1,
+            index: state.index === 0 ? state.colors.length - 1 : state.index - 1,
           }
+          case "RANDOM_COLOR":
+            return {
+              ...state,
+              index: state.colors.length -1,
+            }
         default:
           return state;
       }
@@ -65,16 +70,39 @@
     const container = document.querySelector('#container');
 
     prevButton.addEventListener('click', () => {
-      store.dispatch({ type: "NEXT_COLOR" });
+      store.dispatch({ type: "PREVIOUS_COLOR" });
+      console.log(store.getState());
     })
 
     nextButton.addEventListener('click', () => {
-      store.dispatch({ type: "PREVIOUS_COLOR" });
+      store.dispatch({ type: "NEXT_COLOR" });
     })
 
     store.subscribe(() => {
       color.innerHTML = store.getState().colors[store.getState().index];
       container.style.background = store.getState().colors[store.getState().index];
+    })
+
+    const randomButton = document.createElement('button');
+    randomButton.innerHTML = 'Random color';
+    randomButton.id = 'randomButton';
+    container.appendChild(randomButton);
+
+    function criarCor() {
+      const oneChar = ['1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F'];
+      let cor = '#';
+      const aleatorio = () => Math.floor(Math.random() * oneChar.length);
+      for (let i = 0; i < 6; i += 1) {
+        cor += oneChar[aleatorio()];
+      }
+      return cor;
+    }
+
+    const getRandomButton = document.querySelector('#randomButton');
+
+    getRandomButton.addEventListener('click', () => {
+      store.getState().colors = [...store.getState().colors, criarCor()];
+      store.dispatch({ type: "RANDOM_COLOR" });
     })
 
   </script>
