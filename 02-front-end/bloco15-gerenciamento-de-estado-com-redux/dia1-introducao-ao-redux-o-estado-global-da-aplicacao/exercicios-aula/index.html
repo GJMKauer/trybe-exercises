@@ -55,6 +55,7 @@
           case "RANDOM_COLOR":
             return {
               ...state,
+              colors: [...state.colors, criarCor()],
               index: state.colors.length -1,
             }
         default:
@@ -71,7 +72,6 @@
 
     prevButton.addEventListener('click', () => {
       store.dispatch({ type: "PREVIOUS_COLOR" });
-      console.log(store.getState());
     })
 
     nextButton.addEventListener('click', () => {
@@ -79,8 +79,9 @@
     })
 
     store.subscribe(() => {
-      color.innerHTML = store.getState().colors[store.getState().index];
-      container.style.background = store.getState().colors[store.getState().index];
+      const { colors, index } = store.getState();
+      color.innerHTML = colors[index];
+      container.style.background = store.getState().colors[index];
     })
 
     const randomButton = document.createElement('button');
@@ -101,7 +102,6 @@
     const getRandomButton = document.querySelector('#randomButton');
 
     getRandomButton.addEventListener('click', () => {
-      store.getState().colors = [...store.getState().colors, criarCor()];
       store.dispatch({ type: "RANDOM_COLOR" });
     })
 
