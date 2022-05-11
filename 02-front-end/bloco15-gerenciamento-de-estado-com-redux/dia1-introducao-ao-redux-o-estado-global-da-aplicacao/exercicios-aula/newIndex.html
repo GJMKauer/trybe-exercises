@@ -42,7 +42,9 @@
       switch (action.type) {
         case "FIRST_REDUCER_NAME":
           return {
-
+            ...state,
+            nome: action.nome,
+            sobrenome: action.sobrenome,
           }
         default:
           return state;
@@ -53,7 +55,9 @@
       switch (action.type) {
         case "SECOND_REDUCER_NAME":
           return {
-            
+            ...state,
+            nome: action.nome,
+            sobrenome: action.sobrenome,
           }
         default:
           return state;
@@ -61,9 +65,22 @@
     };
 
     const combinedReducers = Redux.combineReducers({ meuPrimeiroReducer, meuSegundoReducer });
-    
+
     const store = Redux.createStore(combinedReducers);
 
+    window.onload = () => {
+      setTimeout(() => {
+        store.dispatch({
+          type: "FIRST_REDUCER_NAME",
+          nome: 'Gabriel',
+          sobrenome: 'Kauer'
+        });
+      }
+      ), 3000
+    }
+    store.subscribe(() => {
+      console.log('oie');
+    })
 
   </script>
 </body>
