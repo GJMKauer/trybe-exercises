@@ -8,109 +8,115 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ​
 ## Fundamentos do Desenvolvimento Web :heavy_check_mark:
 ​
-##### Bloco 1: Unix & Shell
+##### Bloco 1: Unix & Bash
 ​
-- [X] 1-3: _Unix & Shell- Part 1_
-- [X] 1-4: _Unix & Shell- Part 2_
+- [X] 1-3: _Fundamentos do Desenvolvimento Web_
+- [X] 1-3: _Introdução - Unix & Shell_
+- [X] 1-3: _Unix & Bash - Parte 1_
+- [X] 1-4: _Unix & Bash - Parte 2_
 ​
-##### Bloco 2: Git & GitHub
+##### Bloco 2: Git, GitHub & Internet
 ​
-- [X] 2-1: _O que é e para que serve?_
-- [X] 2-2: _Entendendo os comandos_
+- [X] 2-1: _Git & GitHub - O que é e para que serve_
+- [X] 2-2: _Git & GitHub - Entendendo os comandos_
 - [X] 2-3: _Internet - Entendendo como ela funciona_
 ​
-##### Bloco 3: Introdução - HTML & CSS
+##### Bloco 3: Introdução à HTML e CSS
 ​
+- [X] 3-1: _Introdução - HTML & CSS_
 - [X] 3-1: _HTML & CSS - Estruturas de página_
 - [X] 3-2: _HTML & CSS - Primeiros passos em CSS_
 - [X] 3-3: _HTML & CSS - Seletores e posicionamento_
 - [X] 3-4: _HTML Semântico_
-- [X] 3-5: _[Projeto 1 - Lessons Learned](https://github.com/GJMKauer/Exercicios-da-Trybe/tree/master/01-fundamentos/projetos/projeto01-lessons-learned)_
+- [X] 3-5: _[Projeto - Lessons Learned](https://github.com/GJMKauer/Exercicios-da-Trybe/tree/master/01-fundamentos/projetos/projeto01-lessons-learned)_
 ​
-##### Bloco 4: Introdução à JavaScript & Lógica de Programação
+##### Bloco 4: Introdução à JavaScript e Lógica de Programação
 ​
+- [X] 4-1: _Introdução - JavaScript_
 - [X] 4-1: _JavaScript - Primeiros passos_
 - [X] 4-2: _JavaScript - Array e loop For_
 - [X] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
 - [X] 4-4: _JavaScript - Objetos e funções_
-- [X] 4-5: _[Projeto 2 - Playground Functions](https://github.com/GJMKauer/Exercicios-da-Trybe/tree/master/01-fundamentos/projetos/projeto02-playground-functions)_
+- [X] 4-5: _[Projeto - Playground Functions](https://github.com/GJMKauer/Exercicios-da-Trybe/tree/master/01-fundamentos/projetos/projeto02-playground-functions)_
 ​
-##### Bloco 5: JavaScript - Dom, Eventos & Web Storage
+##### Bloco 5: JavaScript: DOM, Eventos e Web Storage
 ​
 - [X] 5-1: _JavaScript - DOM e seletores_
 - [X] 5-2: _JavaScript - Trabalhando com elementos_
 - [X] 5-3: _JavaScript - Eventos_
 - [X] 5-4: _JavaScript - Web Storage_
 - [X] 5-5: _Fundamentos - JavaScript - Projetos_
-- [X] 5-5: _[Projeto 3 - Arte com Pixels](https://github.com/GJMKauer/Exercicios-da-Trybe/tree/master/01-fundamentos/projetos/projeto03-pixel-art)_
-- [X] 5-6: _[Projeto 4 - Lista de Tarefas](https://github.com/GJMKauer/Exercicios-da-Trybe/tree/master/01-fundamentos/projetos/projeto04-to-do-list)_
-- [ ] 5-7: _[Projeto BÔNUS 1 - Meme Generator]()_
-- [ ] 5-7: _[Projeto BÔNUS 2 - Adivinhe a Cor]()_
-- [ ] 5-7: _[Projeto BÔNUS 3 - Carta Misteriosa]()_
+- [X] 5-5: _[Projeto - Arte com Pixels](https://github.com/GJMKauer/Exercicios-da-Trybe/tree/master/01-fundamentos/projetos/projeto03-pixel-art)_
+- [X] 5-6: _[Projeto - Lista de Tarefas](https://github.com/GJMKauer/Exercicios-da-Trybe/tree/master/01-fundamentos/projetos/projeto04-to-do-list)_
+- [ ] 5-7: _[Projeto BÔNUS - Meme Generator]()_
+- [ ] 5-7: _[Projeto BÔNUS - Adivinhe a Cor]()_
+- [ ] 5-7: _[Projeto BÔNUS - Carta Misteriosa]()_
 ​
-##### Bloco 6: HTML & CSS - Forms, Flexbox & Responsivo
+##### Bloco 6: HTML e CSS - Forms, Flexbox & Responsividade
 ​
 - [X] 6-1: _HTML & CSS - Forms_
 - [X] 6-2: _Bibliotecas JavaScript e Frameworks CSS_
-- [X] 6-3: _CSS Flexbox - Part 1_
-- [X] 6-4: _CSS Flexbox - Part 2_
+- [X] 6-3: _Introdução - CSS Flexbox_
+- [X] 6-3: _CSS Flexbox - Parte 1_
+- [X] 6-4: _CSS Flexbox - Parte 2_
 - [X] 6-5: _CSS Responsivo - Mobile First_
-- [X] 6-6: _[Projeto 5 (EM DUPLA) - Trybewarts](https://github.com/GJMKauer/Exercicios-da-Trybe/tree/master/01-fundamentos/projetos/projeto05-trybewarts)_
+- [X] 6-6: _[Projeto (EM DUPLA) - Trybewarts](https://github.com/GJMKauer/Exercicios-da-Trybe/tree/master/01-fundamentos/projetos/projeto05-trybewarts)_
 ​
-##### Bloco 7: JavaScript ES6 & Testes Unitários
+##### Bloco 7: Introdução à JavaScript ES6 e Testes Unitários
 ​
 - [X] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
 - [X] 7-2: _JavaScript ES6 - Fluxo de exceção e Objetos_
 - [X] 7-3: _Primeiros passos em Jest_
-- [X] 7-4: _[Projeto 6 - JavaScript Testes Unitários](https://github.com/GJMKauer/Exercicios-da-Trybe/tree/master/01-fundamentos/projetos/projeto06-js-unit-tests)_
+- [X] 7-4: _[Projeto - JavaScript Testes Unitários](https://github.com/GJMKauer/Exercicios-da-Trybe/tree/master/01-fundamentos/projetos/projeto06-js-unit-tests)_
 ​
 ##### Bloco 8: Higher Order Functions do JavaScript ES6
 ​
-- [X] 8-1: _JavaScript ES6 - Introdução a Higher Order Functions
+- [X] 8-1: _JavaScript ES6 - Introdução a Higher Order Functions_
 - [X] 8-2: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
 - [X] 8-3: _JavaScript ES6 - Higher Order Functions - map e filter_
 - [X] 8-4: _JavaScript ES6 - Higher Order Functions - reduce_
-- [X] 8-5: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
-- [X] 8-6: _[Projeto 7 - Zoo functions](https://github.com/GJMKauer/Exercicios-da-Trybe/tree/master/01-fundamentos/projetos/projeto07-zoo-functions)_
+- [X] 8-5: _JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais_
+- [X] 8-6: _[Projeto - Zoo Functions](https://github.com/GJMKauer/Exercicios-da-Trybe/tree/master/01-fundamentos/projetos/projeto07-zoo-functions)_
 ​
-##### Bloco 9: Assincronicidade & Callbacks
+##### Bloco 9: JavaScript e Testes Assíncronos
 ​
 - [X] 9-1: _JavaScript Assíncrono e Callbacks_
 - [X] 9-2: _JavaScript Assíncrono - Fetch API e async/await_
 - [X] 9-3: _Jest - Testes Assíncronos_
-- [X] 9-4: _[Projeto 8 - Carrinho de Compras](https://github.com/GJMKauer/Exercicios-da-Trybe/tree/master/01-fundamentos/projetos/projeto08-shopping-cart)_
+- [X] 9-4: _[Projeto - Carrinho de Compras](https://github.com/GJMKauer/Exercicios-da-Trybe/tree/master/01-fundamentos/projetos/projeto08-shopping-cart)_
 ​
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
 ​
-##### Bloco 10: Introdução - React
+##### Bloco 10: Introdução à React
 ​
+- [X] 10-1: _Introdução - React_
 - [X] 10-1: _'Hello, world!' no React!_
 - [X] 10-2: _Componentes React_
-- [X] 10-3: _[Projeto 9 - Sistema Solar](https://github.com/GJMKauer/Exercicios-da-Trybe/tree/master/02-front-end/projetos/projeto09-solar-system)_
+- [X] 10-3: _[Projeto - Sistema Solar](https://github.com/GJMKauer/Exercicios-da-Trybe/tree/master/02-front-end/projetos/projeto09-solar-system)_
 ​
-##### Bloco 11: Componentes com Estado, Eventos & Formulários com React
+##### Bloco 11: Componentes com Estado, Eventos e Formulários com React
 ​
 - [X] 11-1: _Componentes com estado e eventos_
 - [X] 11-2: _Formulários no React_
-- [X] 11-3: _[Projeto 10 - Tryunfo](https://github.com/GJMKauer/Exercicios-da-Trybe/tree/master/02-front-end/projetos/projeto10-tryunfo)_
+- [X] 11-3: _[Projeto - Tryunfo](https://github.com/GJMKauer/Exercicios-da-Trybe/tree/master/02-front-end/projetos/projeto10-tryunfo)_
 ​
-##### Bloco 12: Ciclo de Vida de Componentes & React Router
+##### Bloco 12: Ciclo de Vida de Componentes e React Router
 ​
 - [X] 12-1: _Ciclo de vida de componentes_
 - [X] 12-2: _React Router_
-- [X] 12-3: _[Projeto 11 - TrybeTunes](https://github.com/GJMKauer/Exercicios-da-Trybe/tree/master/02-front-end/projetos/projeto11-trybetunes)_
+- [X] 12-3: _[Projeto - TrybeTunes](https://github.com/GJMKauer/Exercicios-da-Trybe/tree/master/02-front-end/projetos/projeto11-trybetunes)_
 ​
 ##### Bloco 13: Metodologias Ágeis
 ​
 - [X] 13-1: _Metodologias Ágeis_
-- [X] 13-2: _[Projeto 12 (EM GRUPO) - Frontend Online Store](https://github.com/GJMKauer/Exercicios-da-Trybe/tree/master/02-front-end/projetos/projeto12-frontend-online-store)_
+- [X] 13-2: _[Projeto (EM GRUPO) - Frontend Online Store](https://github.com/GJMKauer/Exercicios-da-Trybe/tree/master/02-front-end/projetos/projeto12-frontend-online-store)_
 ​
 ##### Bloco 14: Testes automatizados com React Testing Library
 ​
 - [X] 14-1: _RTL - Primeiros passos_
-- [X] 14-2: _RTL - Mocks e Imputs_
+- [X] 14-2: _RTL - Mocks e Inputs_
 - [X] 14-3: _RTL - Testando React Router_
-- [X] 14-4: _[Projeto 13 - React Testing Library](https://github.com/GJMKauer/Exercicios-da-Trybe/tree/master/02-front-end/projetos/projeto13-react-testing-library)_
+- [X] 14-4: _[Projeto - React Testing Library](https://github.com/GJMKauer/Exercicios-da-Trybe/tree/master/02-front-end/projetos/projeto13-react-testing-library)_
 ​
 ##### Bloco 15: Gerenciamento de estado com Redux
 ​
@@ -119,22 +125,22 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 15-3: _Usando o Redux no React - Prática_
 - [X] 15-4: _Usando o Redux no React - Actions Assíncronas_
 - [X] 15-5: _Testes em React-Redux_
-- [X] 15-6: _[Projeto 14 - Trybe Wallet](https://github.com/GJMKauer/Exercicios-da-Trybe/tree/master/02-front-end/projetos/projeto14-trybewallet)_
+- [X] 15-6: _[Projeto - Trybe Wallet](https://github.com/GJMKauer/Exercicios-da-Trybe/tree/master/02-front-end/projetos/projeto14-trybewallet)_
 ​
 ##### Bloco 16: Projeto Jogo de Trivia
 ​
-- [X] 16-1: _[Projeto 15 (EM GRUPO) - Jogo de Trivia](https://github.com/GJMKauer/Exercicios-da-Trybe/tree/master/02-front-end/projetos/projeto15-trivia)_
+- [X] 16-1: _[Projeto (EM GRUPO) - Jogo de Trivia](https://github.com/GJMKauer/Exercicios-da-Trybe/tree/master/02-front-end/projetos/projeto15-trivia)_
 ​
 ##### Bloco 17: Context API & React Hooks
 ​
 - [X] 17-1: _Context API do React_
 - [X] 17-2: _React Hooks - useState e useContext_
 - [X] 17-3: _React Hooks - useEffect e Hooks customizados_
-- [X] 17-4: _[Projeto 16 - StarWars Datatable com Context API e Hooks](https://github.com/GJMKauer/Exercicios-da-Trybe/tree/master/02-front-end/projetos/projeto16-starwars-datatable)_
+- [X] 17-4: _[Projeto - StarWars Datatable com Context API e Hooks](https://github.com/GJMKauer/Exercicios-da-Trybe/tree/master/02-front-end/projetos/projeto16-starwars-datatable)_
 ​
 ##### Bloco 18: Projeto App de Receitas
 ​
-- [ ] 18-1: _[Projeto 17 (EM GRUPO) - App de Receitas]()_
+- [ ] 18-1: _[Projeto (EM GRUPO) - App de Receitas]()_
 ​
 ## Desenvolvimento Back-end :hourglass_flowing_sand:
 ​
