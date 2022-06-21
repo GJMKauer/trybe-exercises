@@ -103,14 +103,14 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Bloco 13: Metodologias Ágeis
 ​
 - [X] 13-1: _Metodologias Ágeis_
-- [X] 13-2: _[Projeto 12 - Frontend Online Store](https://github.com/GJMKauer/Exercicios-da-Trybe/tree/master/02-front-end/projetos/projeto12-frontend-online-store)_
+- [X] 13-2: _[Projeto 12 (EM GRUPO) - Frontend Online Store](https://github.com/GJMKauer/Exercicios-da-Trybe/tree/master/02-front-end/projetos/projeto12-frontend-online-store)_
 ​
 ##### Bloco 14: Testes automatizados com React Testing Library
 ​
 - [X] 14-1: _RTL - Primeiros passos_
 - [X] 14-2: _RTL - Mocks e Imputs_
 - [X] 14-3: _RTL - Testando React Router_
-- [X] 14-4: _[Projeto 13 - Testes em React](https://github.com/GJMKauer/Exercicios-da-Trybe/tree/master/02-front-end/projetos/projeto13-react-testing-library)_
+- [X] 14-4: _[Projeto 13 - React Testing Library](https://github.com/GJMKauer/Exercicios-da-Trybe/tree/master/02-front-end/projetos/projeto13-react-testing-library)_
 ​
 ##### Bloco 15: Gerenciamento de estado com Redux
 ​
@@ -119,22 +119,22 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 15-3: _Usando o Redux no React - Prática_
 - [X] 15-4: _Usando o Redux no React - Actions Assíncronas_
 - [X] 15-5: _Testes em React-Redux_
-- [X] 15-6: _[Projeto 14 - Trybe Wallet]()_
+- [X] 15-6: _[Projeto 14 - Trybe Wallet](https://github.com/GJMKauer/Exercicios-da-Trybe/tree/master/02-front-end/projetos/projeto14-trybewallet)_
 ​
 ##### Bloco 16: Projeto Jogo de Trivia
 ​
-- [X] 16-1: _[Projeto 15 - Jogo de Trivia]()_
+- [X] 16-1: _[Projeto 15 (EM GRUPO) - Jogo de Trivia](https://github.com/GJMKauer/Exercicios-da-Trybe/tree/master/02-front-end/projetos/projeto15-trivia)_
 ​
 ##### Bloco 17: Context API & React Hooks
 ​
 - [X] 17-1: _Context API do React_
 - [X] 17-2: _React Hooks - useState e useContext_
 - [X] 17-3: _React Hooks - useEffect e Hooks customizados_
-- [X] 17-4: _[Projeto 16 - StarWars Datatable com Context API e Hooks]()_
+- [X] 17-4: _[Projeto 16 - StarWars Datatable com Context API e Hooks](https://github.com/GJMKauer/Exercicios-da-Trybe/tree/master/02-front-end/projetos/projeto16-starwars-datatable)_
 ​
 ##### Bloco 18: Projeto App de Receitas
 ​
-- [ ] 18-1: _[Projeto 17 - App de Receitas]()_
+- [ ] 18-1: _[Projeto 17 (EM GRUPO) - App de Receitas]()_
 ​
 ## Desenvolvimento Back-end :hourglass_flowing_sand:
 ​
