@@ -1,0 +1,27 @@
+.header-container {
+  align-items: center;
+  background-color: #f0f9ff;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  margin-top: 50px;
+  width: 500px;
+}
+
+.header-name {
+  margin-top: 24px;
+  width: 250px;
+}
+
+.header-container img {
+  border-radius: 20px;
+  margin-left: 10px;
+  margin-top: 0;
+  padding: 7px;
+  width: 70px;
+}
+
+.header-score {
+  margin: 0 15px;
+}

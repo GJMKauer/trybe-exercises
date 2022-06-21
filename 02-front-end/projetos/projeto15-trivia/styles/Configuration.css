@@ -1,0 +1,31 @@
+.settings-title {
+  margin-bottom: 40px;
+  text-align: center;
+  width: 300px;
+}
+
+.configuration-container {
+  background-color: #f0f9ff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 500px;
+}
+
+.configuration-container select {
+  display: block;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+.labels {
+  margin-left: 100px;
+  margin-top: 15px;
+}
+
+.play-button {
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+}

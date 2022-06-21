@@ -1,0 +1,30 @@
+.feedback-header-container {
+  align-items: center;
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  height: 120px;
+  justify-content: space-around;
+  margin: auto;
+  margin-top: 50px;
+  width: 600px;
+}
+
+.feedback-header-container h1 {
+  height: 40px;
+  margin-top: 10px;
+  width: 300px;
+}
+
+.feedback-header-container section {
+  height: 30px;
+}
+
+.play-again-container {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 25px;
+  width: 350px;
+}

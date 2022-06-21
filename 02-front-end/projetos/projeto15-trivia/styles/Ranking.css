@@ -1,0 +1,50 @@
+h1 {
+  align-items: center;
+  background-color: #f0f9ff;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  margin-top: 50px;
+  text-transform: uppercase;
+  width: 200px;
+}
+
+table {
+  border-collapse: collapse;
+  color: #ddd;
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 40%;
+}
+
+th {
+  height: 50px;
+}
+
+th, td {
+  border-bottom: 1px solid #ddd;
+}
+
+td img {
+  margin-top: 5px;
+}
+
+tr:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.play-again-container {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 25px;
+  width: 350px;
+}
+
+.play-again-container button {
+  height: 35px;
+}
