@@ -55,7 +55,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 6-3: _CSS Flexbox - Part 1_
 - [X] 6-4: _CSS Flexbox - Part 2_
 - [X] 6-5: _CSS Responsivo - Mobile First_
-- [X] 6-6: _[Projeto 5 - Trybewarts (Em Dupla)](https://github.com/GJMKauer/Exercicios-da-Trybe/tree/master/01-fundamentos/projetos/projeto05-trybewarts)_
+- [X] 6-6: _[Projeto 5 (EM DUPLA) - Trybewarts](https://github.com/GJMKauer/Exercicios-da-Trybe/tree/master/01-fundamentos/projetos/projeto05-trybewarts)_
 ​
 ##### Bloco 7: JavaScript ES6 & Testes Unitários
 ​
