@@ -87,7 +87,7 @@ Abaixo segue um panorama de como estão os meus estudos junto à Trybe. A divis�
 - [X] 9-3: _Jest - Testes Assíncronos_
 - [X] 9-4: _[Projeto - Carrinho de Compras](https://github.com/GJMKauer/Exercicios-da-Trybe/tree/master/01-fundamentos/projetos/projeto08-shopping-cart)_
 ​
-## Desenvolvimento Front-end :hourglass_flowing_sand:
+## Desenvolvimento Front-end :heavy_check_mark:
 ​
 ##### Bloco 10: Introdução à React
 ​
@@ -142,14 +142,14 @@ Abaixo segue um panorama de como estão os meus estudos junto à Trybe. A divis�
 ​
 ##### Bloco 18: Projeto App de Receitas
 ​
-- [ ] 18-1: _[Projeto (EM GRUPO) - App de Receitas]()_
+- [X] 18-1: _[Projeto (EM GRUPO) - App de Receitas](https://github.com/GJMKauer/Exercicios-da-Trybe/tree/master/02-front-end/projetos/projeto17-app-de-receitas)_
 ​
 ## Desenvolvimento Back-end :hourglass_flowing_sand:
 ​
 ##### Bloco 19: Docker: Utilizando Containers
 ​
-- [ ] 19-1: _Utilizando Containers - Docker_
-- [ ] 19-2: _Manipulação e Criação de Imagens no Docker_
+- [X] 19-1: _Utilizando Containers - Docker_
+- [X] 19-2: _Manipulação e Criação de Imagens no Docker_
 - [ ] 19-3: _Orquestrando Containers com Docker Compose_
 - [ ] 19-4: _[Projeto - Docker Todo-List]()_
 ​
