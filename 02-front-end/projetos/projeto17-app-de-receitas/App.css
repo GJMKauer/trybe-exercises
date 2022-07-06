@@ -1,0 +1,24 @@
+.footer-component {
+  bottom: 0;
+  position: fixed;
+}
+
+.recommendation {
+  display: flex;
+  overflow-x: scroll;
+  z-index: 0;
+}
+
+img {
+  width: 175px;
+}
+
+.start-recipe-button {
+  bottom: 0;
+  position: fixed;
+  z-index: 1;
+}
+
+.checked {
+  text-decoration: line-through;
+}
