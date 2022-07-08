@@ -150,7 +150,7 @@ Abaixo segue um panorama de como estão os meus estudos junto à Trybe. A divis�
 ​
 - [X] 19-1: _Utilizando Containers - Docker_
 - [X] 19-2: _Manipulação e Criação de Imagens no Docker_
-- [ ] 19-3: _Orquestrando Containers com Docker Compose_
+- [X] 19-3: _Orquestrando Containers com Docker Compose_
 - [ ] 19-4: _[Projeto - Docker Todo-List]()_
 ​
 ##### Bloco 20: Introdução a SQL
