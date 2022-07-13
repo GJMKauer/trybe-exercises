@@ -96,7 +96,7 @@ SELECT name AS nome_do_projeto, hours AS tempo_de_trabalho FROM Scientists.Proje
 SELECT * FROM Scientists.Scientists ORDER BY name ASC;
 
 -- 8. Escreva uma query para exibir o nome dos projetos em ordem alfabética descendente.
-SELECT * FROM Scientists.Projects ORDER BY name ASC;
+SELECT * FROM Scientists.Projects ORDER BY name DESC;
 
 -- 9. Escreva uma query que exiba a string "O projeto name precisou de hours horas para ser concluído." para cada projeto.
 SELECT CONCAT('O projeto', ' ', name, ' ', 'precisou de', ' ', hours, ' ', 'horas para ser concluído.') AS horas_de_projeto FROM Scientists.Projects;
