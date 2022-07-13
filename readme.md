@@ -155,8 +155,8 @@ Abaixo segue um panorama de como estão os meus estudos junto à Trybe. A divis�
 ​
 ##### Bloco 20: Introdução a SQL
 ​
-- [ ] 20-1: _Banco de dados SQL_
-- [ ] 20-2: _Encontrando dados em um banco de dados_
+- [X] 20-1: _Banco de dados SQL_
+- [X] 20-2: _Encontrando dados em um banco de dados_
 - [ ] 20-3: _Filtrando dados de forma específica_
 - [ ] 20-4: _Manipulando tabelas_
 - [ ] 20-5: _[Projeto - All For One]()_
