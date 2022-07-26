@@ -157,20 +157,20 @@ Abaixo segue um panorama de como estão os meus estudos junto à Trybe. A divis�
 ​
 - [X] 20-1: _Banco de dados SQL_
 - [X] 20-2: _Encontrando dados em um banco de dados_
-- [ ] 20-3: _Filtrando dados de forma específica_
-- [ ] 20-4: _Manipulando tabelas_
+- [X] 20-3: _Filtrando dados de forma específica_
+- [X] 20-4: _Manipulando tabelas_
 - [ ] 20-5: _[Projeto - All For One]()_
 ​
 ##### Bloco 21: Funções SQL, JOINs & Normalização
 ​
-- [ ] 21-1: _Funções mais usadas no SQL_
-- [ ] 21-2: _Descomplicando JOINs_
-- [ ] 21-3: _Transformando ideias em um modelo de banco de dados_
+- [X] 21-1: _Funções mais usadas no SQL_
+- [X] 21-2: _Descomplicando JOINs_
+- [X] 21-3: _Transformando ideias em um modelo de banco de dados_
 - [ ] 21-4: _[Projeto - One For All]()_
 ​
 ##### Bloco 22: Introdução ao desenvolvimento Web com Node.js
 ​
-- [ ] 22-1: _Node.js - Um motor JavaScript_
+- [X] 22-1: _Node.js - Um motor JavaScript_
 - [ ] 22-2: _Node.js - Fluxo Assíncrono_
 - [ ] 22-3: _Mocha, Chai e Sinon - Testes de Back-end com Node.js_
 - [ ] 22-4: _Express - HTTP com Node.js_
@@ -283,5 +283,3 @@ Abaixo segue um panorama de como estão os meus estudos junto à Trybe. A divis�
 - [ ] 38-1: _Nó e Listas Encadeadas_
 - [ ] 38-2: _Pilhas e Filas_
 - [ ] 38-3: _[Projeto - TING - Trybe Is Not Google]()_
-​
-# [...]
