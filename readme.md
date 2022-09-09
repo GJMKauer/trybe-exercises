@@ -30,7 +30,7 @@ Abaixo segue um panorama de como estão os meus estudos junto à Trybe. A divis�
 - [X] 3-2: _HTML & CSS - Primeiros passos em CSS_
 - [X] 3-3: _HTML & CSS - Seletores e posicionamento_
 - [X] 3-4: _HTML Semântico_
-- [X] 3-5: _[Projeto - Lessons Learned](https://github.com/GJMKauer/Exercicios-da-Trybe/tree/master/01-fundamentos/projetos/projeto01-lessons-learned)_
+- [X] 3-5: _[Projeto - Lessons Learned](https://github.com/GJMKauer/lessons-learned)_
 ​
 ##### Bloco 4: Introdução à JavaScript e Lógica de Programação
 ​
@@ -39,7 +39,7 @@ Abaixo segue um panorama de como estão os meus estudos junto à Trybe. A divis�
 - [X] 4-2: _JavaScript - Array e loop For_
 - [X] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
 - [X] 4-4: _JavaScript - Objetos e funções_
-- [X] 4-5: _[Projeto - Playground Functions](https://github.com/GJMKauer/Exercicios-da-Trybe/tree/master/01-fundamentos/projetos/projeto02-playground-functions)_
+- [X] 4-5: _[Projeto - Playground Functions](https://github.com/GJMKauer/playground-functions)_
 ​
 ##### Bloco 5: JavaScript: DOM, Eventos e Web Storage
 ​
@@ -48,8 +48,8 @@ Abaixo segue um panorama de como estão os meus estudos junto à Trybe. A divis�
 - [X] 5-3: _JavaScript - Eventos_
 - [X] 5-4: _JavaScript - Web Storage_
 - [X] 5-5: _Fundamentos - JavaScript - Projetos_
-- [X] 5-5: _[Projeto - Arte com Pixels](https://github.com/GJMKauer/Exercicios-da-Trybe/tree/master/01-fundamentos/projetos/projeto03-pixel-art)_
-- [X] 5-6: _[Projeto - Lista de Tarefas](https://github.com/GJMKauer/Exercicios-da-Trybe/tree/master/01-fundamentos/projetos/projeto04-to-do-list)_
+- [X] 5-5: _[Projeto - Arte com Pixels](https://github.com/GJMKauer/pixels-art)_
+- [X] 5-6: _[Projeto - Lista de Tarefas](https://github.com/GJMKauer/todo-list)_
 - [ ] 5-7: _[Projeto BÔNUS - Meme Generator]()_
 - [ ] 5-7: _[Projeto BÔNUS - Adivinhe a Cor]()_
 - [ ] 5-7: _[Projeto BÔNUS - Carta Misteriosa]()_
@@ -62,14 +62,14 @@ Abaixo segue um panorama de como estão os meus estudos junto à Trybe. A divis�
 - [X] 6-3: _CSS Flexbox - Parte 1_
 - [X] 6-4: _CSS Flexbox - Parte 2_
 - [X] 6-5: _CSS Responsivo - Mobile First_
-- [X] 6-6: _[Projeto (EM DUPLA) - Trybewarts](https://github.com/GJMKauer/Exercicios-da-Trybe/tree/master/01-fundamentos/projetos/projeto05-trybewarts)_
+- [X] 6-6: _[Projeto (EM DUPLA) - Trybewarts](https://github.com/GJMKauer/trybewarts)_
 ​
 ##### Bloco 7: Introdução à JavaScript ES6 e Testes Unitários
 ​
 - [X] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
 - [X] 7-2: _JavaScript ES6 - Fluxo de exceção e Objetos_
 - [X] 7-3: _Primeiros passos em Jest_
-- [X] 7-4: _[Projeto - JavaScript Testes Unitários](https://github.com/GJMKauer/Exercicios-da-Trybe/tree/master/01-fundamentos/projetos/projeto06-js-unit-tests)_
+- [X] 7-4: _[Projeto - JavaScript Testes Unitários](https://github.com/GJMKauer/js-unit-tests)_
 ​
 ##### Bloco 8: Higher Order Functions do JavaScript ES6
 ​
@@ -78,14 +78,14 @@ Abaixo segue um panorama de como estão os meus estudos junto à Trybe. A divis�
 - [X] 8-3: _JavaScript ES6 - Higher Order Functions - map e filter_
 - [X] 8-4: _JavaScript ES6 - Higher Order Functions - reduce_
 - [X] 8-5: _JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais_
-- [X] 8-6: _[Projeto - Zoo Functions](https://github.com/GJMKauer/Exercicios-da-Trybe/tree/master/01-fundamentos/projetos/projeto07-zoo-functions)_
+- [X] 8-6: _[Projeto - Zoo Functions](https://github.com/GJMKauer/zoo-functions)_
 ​
 ##### Bloco 9: JavaScript e Testes Assíncronos
 ​
 - [X] 9-1: _JavaScript Assíncrono e Callbacks_
 - [X] 9-2: _JavaScript Assíncrono - Fetch API e async/await_
 - [X] 9-3: _Jest - Testes Assíncronos_
-- [X] 9-4: _[Projeto - Carrinho de Compras](https://github.com/GJMKauer/Exercicios-da-Trybe/tree/master/01-fundamentos/projetos/projeto08-shopping-cart)_
+- [X] 9-4: _[Projeto - Carrinho de Compras](https://github.com/GJMKauer/shopping-cart)_
 ​
 ## Desenvolvimento Front-end :heavy_check_mark:
 ​
@@ -151,7 +151,7 @@ Abaixo segue um panorama de como estão os meus estudos junto à Trybe. A divis�
 - [X] 19-1: _Utilizando Containers - Docker_
 - [X] 19-2: _Manipulação e Criação de Imagens no Docker_
 - [X] 19-3: _Orquestrando Containers com Docker Compose_
-- [ ] 19-4: _[Projeto - Docker Todo-List]()_
+- [X] 19-4: _[Projeto - Docker Todo-List](https://github.com/GJMKauer/docker-todo-list)_
 ​
 ##### Bloco 20: Introdução a SQL
 ​
@@ -159,53 +159,53 @@ Abaixo segue um panorama de como estão os meus estudos junto à Trybe. A divis�
 - [X] 20-2: _Encontrando dados em um banco de dados_
 - [X] 20-3: _Filtrando dados de forma específica_
 - [X] 20-4: _Manipulando tabelas_
-- [ ] 20-5: _[Projeto - All For One]()_
+- [X] 20-5: _[Projeto - All For One](https://github.com/GJMKauer/mysql-all-for-one)_
 ​
 ##### Bloco 21: Funções SQL, JOINs & Normalização
 ​
 - [X] 21-1: _Funções mais usadas no SQL_
 - [X] 21-2: _Descomplicando JOINs_
 - [X] 21-3: _Transformando ideias em um modelo de banco de dados_
-- [ ] 21-4: _[Projeto - One For All]()_
+- [X] 21-4: _[Projeto - One For All](https://github.com/GJMKauer/mysql-one-for-all)_
 ​
 ##### Bloco 22: Introdução ao desenvolvimento Web com Node.js
 ​
 - [X] 22-1: _Node.js - Um motor JavaScript_
 - [X] 22-2: _Node.js - Fluxo Assíncrono_
 - [X] 22-3: _Mocha, Chai e Sinon - Testes de Back-end com Node.js_
-- [ ] 22-4: _Express - HTTP com Node.js_
-- [ ] 22-5: _Express - Middlewares_
-- [ ] 22-6: _[Projeto - Talker Manager]()_
+- [X] 22-4: _Express - HTTP com Node.js_
+- [X] 22-5: _Express - Middlewares_
+- [X] 22-6: _[Projeto - Talker Manager](https://github.com/GJMKauer/talker-manager)_
 ​
 ##### Bloco 23: Node.js - Camada de Serviço & Arquitetura Rest & Restful
 ​
-- [ ] 23-1: _Arquitetura de Software - Camada de Model_
-- [ ] 23-2: _Arquitetura de Software - Camada de Controller e Service_
-- [ ] 23-3: _Arquitetura Web - Rest e Restful_
-- [ ] 23-4: _Arquitetura de Software - Testando as Camadas_
-- [ ] 23-5: _[Projeto - Store Manager]()_
+- [X] 23-1: _Arquitetura de Software - Camada de Model_
+- [X] 23-2: _Arquitetura de Software - Camada de Controller e Service_
+- [X] 23-3: _Arquitetura Web - Rest e Restful_
+- [X] 23-4: _Arquitetura de Software - Testando as Camadas_
+- [X] 23-5: _[Projeto - Store Manager](https://github.com/GJMKauer/store-manager)_
 ​
 ##### Bloco 24: Node.js - ORM & Autenticação
 ​
-- [ ] 24-1: _ORM - Interface da aplicação com o banco de dados_
-- [ ] 24-2: _ORM - Associations_
-- [ ] 24-3: _JWT - (JSON Web Token)_
-- [ ] 24-4: _[Projeto - API de Blogs]()_
+- [X] 24-1: _ORM - Interface da aplicação com o banco de dados_
+- [X] 24-2: _ORM - Associations_
+- [X] 24-3: _JWT - (JSON Web Token)_
+- [X] 24-4: _[Projeto - API de Blogs](https://github.com/GJMKauer/blogs-api)_
 ​
 ##### Bloco 25: Deployment
 ​
-- [ ] 25-1: _Infraestrutura - Deploy com Heroku_
-- [ ] 25-2: _Deploy Docker & Heroku_
+- [X] 25-1: _Infraestrutura - Deploy com Heroku_
+- [X] 25-2: _Deploy Docker & Heroku_
 - [ ] 25-3: _[Projeto - Stranger Things]()_
 ​
 ##### Bloco 26: TypeScript
 ​
-- [ ] 26-1: _Introdução ao TypeScript_
+- [X] 26-1: _Introdução ao TypeScript_
 - [ ] 26-2: _Tipagem Estática e Generics_
 - [ ] 26-3: _Express com TypeScript_
 - [ ] 26-4: _[Projeto - Trybe Smith]()_
 ​
-##### Bloco 27: Programação Orientada a Objetos(POO) & SOLID
+##### Bloco 27: Programação Orientada a Objetos (POO) & SOLID
 ​
 - [ ] 27-1: _Introdução à Orientação a Objetos_
 - [ ] 27-2: _Herança e Interfaces_
