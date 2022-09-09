@@ -175,7 +175,11 @@ Abaixo segue um panorama de como estão os meus estudos junto à Trybe. A divis�
 - [X] 22-3: _Mocha, Chai e Sinon - Testes de Back-end com Node.js_
 - [X] 22-4: _Express - HTTP com Node.js_
 - [X] 22-5: _Express - Middlewares_
+<<<<<<< HEAD
 - [X] 22-6: _[Projeto - Talker Manager](https://github.com/GJMKauer/talker-manager)_
+=======
+- [ ] 22-6: _[Projeto - Talker Manager]()_
+>>>>>>> c9fd7316eba09a57800e0356d26afb4fb124c158
 ​
 ##### Bloco 23: Node.js - Camada de Serviço & Arquitetura Rest & Restful
 ​
@@ -183,7 +187,11 @@ Abaixo segue um panorama de como estão os meus estudos junto à Trybe. A divis�
 - [X] 23-2: _Arquitetura de Software - Camada de Controller e Service_
 - [X] 23-3: _Arquitetura Web - Rest e Restful_
 - [X] 23-4: _Arquitetura de Software - Testando as Camadas_
+<<<<<<< HEAD
 - [X] 23-5: _[Projeto - Store Manager](https://github.com/GJMKauer/store-manager)_
+=======
+- [ ] 23-5: _[Projeto - Store Manager]()_
+>>>>>>> c9fd7316eba09a57800e0356d26afb4fb124c158
 ​
 ##### Bloco 24: Node.js - ORM & Autenticação
 ​
