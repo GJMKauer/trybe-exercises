@@ -201,13 +201,13 @@ Abaixo segue um panorama de como estão os meus estudos junto à Trybe. A divis�
 ##### Bloco 26: TypeScript
 ​
 - [X] 26-1: _Introdução ao TypeScript_
-- [ ] 26-2: _Tipagem Estática e Generics_
-- [ ] 26-3: _Express com TypeScript_
-- [ ] 26-4: _[Projeto - Trybe Smith]()_
+- [X] 26-2: _Tipagem Estática e Generics_
+- [X] 26-3: _Express com TypeScript_
+- [X] 26-4: _[Projeto - Trybesmith](https://github.com/GJMKauer/trybesmith)_
 ​
 ##### Bloco 27: Programação Orientada a Objetos (POO) & SOLID
 ​
-- [ ] 27-1: _Introdução à Orientação a Objetos_
+- [X] 27-1: _Introdução à Orientação a Objetos_
 - [ ] 27-2: _Herança e Interfaces_
 - [ ] 27-3: _Polimorfismo_
 - [ ] 27-4: _SOLID - Introdução_
