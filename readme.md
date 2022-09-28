@@ -216,7 +216,7 @@ Abaixo segue um panorama de como estão os meus estudos junto à Trybe. A divis�
 ​
 ##### Bloco 28: Projeto - TFC - Trybe Futebol Clube
 ​
-- [ ] 28-3: _[Projeto - TFC - Trybe Futebol Clube]()_
+- [ ] 28-1: _[Projeto - TFC - Trybe Futebol Clube]()_
 ​
 ##### Bloco 29: Introdução ao MongoDB
 ​
@@ -226,7 +226,7 @@ Abaixo segue um panorama de como estão os meus estudos junto à Trybe. A divis�
 ​
 ##### Bloco 30: MongoBD - Updates Simples e Complexos
 ​
-- [ ] 30-1: _Update Simples
+- [ ] 30-1: _Updates Simples_
 - [ ] 30-2: _Updates Complexos - Arrays - Parte 1_
 - [ ] 30-3: _Updates Complexos - Arrays - Parte 2_
 - [ ] 30-4: _[Projeto - Commerce]()_
