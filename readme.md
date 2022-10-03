@@ -216,30 +216,31 @@ Abaixo segue um panorama de como estão os meus estudos junto à Trybe. A divis�
 ​
 ##### Bloco 28: Projeto - TFC - Trybe Futebol Clube
 ​
-- [ ] 28-1: _[Projeto - TFC - Trybe Futebol Clube]()_
+- [X] 28-1: _[Projeto - TFC - Trybe Futebol Clube](https://github.com/GJMKauer/trybe-futebol-clube)_
 ​
 ##### Bloco 29: Introdução ao MongoDB
 ​
 - [ ] 29-1: _MongoDB - Introdução_
 - [ ] 29-2: _Filter Operators_
-- [ ] 29-3: _[Projeto - Data Flights]()_
+- [ ] 29-3: _Operadores de consulta_
+- [ ] 29-4: _Updates Simples_
+- [ ] 29-5: _Updates Complexos - Arrays_
+- [ ] 29-6: _[Projeto - Commerce]()_
 ​
-##### Bloco 30: MongoBD - Updates Simples e Complexos
+##### Bloco 30: MongoDB com Node.js e POO
 ​
-- [ ] 30-1: _Updates Simples_
-- [ ] 30-2: _Updates Complexos - Arrays - Parte 1_
-- [ ] 30-3: _Updates Complexos - Arrays - Parte 2_
-- [ ] 30-4: _[Projeto - Commerce]()_
+- [ ] 30-1: _Mongoose e arquitetura MSC (Camada Model)_
+- [ ] 30-2: _Mongoose e arquitetura MSC (Camada Service e Controller)_
+- [ ] 30-3: _[Projeto - Car Shop]()_
 ​
-##### Bloco 31: MasterClass - VPS, CI/CD
+##### Bloco 31: Projeto - App de Delivery
 ​
-- [ ] 31-1: _Dia 1 - Aguardando Conteúdo_
-- [ ] 31-2: _Dia 2 - Aguardando Conteúdo_
+- [ ] 31-1: _[Projeto - App de Delivery]()_
 ​
-##### Bloco 32: Projeto - App de Delivery
+##### Bloco 32: MasterClass - VPS, CI/CD
 ​
-- [ ] 32-1: _[Projeto - App de Delivery]()_
-​
+- [ ] 32-1: _MasterClass - VPS, CI/CD_
+
 ## Ciência da Computação :hourglass_flowing_sand:
 ​
 ##### Bloco 33: Introdução à Python
