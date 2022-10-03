@@ -196,7 +196,7 @@ Abaixo segue um panorama de como estão os meus estudos junto à Trybe. A divis�
 ​
 - [X] 25-1: _Infraestrutura - Deploy com Heroku_
 - [X] 25-2: _Deploy Docker & Heroku_
-- [X] 25-3: _[Projeto - Stranger Things](http://gjmkauer-ft.herokuapp.com/)_
+- [X] 25-3: _[Projeto - Stranger Things](https://gjmkauer-pd.herokuapp.com/)_
 ​
 ##### Bloco 26: TypeScript
 ​
