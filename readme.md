@@ -220,17 +220,17 @@ Abaixo segue um panorama de como estão os meus estudos junto à Trybe. A divis�
 ​
 ##### Bloco 29: Introdução ao MongoDB
 ​
-- [ ] 29-1: _MongoDB - Introdução_
-- [ ] 29-2: _Filter Operators_
-- [ ] 29-3: _Operadores de consulta_
-- [ ] 29-4: _Updates Simples_
-- [ ] 29-5: _Updates Complexos - Arrays_
-- [ ] 29-6: _[Projeto - Commerce]()_
+- [X] 29-1: _MongoDB - Introdução_
+- [X] 29-2: _Filter Operators_
+- [X] 29-3: _Operadores de consulta_
+- [X] 29-4: _Updates Simples_
+- [X] 29-5: _Updates Complexos - Arrays_
+- [X] 29-6: _[Projeto - Commerce](https://github.com/GJMKauer/mongodb-commerce)_
 ​
 ##### Bloco 30: MongoDB com Node.js e POO
 ​
-- [ ] 30-1: _Mongoose e arquitetura MSC (Camada Model)_
-- [ ] 30-2: _Mongoose e arquitetura MSC (Camada Service e Controller)_
+- [X] 30-1: _Mongoose e arquitetura MSC (Camada Model)_
+- [X] 30-2: _Mongoose e arquitetura MSC (Camada Service e Controller)_
 - [ ] 30-3: _[Projeto - Car Shop]()_
 ​
 ##### Bloco 31: Projeto - App de Delivery
