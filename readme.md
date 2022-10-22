@@ -167,7 +167,7 @@ Abaixo segue um panorama de como estão os meus estudos junto à Trybe. A divis�
 ##### Bloco 30: MongoDB com Node.js e POO
 - [X] 30-1: _Mongoose e arquitetura MSC (Camada Model)_
 - [X] 30-2: _Mongoose e arquitetura MSC (Camada Service e Controller)_
-- [ ] 30-3: _[Projeto - Car Shop]()_
+- [X] 30-3: _[Projeto - Car Shop](https://github.com/GJMKauer/car-shop)_
 ##### Bloco 31: Projeto - App de Delivery
 - [ ] 31-1: _[Projeto - App de Delivery]()_
 ##### Bloco 32: MasterClass - VPS, CI/CD
